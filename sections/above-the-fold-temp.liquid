@@ -1,0 +1,44 @@
+<div id="slideshow" class="slideshow">
+  {% for image in section.settings.images %}
+    <div class="slide" style="background-image: url({{ image | img_url: 'master' }});"></div>
+  {% endfor %}
+</div>
+
+{% comment %} 自动轮播脚本 {% endcomment %}
+<script>
+  var slideshow = document.getElementById('slideshow');
+  var slides = slideshow.getElementsByClassName('slide');
+  var currentSlide = 0;
+  var slideInterval = setInterval(nextSlide, 3000); // 轮播间隔，单位为毫秒
+
+  function nextSlide() {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }
+</script>
+
+{% comment %} CSS 样式 {% endcomment %}
+<style>
+  .slideshow {
+    position: relative;
+    height: 400px; /* 调整轮播高度 */
+    overflow: hidden;
+  }
+
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .slide.active {
+    opacity: 1;
+  }
+</style>

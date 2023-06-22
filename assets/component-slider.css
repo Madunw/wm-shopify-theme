@@ -326,8 +326,9 @@ slider-component.slider-component-full-width {
   color: rgb(var(--color-foreground));
 }
 
+{% # hide slider-buttons %}
 .slider-buttons {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }

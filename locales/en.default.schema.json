@@ -2937,6 +2937,9 @@
           },
           "options__4": {
             "label": "Large"
+          },
+          "options__5": {
+            "label": "Full_screen"
           }
         },
         "slider_visual": {
