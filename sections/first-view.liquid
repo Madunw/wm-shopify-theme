@@ -114,9 +114,15 @@
       <style>
       .logo-container {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 20px;
+  left: 20px;
+  z-index: 9999; /* 使logo位于最上层 */
 }
+
+.logo-container img {
+  width: 100px; /* 根据需要调整logo的宽度 */
+}
+
         #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
