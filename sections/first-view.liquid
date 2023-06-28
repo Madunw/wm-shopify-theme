@@ -70,9 +70,9 @@
   {% if section.settings.logo %}
     <div
       class="logo-wrapper"
-      style="top: {{ section.settings.logo_top }}px; left: {{ section.settings.logo_left }}px;"
+      style="max-width: {{ section.settings.logo_max_width }}px; height: {{ section.settings.logo_height }}px; top: {{ section.settings.logo_top }}px; left: {{ section.settings.logo_left }}px;"
     >
-      <img src="{{ section.settings.logo | img_url: 'master' }}" alt="Logo" style="max-width: {{ section.settings.logo_max_width }}px; height: {{ section.settings.logo_height }}px;>
+      <img src="{{ section.settings.logo | img_url: 'master' }}" alt="Logo" class="logo">
     </div>
   {% endif %}
 
@@ -117,6 +117,11 @@
           top: 20px;
           left: 20px;
           z-index: 9999;
+        }
+
+        .logo {
+          max-width: 100px;
+          height: auto;
         }
                 #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
                   opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
