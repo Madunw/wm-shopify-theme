@@ -70,13 +70,13 @@
   {% if section.settings.logo %}
     <div
       class="logo-wrapper"
-      style="top: {{ section.settings.logo_top }}rem; left: {{ section.settings.logo_left }}rem;"
+      style="top: {{ section.settings.logo_top }}px; left: {{ section.settings.logo_left }}px;"
     >
       <img
         src="{{ section.settings.logo | img_url: 'master' }}"
         alt="Logo"
         class="logo"
-        style="width: {{ section.settings.logo_width }}rem; height: {{ section.settings.logo_height }}rem;"
+        style="width: {{ section.settings.logo_width }}px;"
       >
     </div>
   {% endif %}
