@@ -66,9 +66,12 @@
     </div>
   {%- endif -%}
 
-  <div class="logo-wrapper">
-  <img src="{{ section.block.logo | img_url: 'master' }}" alt="Logo" class="logo">
-</div>
+{% if block.type == 'logo' %}
+  <div class="logo-container">
+    <img src="{{ block.settings.logo | img_url }}" alt="{{ block.settings.logo.alt }}">
+  </div>
+{% endif %}
+
 
 
   
@@ -109,16 +112,10 @@
     
     {%- for block in section.blocks -%}
       <style>
-      .logo-wrapper {
+      .logo-container {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 9999;
-}
-
-.logo {
-  max-width: 100px; 
-  height: auto;
+  top: 0;
+  left: 0;
 }
         #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
