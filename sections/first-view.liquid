@@ -70,7 +70,7 @@
   {% if section.settings.logo %}
     <div
       class="logo-wrapper"
-      style="top: {{ section.settings.logo_top }}px; left: {{ section.settings.logo_left }}px;"
+      style="top: {{ section.settings.logo_top }}vh; left: {{ section.settings.logo_left }}vw;"
     >
       <img
         src="{{ section.settings.logo | img_url: 'master' }}"
@@ -331,18 +331,18 @@
   "id": "logo_top",
   "label": "Logo Top Position",
   "min": 0,
-  "max": 500,
-  "step": 10,
-  "default": 20
+  "max": 100,
+  "step": 1,
+  "default": 10
 },
 {
   "type": "range",
   "id": "logo_left",
   "label": "Logo Left Position",
   "min": 0,
-  "max": 500,
-  "step": 10,
-  "default": 20
+  "max": 100,
+  "step": 1,
+  "default": 10
 },
     {
       "type": "header",
