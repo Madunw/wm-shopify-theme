@@ -1,7 +1,8 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-{{ 'component-first-view.css' | asset_url | stylesheet_tag }}{% # custom css %}
+{{ 'component-first-view.css' | asset_url | stylesheet_tag -}}
+{%- # custom css %}
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
@@ -32,7 +33,7 @@
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
 >
-    {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
+  {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
     <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <button
         type="button"
@@ -66,38 +67,38 @@
     </div>
   {%- endif -%}
 
-  <div class="logo-wrapper">
-  <img src="{{ section.settings.logo | img_url: 'master' }}" alt="Logo" class="logo">
-</div>
-
-
-  
- <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {%- liquid
-        assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
-        if section.settings.image_2 != blank
-          assign image_class = 'banner__media-image-half'
-        endif
-        if section.settings.image_2 != blank and section.settings.stack_images_on_mobile
-          assign sizes = stacked_sizes
-        elsif section.settings.image_2 != blank
-          assign sizes = half_width
-        else
-          assign sizes = full_width
-        endif
-      -%}
-      {{
-        section.settings.image
-        | image_url: width: 3840
-        | image_tag:
-          loading: 'lazy',
-          width: section.settings.image.width,
-          height: image_height,
-          class: image_class,
-          sizes: sizes,
-          widths: widths
-      }}
+  {% if section.settings.logo %}
+    <div class="logo-wrapper">
+      <img src="{{ section.settings.logo | img_url: 'master' }}" alt="Logo" class="logo">
     </div>
+  {% endif %}
+
+  <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    {%- liquid
+      assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+      if section.settings.image_2 != blank
+        assign image_class = 'banner__media-image-half'
+      endif
+      if section.settings.image_2 != blank and section.settings.stack_images_on_mobile
+        assign sizes = stacked_sizes
+      elsif section.settings.image_2 != blank
+        assign sizes = half_width
+      else
+        assign sizes = full_width
+      endif
+    -%}
+    {{
+      section.settings.image
+      | image_url: width: 3840
+      | image_tag:
+        loading: 'lazy',
+        width: section.settings.image.width,
+        height: image_height,
+        class: image_class,
+        sizes: sizes,
+        widths: widths
+    }}
+  </div>
   <div
     class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
     id="Slider-{{ section.id }}"
@@ -106,23 +107,22 @@
     data-autoplay="{{ section.settings.auto_rotate }}"
     data-speed="{{ section.settings.change_slides_speed }}"
   >
-    
     {%- for block in section.blocks -%}
       <style>
-      .logo-wrapper {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 9999;
-}
-
-.logo {
-  max-width: 100px; 
-  height: auto;
-}
-        #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
-          opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
+              .logo-wrapper {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          z-index: 9999;
         }
+
+        .logo {
+          max-width: 100px;
+          height: auto;
+        }
+                #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
+                  opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
+                }
       </style>
       <div
         class="slideshow__slide grid__item grid--1-col slider__slide"
