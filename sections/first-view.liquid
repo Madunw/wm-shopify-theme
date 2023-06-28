@@ -33,7 +33,6 @@
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
 >
-
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
     <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <button
@@ -65,22 +64,23 @@
           {%- render 'icon-play' -%}
         </button>
       {%- endif -%}
-
     </div>
   {%- endif -%}
 
   {% if section.settings.logo %}
-    <div
-      class="logo-wrapper"
-      style="top: {{ section.settings.logo_top }}vh; left: {{ section.settings.logo_left }}vw;"
-    >
-      <img
-        src="{{ section.settings.logo | img_url: 'master' }}"
-        alt="Logo"
-        class="logo"
-        style="width: {{ section.settings.logo_size }}vw;"
+    <a href="{{ routes.root_url }}">
+      <div
+        class="logo-wrapper"
+        style="top: {{ section.settings.logo_top }}vh; left: {{ section.settings.logo_left }}vw;"
       >
-    </div>
+        <img
+          src="{{ section.settings.logo | img_url: 'master' }}"
+          alt="Logo"
+          class="logo"
+          style="width: {{ section.settings.logo_size }}vw;"
+        >
+      </div>
+    </a>
   {% endif %}
 
   <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
