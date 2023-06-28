@@ -94,7 +94,7 @@
         "auto_rotate": true,
         "change_slides_speed": 3,
         "logo": "shopify:\/\/shop_images\/logo.png",
-        "logo_size": 50,
+        "logo_size": 10,
         "logo_top": 130,
         "logo_left": 140,
         "image_behavior": "none",
