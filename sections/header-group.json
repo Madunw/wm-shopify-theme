@@ -96,8 +96,8 @@
         "logo": "shopify:\/\/shop_images\/logo.png",
         "logo_width": 180,
         "logo_height": 180,
-        "logo_top": 30,
-        "logo_left": 50,
+        "logo_top": 130,
+        "logo_left": 140,
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
