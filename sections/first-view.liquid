@@ -70,9 +70,9 @@
   {% if section.settings.logo %}
     <div
       class="logo-wrapper"
-      style="max-width: {{ section.settings.logo_max_width }}px; height: {{ section.settings.logo_height }}px; top: {{ section.settings.logo_top }}px; left: {{ section.settings.logo_left }}px;"
+      style="top: {{ section.settings.logo_top }}px; left: {{ section.settings.logo_left }}px;"
     >
-      <img src="{{ section.settings.logo | img_url: 'master' }}" alt="Logo" class="logo">
+      <img src="{{ section.settings.logo | img_url: 'master' }}" alt="Logo" style="max-width: {{ section.settings.logo_max_width }}px; height: {{ section.settings.logo_height }}px;>
     </div>
   {% endif %}
 
