@@ -76,7 +76,7 @@
         src="{{ section.settings.logo | img_url: 'master' }}"
         alt="Logo"
         class="logo"
-        style="width: {{ section.settings.logo_size }}rem;"
+        style="width: {{ section.settings.logo_size }}vw;"
       >
     </div>
   {% endif %}
@@ -321,10 +321,10 @@
   "type": "range",
   "id": "logo_size",
   "label": "Logo Size",
-  "min": 50,
-  "max": 500,
-  "step": 10,
-  "default": 100
+  "min": 1,
+  "max": 100,
+  "step": 1,
+  "default": 10
 },
 {
   "type": "range",
