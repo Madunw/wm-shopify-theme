@@ -66,12 +66,9 @@
     </div>
   {%- endif -%}
 
-{% if block.type == 'logo' %}
-  <div class="logo-container">
-    <img src="{{ block.settings.logo | img_url }}" alt="{{ block.settings.logo.alt }}">
-  </div>
-{% endif %}
-
+  <div class="logo-wrapper">
+  <img src="{{ section.settings.logo | img_url: 'master' }}" alt="Logo" class="logo">
+</div>
 
 
   
@@ -112,17 +109,17 @@
     
     {%- for block in section.blocks -%}
       <style>
-      .logo-container {
+      .logo-wrapper {
   position: absolute;
   top: 20px;
   left: 20px;
-  z-index: 9999; /* 使logo位于最上层 */
+  z-index: 9999;
 }
 
-.logo-container img {
-  width: 100px; /* 根据需要调整logo的宽度 */
+.logo {
+  max-width: 100px; 
+  height: auto;
 }
-
         #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
@@ -471,6 +468,17 @@
           ],
           "default": "center",
           "label": "t:sections.slideshow.blocks.slide.settings.text_alignment_mobile.label"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "t:sections.collage.blocks.logo.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "t:sections.first-view.blocks.logo.settings.logo.label"
         }
       ]
     }
