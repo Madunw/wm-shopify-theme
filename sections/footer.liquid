@@ -89,6 +89,13 @@
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'policy_links' -%}
+                  
+                    <div
+                      class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                      {% if settings.animations_reveal_on_scroll %}
+                        data-cascade
+                      {% endif %}
+                    >
                   <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
                         <div class="footer__copyright caption">
                           <small class="copyright__content"
@@ -112,12 +119,6 @@
                           {%- endif -%}
                         </div>
                       </div>
-                    <div
-                      class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                      {% if settings.animations_reveal_on_scroll %}
-                        data-cascade
-                      {% endif %}
-                    >
                       <div class="footer__content-bottom-wrapper page-width">
                         <div class="footer__column footer__localization isolate">
                           {%- if section.settings.enable_country_selector
