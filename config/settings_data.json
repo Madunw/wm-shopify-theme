@@ -1,6 +1,8 @@
 {
   "current": {
-    "logo_width": 90,
+    "logo": "shopify:\/\/shop_images\/logo.png",
+    "logo_width": 60,
+    "favicon": "shopify:\/\/shop_images\/logo.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -9,6 +11,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
+    "animations_reveal_on_scroll": true,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -94,14 +97,14 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_headline": "<strong>FRAME SHIROYAMA<\/strong>",
+    "brand_description": "<p>〒111-0034 東京都台東区雷門2-19-15石川ビル1F<br\/><\/p><p>お問い合わせ受付営業時間：10:00〜18:00（定休日：日曜日 月曜日 祝日）<br\/><\/p><p>業務や出荷の関係上やむ負えず、受付時間の短縮や休業させていただく場合がございます。<\/p><p>TEL：03-6625-0135<\/p><p>Mail：info@fr-wm.com<\/p><p><\/p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/frameshiroyama\/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
-    "social_twitter_link": "",
+    "social_twitter_link": "https:\/\/twitter.com\/",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
@@ -128,6 +131,9 @@
         }
       }
     },
+    "content_for_index": [
+
+    ],
     "color_schemes": {
       "background-1": {
         "settings": {

@@ -43,6 +43,7 @@
 .footer__content-bottom {
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
   padding-top: 3rem;
+  float: right;
 }
 
 .footer__content-bottom:only-child {
@@ -445,7 +446,7 @@
 }
 
 .copyright__content {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .copyright__content a {
