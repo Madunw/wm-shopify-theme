@@ -4,6 +4,25 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "1bff33f0-ec75-4dee-9c7b-4d3bd6fad1aa": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "75e43aee-ee4c-4457-bef9-a6fc07cc8b4e": {
+          "type": "text",
+          "settings": {
+            "heading": "Heading",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1bff33f0-ec75-4dee-9c7b-4d3bd6fad1aa",
+        "75e43aee-ee4c-4457-bef9-a6fc07cc8b4e"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": false,
@@ -14,7 +33,7 @@
         "enable_language_selector": true,
         "payment_enable": false,
         "show_policy": true,
-        "margin_top": 36,
+        "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
