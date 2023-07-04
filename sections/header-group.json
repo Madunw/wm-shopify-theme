@@ -45,34 +45,22 @@
     "97eb3d46-5ba1-46d8-ba30-e31edef2e9d6": {
       "type": "first-view",
       "blocks": {
-        "sections--19501518487844__97eb3d46-5ba1-46d8-ba30-e31edef2e9d6-1687840125efa55d63-0": {
+        "3a817f97-4664-4cdf-bea3-7860bb45f965": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/s-1920x1920_v-frms_webp_7bbc3182-2b58-4952-9987-a1257787abae.png",
+            "image": "shopify:\/\/shop_images\/DAI9568-Edit.png",
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         },
-        "sections--19501518487844__97eb3d46-5ba1-46d8-ba30-e31edef2e9d6-1687840125efa55d63-1": {
+        "c204abc5-5321-43ed-9dbc-b2bcacd4ec66": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/s-1920x1920_v-frms_webp_7bbc3182-2b58-4952-9987-a1257787abae.png",
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "878089b4-4643-4f5f-bd6a-b2c5f152731e": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DAI9585-Edit.jpg",
+            "image": "shopify:\/\/shop_images\/DAI9415.png",
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -83,9 +71,8 @@
         }
       },
       "block_order": [
-        "sections--19501518487844__97eb3d46-5ba1-46d8-ba30-e31edef2e9d6-1687840125efa55d63-0",
-        "sections--19501518487844__97eb3d46-5ba1-46d8-ba30-e31edef2e9d6-1687840125efa55d63-1",
-        "878089b4-4643-4f5f-bd6a-b2c5f152731e"
+        "3a817f97-4664-4cdf-bea3-7860bb45f965",
+        "c204abc5-5321-43ed-9dbc-b2bcacd4ec66"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/0f31a7e2981152155bfce3b094f21768.jpg",
