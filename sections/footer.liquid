@@ -89,9 +89,7 @@
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'policy_links' -%}
-                    <div class="footer-block__details-content rte">
-                      asd
-                    </div>
+                    {% render block %}
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
