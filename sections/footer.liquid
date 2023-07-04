@@ -89,7 +89,9 @@
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'policy_links' -%}
-                    {% render block %}
+                    <div class="footer-block__details-content rte">
+                      {{ block.settings.subtext1 }}
+                    </div>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
@@ -368,6 +370,18 @@
       "type": "policy_link",
       "name": "policy_link",
       "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading1",
+          "default": "Heading",
+          "label": "t:sections.footer.blocks.text.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "subtext1",
+          "default": "<p>Share contact information, store details, and brand content with your customers.</p>",
+          "label": "t:sections.footer.blocks.text.settings.subtext.label"
+        }
       ]
     }
   ],
