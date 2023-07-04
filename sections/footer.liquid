@@ -89,7 +89,6 @@
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'policy_links' -%}
-                  14564
                     <div
                       class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                       {% if settings.animations_reveal_on_scroll %}
@@ -212,21 +211,6 @@
                         </div>
                       </div>
                     </div>
-                  {%- when 'link_list' -%}
-                    {%- if block.settings.menu != blank -%}
-                      <ul class="footer-block__details-content list-unstyled">
-                        {%- for link in block.settings.menu.links -%}
-                          <li>
-                            <a
-                              href="{{ link.url }}"
-                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
-                            >
-                              {{ link.title }}
-                            </a>
-                          </li>
-                        {%- endfor -%}
-                      </ul>
-                    {%- endif -%}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
                       {%- if settings.brand_image != blank -%}
