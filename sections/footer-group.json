@@ -11,7 +11,7 @@
             "show_social": true
           }
         },
-        "75e43aee-ee4c-4457-bef9-a6fc07cc8b4e": {
+        "230cf69a-a875-444f-8a77-ab7552b56000": {
           "type": "text",
           "settings": {
             "heading": "Heading",
@@ -21,7 +21,7 @@
       },
       "block_order": [
         "1bff33f0-ec75-4dee-9c7b-4d3bd6fad1aa",
-        "75e43aee-ee4c-4457-bef9-a6fc07cc8b4e"
+        "230cf69a-a875-444f-8a77-ab7552b56000"
       ],
       "settings": {
         "color_scheme": "background-1",
