@@ -201,11 +201,13 @@
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
               {%- if policy != blank -%}
-                <li>
-                  <small class="copyright__content"
-                    ><a href="{{ policy.url }}">{{ policy.title }}</a></small
-                  >
-                </li>
+                <div>
+                  <li>
+                    <small class="copyright__content"
+                      ><a href="{{ policy.url }}">{{ policy.title }}</a></small
+                    >
+                  </li>
+                </div>
               {%- endif -%}
             {%- endfor -%}
           </ul>
