@@ -118,6 +118,7 @@
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+              style="top: {{ block.settings.logo_top }}vh; left: {{ block.settings.logo_left }}vw; position:absolute;"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -126,7 +127,6 @@
             <div
               class="banner__text rte {{ block.settings.text_style }}"
               {{ block.shopify_attributes }}
-              style="top: {{ block.settings.logo_top }}vh; left: {{ block.settings.logo_left }}vw; position:absolute;"
             >
               <p>{{ block.settings.text }}</p>
             </div>
