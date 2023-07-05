@@ -2,7 +2,6 @@
   "sections": {
     "1c78b3ec-a5fc-40f9-829c-de4eb3467acc": {
       "type": "first-view",
-      "disabled": true,
       "blocks": {
         "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-0": {
           "type": "slide",
@@ -50,6 +49,7 @@
     },
     "ab206d85-b3e0-48b3-86a6-09303d7df330": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",
