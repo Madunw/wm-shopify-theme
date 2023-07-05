@@ -11,6 +11,14 @@
     "9ee42726-621a-44bc-8fa2-92d2b1414a00": {
       "type": "image-with-text",
       "blocks": {
+        "d0ecc045-f4fc-4df8-88d0-1761448c0618": {
+          "type": "caption",
+          "settings": {
+            "caption": "展覧会、作品展など",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-0": {
           "type": "heading",
           "settings": {
@@ -34,6 +42,7 @@
         }
       },
       "block_order": [
+        "d0ecc045-f4fc-4df8-88d0-1761448c0618",
         "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-0",
         "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-1",
         "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-2"
