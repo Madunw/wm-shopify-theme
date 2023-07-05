@@ -5,7 +5,6 @@
       "blocks": {
         "template--19501519143204__5056d201-1161-4226-b447-306d781cec0f-16884369276e7ffd8c-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
