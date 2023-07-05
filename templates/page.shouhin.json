@@ -8,6 +8,36 @@
         "padding_bottom": 28
       }
     },
+    "c7496486-6ad0-45e7-940c-ee4dfe6eac86": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19694442086692__c7496486-6ad0-45e7-940c-ee4dfe6eac86-1688530657e9a59fe7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "白山だからできる<低価格で高品質な額縁",
+            "heading_size": "h1",
+            "heading_top": 10,
+            "heading_left": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--19694442086692__c7496486-6ad0-45e7-940c-ee4dfe6eac86-1688530657e9a59fe7-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC00261.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "9ee42726-621a-44bc-8fa2-92d2b1414a00": {
       "type": "image-with-text",
       "blocks": {
@@ -65,6 +95,7 @@
   },
   "order": [
     "main",
+    "c7496486-6ad0-45e7-940c-ee4dfe6eac86",
     "9ee42726-621a-44bc-8fa2-92d2b1414a00"
   ]
 }
