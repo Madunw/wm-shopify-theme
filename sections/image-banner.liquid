@@ -118,7 +118,7 @@
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
-              style="top: {{ block.settings.logo_top }}vh; left: {{ block.settings.logo_left }}vw; position:absolute;"
+              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute;"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -391,8 +391,8 @@
         },
         {
           "type": "range",
-          "id": "logo_top",
-          "label": "Logo Top Position",
+          "id": "heading_top",
+          "label": "heading Top Position",
           "min": 0,
           "max": 100,
           "step": 1,
@@ -400,8 +400,8 @@
         },
         {
           "type": "range",
-          "id": "logo_left",
-          "label": "Logo Left Position",
+          "id": "heading_left",
+          "label": "heading Left Position",
           "min": 0,
           "max": 100,
           "step": 1,
