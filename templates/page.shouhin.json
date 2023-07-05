@@ -340,6 +340,7 @@
         },
         "7b748047-0387-498e-8b6d-de79ab74b87f": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "商品",
             "button_link": ""
