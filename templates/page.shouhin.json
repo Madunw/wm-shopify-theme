@@ -101,11 +101,81 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "66913870-bcae-4266-8b7f-89abf75f89d1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e66f5179-69dd-4468-91e2-6dbc0c8bad68": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-0",
+        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-1",
+        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "c7496486-6ad0-45e7-940c-ee4dfe6eac86",
-    "9ee42726-621a-44bc-8fa2-92d2b1414a00"
+    "9ee42726-621a-44bc-8fa2-92d2b1414a00",
+    "66913870-bcae-4266-8b7f-89abf75f89d1",
+    "e66f5179-69dd-4468-91e2-6dbc0c8bad68"
   ]
 }
