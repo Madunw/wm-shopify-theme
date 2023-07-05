@@ -14,15 +14,25 @@
         "template--19694442086692__c7496486-6ad0-45e7-940c-ee4dfe6eac86-1688530657e9a59fe7-0": {
           "type": "heading",
           "settings": {
-            "heading": "白山だからできる低価格で高品質な額縁",
-            "heading_size": "h1",
-            "heading_top": 10,
+            "heading": "白山だからできる",
+            "heading_size": "h2",
+            "heading_top": 44,
+            "heading_left": 11
+          }
+        },
+        "99946fe1-a2e0-4e84-bff2-dad184b45ba0": {
+          "type": "heading",
+          "settings": {
+            "heading": "低価格で高品質な額縁",
+            "heading_size": "h2",
+            "heading_top": 48,
             "heading_left": 10
           }
         }
       },
       "block_order": [
-        "template--19694442086692__c7496486-6ad0-45e7-940c-ee4dfe6eac86-1688530657e9a59fe7-0"
+        "template--19694442086692__c7496486-6ad0-45e7-940c-ee4dfe6eac86-1688530657e9a59fe7-0",
+        "99946fe1-a2e0-4e84-bff2-dad184b45ba0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC00261.jpg",
