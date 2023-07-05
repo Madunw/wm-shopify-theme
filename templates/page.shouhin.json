@@ -102,143 +102,6 @@
         "padding_bottom": 36
       }
     },
-    "66913870-bcae-4266-8b7f-89abf75f89d1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "アルミフレーム",
-        "products_to_show": 3,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "e66f5179-69dd-4468-91e2-6dbc0c8bad68": {
-      "type": "collection-list",
-      "blocks": {
-        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "アルミフレーム"
-          }
-        },
-        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-0",
-        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-1",
-        "template--19694442086692__e66f5179-69dd-4468-91e2-6dbc0c8bad68-168853794390bd46b5-2"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "ed2d9542-3a3d-46e0-ac14-7c187426b0fc": {
-      "type": "featured-product",
-      "blocks": {
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-2": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-3": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-4": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-5": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-6": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-0",
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-1",
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-2",
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-3",
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-4",
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-5",
-        "template--19694442086692__ed2d9542-3a3d-46e0-ac14-7c187426b0fc-1688538831d9701667-6"
-      ],
-      "settings": {
-        "product": "",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "37a4bbbb-3f8d-43bc-8c81-8d616f12f504": {
       "type": "multicolumn",
       "blocks": {
@@ -448,18 +311,70 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "ce52a3ef-7794-4068-a382-ba96266d99de": {
+      "type": "image-with-text",
+      "blocks": {
+        "a78f7114-06cf-4c73-a457-68592b1e7404": {
+          "type": "caption",
+          "settings": {
+            "caption": "インテリアなど",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "8ab4a0e4-3bdc-46e3-bd32-cccbaefbb9c2": {
+          "type": "heading",
+          "settings": {
+            "heading": "エアフレーム",
+            "heading_size": "h1"
+          }
+        },
+        "e080be77-fc60-4f6b-9016-657bedf94731": {
+          "type": "text",
+          "settings": {
+            "text": "<p>耐久性のある樹脂フレームは軽量で気軽に飾れる。<br\/>環境にも配慮した樹脂素材のフレームです。<br\/>木材のような温もりが特徴で、豊富なルックスを取り揃えています。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "7b748047-0387-498e-8b6d-de79ab74b87f": {
+          "type": "button",
+          "settings": {
+            "button_label": "商品",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a78f7114-06cf-4c73-a457-68592b1e7404",
+        "8ab4a0e4-3bdc-46e3-bd32-cccbaefbb9c2",
+        "e080be77-fc60-4f6b-9016-657bedf94731",
+        "7b748047-0387-498e-8b6d-de79ab74b87f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "c7496486-6ad0-45e7-940c-ee4dfe6eac86",
     "9ee42726-621a-44bc-8fa2-92d2b1414a00",
-    "66913870-bcae-4266-8b7f-89abf75f89d1",
-    "e66f5179-69dd-4468-91e2-6dbc0c8bad68",
-    "ed2d9542-3a3d-46e0-ac14-7c187426b0fc",
     "37a4bbbb-3f8d-43bc-8c81-8d616f12f504",
     "941e3b88-5fe4-438e-ad02-fc88884b9940",
     "8f690555-61c8-4799-8a48-d43956ef93b8",
-    "9da3698b-2204-4713-951d-2a5e32ee9b67"
+    "9da3698b-2204-4713-951d-2a5e32ee9b67",
+    "ce52a3ef-7794-4068-a382-ba96266d99de"
   ]
 }
