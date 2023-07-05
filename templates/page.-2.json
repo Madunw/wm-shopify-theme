@@ -7,9 +7,40 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "88358235-f701-45c9-b3c9-79a2870faf9f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19697669374244__88358235-f701-45c9-b3c9-79a2870faf9f-16885471562565e003-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "もっと気軽に展示会を",
+            "heading_size": "h1",
+            "heading_top": 10,
+            "heading_left": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--19697669374244__88358235-f701-45c9-b3c9-79a2870faf9f-16885471562565e003-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI0021-Edit-min.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "88358235-f701-45c9-b3c9-79a2870faf9f"
   ]
 }
