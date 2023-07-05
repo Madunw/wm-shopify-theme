@@ -365,6 +365,97 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e2eaec51-d026-41ad-803c-97c518e63ad0": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19694442086692__e2eaec51-d026-41ad-803c-97c518e63ad0-16885395801008a688-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--19694442086692__e2eaec51-d026-41ad-803c-97c518e63ad0-16885395801008a688-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19694442086692__e2eaec51-d026-41ad-803c-97c518e63ad0-16885395801008a688-0",
+        "template--19694442086692__e2eaec51-d026-41ad-803c-97c518e63ad0-16885395801008a688-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "4e552f70-b3e6-42ae-90ac-a460db4b739f": {
+      "type": "collage",
+      "blocks": {
+        "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-0": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-0",
+        "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-1",
+        "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -375,6 +466,8 @@
     "941e3b88-5fe4-438e-ad02-fc88884b9940",
     "8f690555-61c8-4799-8a48-d43956ef93b8",
     "9da3698b-2204-4713-951d-2a5e32ee9b67",
-    "ce52a3ef-7794-4068-a382-ba96266d99de"
+    "ce52a3ef-7794-4068-a382-ba96266d99de",
+    "e2eaec51-d026-41ad-803c-97c518e63ad0",
+    "4e552f70-b3e6-42ae-90ac-a460db4b739f"
   ]
 }
