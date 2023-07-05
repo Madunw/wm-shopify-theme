@@ -2,6 +2,7 @@
   "sections": {
     "1c78b3ec-a5fc-40f9-829c-de4eb3467acc": {
       "type": "first-view",
+      "disabled": true,
       "blocks": {
         "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-0": {
           "type": "slide",
@@ -62,54 +63,6 @@
         "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "1c78b3ec-a5fc-40f9-829c-de4eb3467acc": {
-      "type": "first-view",
-      "disabled": true,
-      "blocks": {
-        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DAI9568-Edit.png",
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DAI9415.png",
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-0",
-        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/0f31a7e2981152155bfce3b094f21768.jpg",
-        "layout": "full_bleed",
-        "slide_height": "fullscreen",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "logo": "shopify:\/\/shop_images\/logo.png",
-        "logo_size": 10,
-        "logo_top": 10,
-        "logo_left": 10,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
       }
     }
   },
