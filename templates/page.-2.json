@@ -74,11 +74,27 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "71e484ec-614b-4737-a527-dfd2d1eae445": {
+      "type": "image-banner",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "88358235-f701-45c9-b3c9-79a2870faf9f",
-    "25d4485f-ed00-4a2d-97b4-27e7e45b9722"
+    "25d4485f-ed00-4a2d-97b4-27e7e45b9722",
+    "71e484ec-614b-4737-a527-dfd2d1eae445"
   ]
 }
