@@ -279,14 +279,70 @@
         "template--19694442086692__37a4bbbb-3f8d-43bc-8c81-8d616f12f504-16885389179aa81b50-2"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
+        "title": "",
+        "heading_size": "h0",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "941e3b88-5fe4-438e-ad02-fc88884b9940": {
+      "type": "multicolumn",
+      "blocks": {
+        "8da1c470-3303-4cb6-9ae2-593ed3bbf9cf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/275.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b9bec190-cbc8-468d-bcd6-5bc1beba71cc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00261.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bea661bc-73c3-463a-94ae-011eb47b5fdd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/275.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8da1c470-3303-4cb6-9ae2-593ed3bbf9cf",
+        "b9bec190-cbc8-468d-bcd6-5bc1beba71cc",
+        "bea661bc-73c3-463a-94ae-011eb47b5fdd"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -303,6 +359,7 @@
     "66913870-bcae-4266-8b7f-89abf75f89d1",
     "e66f5179-69dd-4468-91e2-6dbc0c8bad68",
     "ed2d9542-3a3d-46e0-ac14-7c187426b0fc",
-    "37a4bbbb-3f8d-43bc-8c81-8d616f12f504"
+    "37a4bbbb-3f8d-43bc-8c81-8d616f12f504",
+    "941e3b88-5fe4-438e-ad02-fc88884b9940"
   ]
 }
