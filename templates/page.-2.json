@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f3af01fc-035a-42be-82a9-e8abfcf04719": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19693479657764__f3af01fc-035a-42be-82a9-e8abfcf04719-1688523824fa6583e5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--19693479657764__f3af01fc-035a-42be-82a9-e8abfcf04719-1688523824fa6583e5-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--19693479657764__f3af01fc-035a-42be-82a9-e8abfcf04719-1688523824fa6583e5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19693479657764__f3af01fc-035a-42be-82a9-e8abfcf04719-1688523824fa6583e5-0",
+        "template--19693479657764__f3af01fc-035a-42be-82a9-e8abfcf04719-1688523824fa6583e5-1",
+        "template--19693479657764__f3af01fc-035a-42be-82a9-e8abfcf04719-1688523824fa6583e5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC00261.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f3af01fc-035a-42be-82a9-e8abfcf04719"
+  ]
+}

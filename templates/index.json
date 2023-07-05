@@ -1,72 +1,66 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
+    "1c78b3ec-a5fc-40f9-829c-de4eb3467acc": {
+      "type": "first-view",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-0": {
+          "type": "slide",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "image": "shopify:\/\/shop_images\/DAI9568-Edit.png",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
-        "button": {
-          "type": "buttons",
+        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-1": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/DAI9415.png",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-0",
+        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC00261.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/0f31a7e2981152155bfce3b094f21768.jpg",
+        "layout": "full_bleed",
+        "slide_height": "fullscreen",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "logo": "shopify:\/\/shop_images\/logo.png",
+        "logo_size": 10,
+        "logo_top": 10,
+        "logo_left": 10,
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
+    "ab206d85-b3e0-48b3-86a6-09303d7df330": {
+      "type": "featured-blog",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "test",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
         "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -120,8 +114,7 @@
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection",
-    "1c78b3ec-a5fc-40f9-829c-de4eb3467acc"
+    "1c78b3ec-a5fc-40f9-829c-de4eb3467acc",
+    "ab206d85-b3e0-48b3-86a6-09303d7df330"
   ]
 }
