@@ -8,8 +8,8 @@
           "settings": {
             "heading": "お問い合せ",
             "heading_size": "h0",
-            "logo_top": 30,
-            "logo_left": 45
+            "logo_top": 45,
+            "logo_left": 55
           }
         },
         "template--19501519143204__5056d201-1161-4226-b447-306d781cec0f-16884369276e7ffd8c-1": {
@@ -54,7 +54,6 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
