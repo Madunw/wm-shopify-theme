@@ -90,67 +90,6 @@
                   {%- endif -%}
                 </div>
               </div>
-            {%- when 'image_collage' -%}
-              <div class="collage-card {% if section.settings.card_styles == 'none' %}global-media-settings{% else %}card-wrapper {{ section.settings.card_styles }} color-{{ settings.card_color_scheme }} gradient{% endif %}">
-                <div class="collage collage--4x4">
-                  {%- for image_index in (1..4) -%}
-                    {%- assign image_variable_name = 'image_' | append: image_index -%}
-                    <div
-                      class="collage__item collage__item--image collage__item--{{ section.settings.desktop_layout }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                      {% if settings.animations_reveal_on_scroll %}
-                        data-cascade
-                        style="--animation-order: {{ forloop.index }};"
-                      {% endif %}
-                    >
-                      {%- assign block = block | default: '' -%}
-                      {%- assign image = block.settings[image_variable_name] -%}
-                      <div class="collage-card">
-                        <div
-                          class="media media--transparent ratio"
-                          {% if image != blank %}
-                            style="--ratio-percent: {{ 1 | divided_by: image.aspect_ratio | times: 100 }}%"
-                          {% else %}
-                            style="--ratio-percent: 100%"
-                          {% endif %}
-                        >
-                          {%- if image != blank -%}
-                            {%- liquid
-                              if section.settings.desktop_layout == 'left'
-                                assign large_block = forloop.first
-                              else
-                                assign large_block = forloop.last
-                              endif
-
-                              assign grid_space_desktop = settings.spacing_grid_horizontal | divided_by: 2 | append: 'px'
-                              assign grid_space_mobile = settings.spacing_grid_horizontal | divided_by: 4 | append: 'px'
-                            -%}
-                            {%- if large_block -%}
-                              {%- capture sizes -%}
-                    {% if section.blocks.size == 1 -%}(min-width: {{ settings.page_width }}px) calc({{ settings.page_width }}px - 100px){% else %}(min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - 100px) * 2 / 3 - {{ grid_space_desktop }}){% endif %},
-                    {% if section.blocks.size == 1 -%}(min-width: 750px) calc(100vw - 100px){% else %}(min-width: 750px) calc((100vw - 100px) * 2 / 3 - {{ grid_space_desktop }}){% endif %},
-                    {% if section.blocks.size == 2 and section.settings.mobile_layout == 'collage' -%}calc((100vw - 30px) / 2){% else %}calc(100vw - 30px){% endif %}
-                    {%- endcapture -%}
-                              {{
-                                image
-                                | image_url: width: 3200
-                                | image_tag:
-                                  loading: 'lazy',
-                                  sizes: sizes,
-                                  widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200'
-                              }}
-                            {%- else -%}
-                              <div class="media__placeholder"></div>
-                            {%- endif -%}
-                          {%- else -%}
-                            <div class="media__placeholder"></div>
-                          {%- endif -%}
-                        </div>
-                      </div>
-                    </div>
-                  {%- endfor -%}
-                </div>
-              </div>
-
             {%- when 'product' -%}
               {%- assign placeholder_image = 'product-apparel-' | append: placeholder_image_index -%}
               {% render 'card-product',
@@ -430,32 +369,6 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.collage.blocks.image.settings.image.label"
-        }
-      ]
-    },
-    {
-      "type": "image_collage",
-      "name": "image_collage",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image_1",
-          "label": "image_1"
-        },
-        {
-          "type": "image_picker",
-          "id": "image_2",
-          "label": "image_2"
-        },
-        {
-          "type": "image_picker",
-          "id": "image_3",
-          "label": "mage_3"
-        },
-        {
-          "type": "image_picker",
-          "id": "image_4",
-          "label": "image_4"
         }
       ]
     },
