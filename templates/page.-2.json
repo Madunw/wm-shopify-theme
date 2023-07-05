@@ -75,19 +75,60 @@
         "padding_bottom": 52
       }
     },
-    "71e484ec-614b-4737-a527-dfd2d1eae445": {
-      "type": "image-banner",
+    "35c6da6e-76d4-4a39-9e2e-20729d8cd0e7": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19697669374244__35c6da6e-76d4-4a39-9e2e-20729d8cd0e7-1688547493ec11fbfd-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI9559-Edit.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19697669374244__35c6da6e-76d4-4a39-9e2e-20729d8cd0e7-1688547493ec11fbfd-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19697669374244__35c6da6e-76d4-4a39-9e2e-20729d8cd0e7-1688547493ec11fbfd-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19697669374244__35c6da6e-76d4-4a39-9e2e-20729d8cd0e7-1688547493ec11fbfd-0",
+        "template--19697669374244__35c6da6e-76d4-4a39-9e2e-20729d8cd0e7-1688547493ec11fbfd-1",
+        "template--19697669374244__35c6da6e-76d4-4a39-9e2e-20729d8cd0e7-1688547493ec11fbfd-2"
+      ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -95,6 +136,6 @@
     "main",
     "88358235-f701-45c9-b3c9-79a2870faf9f",
     "25d4485f-ed00-4a2d-97b4-27e7e45b9722",
-    "71e484ec-614b-4737-a527-dfd2d1eae445"
+    "35c6da6e-76d4-4a39-9e2e-20729d8cd0e7"
   ]
 }
