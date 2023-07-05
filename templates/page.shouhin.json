@@ -164,7 +164,7 @@
         "8da1c470-3303-4cb6-9ae2-593ed3bbf9cf": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/275.jpg",
+            "image": "shopify:\/\/shop_images\/DAI9559-Edit.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -174,7 +174,7 @@
         "b9bec190-cbc8-468d-bcd6-5bc1beba71cc": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC00261.jpg",
+            "image": "shopify:\/\/shop_images\/DAI0034-Edit.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -184,7 +184,7 @@
         "bea661bc-73c3-463a-94ae-011eb47b5fdd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/275.jpg",
+            "image": "shopify:\/\/shop_images\/DAI0051-Edit.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -220,7 +220,7 @@
         "64a80fd9-6c36-4190-8b17-c0f694ec0d4e": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/275.jpg",
+            "image": "shopify:\/\/shop_images\/wm-13__page-0001.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -230,7 +230,7 @@
         "9c32201f-2801-4575-a5df-9e4ebfc36a90": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC00261.jpg",
+            "image": "shopify:\/\/shop_images\/wm-01_1_page-0001.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -240,7 +240,7 @@
         "c75aeb7c-df07-47bb-848f-40709ea3e6b2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/275.jpg",
+            "image": "shopify:\/\/shop_images\/wm-16_1_page-0001.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -377,22 +377,22 @@
         },
         "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-2": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "アルミフレーム"
           }
         },
-        "dd1c5d93-2e12-411c-ad4c-b5d5ef78b246": {
-          "type": "product",
+        "0c08c64c-fd46-4569-96fe-c24cab89950a": {
+          "type": "collection",
           "settings": {
-            "product": "275",
-            "second_image": false
+            "collection": ""
           }
         }
       },
       "block_order": [
         "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-0",
         "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-2",
-        "dd1c5d93-2e12-411c-ad4c-b5d5ef78b246"
+        "0c08c64c-fd46-4569-96fe-c24cab89950a"
       ],
       "settings": {
         "heading": "Multimedia collage",
