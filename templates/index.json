@@ -63,10 +63,26 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "186621e0-d737-49cf-adbf-09636a91fe84": {
+      "type": "first-view2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "1c78b3ec-a5fc-40f9-829c-de4eb3467acc",
-    "ab206d85-b3e0-48b3-86a6-09303d7df330"
+    "ab206d85-b3e0-48b3-86a6-09303d7df330",
+    "186621e0-d737-49cf-adbf-09636a91fe84"
   ]
 }
