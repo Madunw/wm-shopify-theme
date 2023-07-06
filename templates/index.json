@@ -5,7 +5,6 @@
       "blocks": {
         "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/DAI9568-Edit.png",
             "box_align": "middle-center",
@@ -36,7 +35,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/0f31a7e2981152155bfce3b094f21768.jpg",
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "fullscreen",
         "auto_rotate": true,
         "change_slides_speed": 5,
         "logo": "shopify:\/\/shop_images\/logo.png",
