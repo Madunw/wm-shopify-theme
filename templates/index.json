@@ -2,6 +2,7 @@
   "sections": {
     "1c78b3ec-a5fc-40f9-829c-de4eb3467acc": {
       "type": "first-view",
+      "disabled": true,
       "blocks": {
         "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-0": {
           "type": "slide",
@@ -47,6 +48,23 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "186621e0-d737-49cf-adbf-09636a91fe84": {
+      "type": "first-view2",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI9582.jpg",
+        "image_2": "shopify:\/\/shop_images\/DSC00261.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "ab206d85-b3e0-48b3-86a6-09303d7df330": {
       "type": "featured-blog",
       "settings": {
@@ -63,28 +81,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "186621e0-d737-49cf-adbf-09636a91fe84": {
-      "type": "first-view2",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DAI9582.jpg",
-        "image_2": "shopify:\/\/shop_images\/DSC00261.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "1c78b3ec-a5fc-40f9-829c-de4eb3467acc",
-    "ab206d85-b3e0-48b3-86a6-09303d7df330",
-    "186621e0-d737-49cf-adbf-09636a91fe84"
+    "186621e0-d737-49cf-adbf-09636a91fe84",
+    "ab206d85-b3e0-48b3-86a6-09303d7df330"
   ]
 }
