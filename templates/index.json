@@ -42,7 +42,7 @@
         "logo_size": 10,
         "logo_top": 13,
         "logo_left": 10,
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
