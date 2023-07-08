@@ -64,6 +64,86 @@
         "show_text_below": true
       }
     },
+    "c3a59cd5-963c-46c9-8007-82a21c4b8359": {
+      "type": "image-banner",
+      "blocks": {
+        "3ec461ac-a03b-4e4f-b520-80e89d1b0c5d": {
+          "type": "heading",
+          "settings": {
+            "heading": "アルミフレーム",
+            "heading_size": "h1",
+            "heading_top": 38,
+            "heading_left": 70
+          }
+        },
+        "ea009080-e2f4-46e0-8509-e8dacc2b4f75": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_top": 10,
+            "heading_left": 10
+          }
+        }
+      },
+      "block_order": [
+        "3ec461ac-a03b-4e4f-b520-80e89d1b0c5d",
+        "ea009080-e2f4-46e0-8509-e8dacc2b4f75"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "6a1c450d-3659-48e1-ac1e-a655e81fe228": {
+      "type": "image-banner",
+      "blocks": {
+        "92f70de7-db39-4a64-8db7-c2b4e077d9b9": {
+          "type": "heading",
+          "settings": {
+            "heading": "エアフレーム",
+            "heading_size": "h1",
+            "heading_top": 49,
+            "heading_left": 73
+          }
+        },
+        "6a83f103-eaa8-4673-88d3-bbae7273f4f0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_top": 10,
+            "heading_left": 10
+          }
+        }
+      },
+      "block_order": [
+        "92f70de7-db39-4a64-8db7-c2b4e077d9b9",
+        "6a83f103-eaa8-4673-88d3-bbae7273f4f0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI9415.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "ab206d85-b3e0-48b3-86a6-09303d7df330": {
       "type": "featured-blog",
       "settings": {
@@ -85,6 +165,8 @@
   "order": [
     "1c78b3ec-a5fc-40f9-829c-de4eb3467acc",
     "186621e0-d737-49cf-adbf-09636a91fe84",
+    "c3a59cd5-963c-46c9-8007-82a21c4b8359",
+    "6a1c450d-3659-48e1-ac1e-a655e81fe228",
     "ab206d85-b3e0-48b3-86a6-09303d7df330"
   ]
 }
