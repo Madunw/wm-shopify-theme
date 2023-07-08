@@ -93,7 +93,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI_2.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -133,7 +133,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9415.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
