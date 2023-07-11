@@ -127,12 +127,12 @@
   </div>
 
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div>
+    <div class="banner__media--fadeIn">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
-              class="banner__heading banner__media--fadeIn inline-richtext {{ block.settings.heading_size }}"
+              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
               style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute;"
               {{ block.shopify_attributes }}
             >
