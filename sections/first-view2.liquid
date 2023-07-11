@@ -30,6 +30,13 @@
     }, 900); // 1秒后显示image2
   }, 2500); // 2秒后开始取消显示image1
 
+   setTimeout(function() {
+    var banner = document.getElementById("Banner-{{ section.id }}");
+    var content = banner.getElementsByClassName(""banner__content")[0];
+    content.classList.add("banner__media--fadeIn");
+  }, 2500); // 2秒后开始取消显示image1
+
+
 
 </script>
 
