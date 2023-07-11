@@ -1,12 +1,5 @@
 <script>
   
-  
-  
-  
-  
-  
-  
-  
  setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
     var media = banner.getElementsByClassName("banner__media")[0];
@@ -33,16 +26,13 @@
       media.classList.remove("banner__media--fadeOut");
       media.classList.add("banner__media--fadeIn");
     }, 900); // 1秒后显示image2
-
   }, 2500); // 2秒后开始取消显示image1
 
-
-
-
-
-
-
-
+   setTimeout(function() {
+    var banner = document.getElementById("Banner-{{ section.id }}");
+    var content = banner.getElementsByClassName(""banner__content")[0];
+    content.classList.add("banner__media--fadeOut");
+  }, 2500); // 2秒后开始取消显示image1
 
 </script>
 
@@ -137,7 +127,7 @@
   </div>
 
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div class="banner__content-inner">
+    <div>
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
@@ -151,7 +141,6 @@
           {%- when 'text' -%}
             <div
               class="banner__text rte {{ block.settings.text_style }}"
-              style="opacity: 0;"
               {{ block.shopify_attributes }}
             >
               <p>{{ block.settings.text }}</p>
@@ -159,7 +148,6 @@
           {%- when 'buttons' -%}
             <div
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
-              style="opacity: 0;"
               {{ block.shopify_attributes }}
             >
               {%- if block.settings.button_label_1 != blank -%}
