@@ -3,6 +3,7 @@
   
   
   
+  
  setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
     var media = banner.getElementsByClassName("banner__media")[0];
@@ -35,6 +36,7 @@
     var content = banner.getElementsByClassName("banner__content")[0];
     content.classList.add("banner__media--fadeIn");
   }, 2500); // 2秒后开始取消显示image1
+
 
 
 
@@ -77,7 +79,7 @@
 
   .banner__media--fadeIn {
     opacity: 1;
-    transition: opacity 10s ease-in-out;
+    transition: opacity 1s ease-in-out;
   }
 {%- endstyle -%}
 
