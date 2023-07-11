@@ -2,6 +2,7 @@
   
   
   
+  
 setTimeout(function() {
   var banner = document.getElementById("Banner-{{ section.id }}");
   var media = banner.getElementsByClassName("banner__media")[0];
@@ -37,6 +38,7 @@ setTimeout(function() {
   }, 1000); // 1秒后切换图片
 
 }, 3000); // 2秒后开始切换图片
+
 
 
 
@@ -78,7 +80,7 @@ setTimeout(function() {
 
   .banner__media--fadeIn {
     opacity: 1;
-    transition: opacity 2s ease-in-out;
+    transition: opacity 1s ease-in-out;
   }
   .banner__content--fadeIn {
     opacity: 1;
