@@ -2,6 +2,7 @@
   
   
   
+  
  setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
     var media = banner.getElementsByClassName("banner__media")[0];
@@ -30,6 +31,7 @@
     }, 900); // 1秒后显示image2
 
   }, 2500); // 2秒后开始取消显示image1
+
 
 
 
@@ -72,7 +74,7 @@
 
   .banner__media--fadeIn {
     opacity: 1;
-    transition: opacity 10s ease-in-out;
+    transition: opacity 1s ease-in-out;
   }
 {%- endstyle -%}
 
@@ -126,7 +128,7 @@
     }}
   </div>
 
-  <div class="banner__media--fadeIn">
+  <div class="banner__media--fadeOut">
     <div>
       {%- for block in section.blocks -%}
         {%- case block.type -%}
