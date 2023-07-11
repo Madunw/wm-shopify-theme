@@ -1,5 +1,6 @@
 <script>
   
+  
 setTimeout(function() {
   var banner = document.getElementById("Banner-{{ section.id }}");
   var media = banner.getElementsByClassName("banner__media")[0];
@@ -37,6 +38,7 @@ setTimeout(function() {
   }, 1000); // 1秒后内容渐入
 
 }, 3000); // 2秒后开始切换图片和内容的渐入渐出
+
 
 </script>
 
@@ -131,7 +133,7 @@ setTimeout(function() {
   </div>
 
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div>
+    <div class="banner__content-inner">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
