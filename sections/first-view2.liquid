@@ -1,6 +1,16 @@
 <script>
   
-  setTimeout(function() {
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
     var media = banner.getElementsByClassName("banner__media")[0];
     media.classList.add("banner__media--fadeOut");
@@ -25,14 +35,18 @@
 
       media.classList.remove("banner__media--fadeOut");
       media.classList.add("banner__media--fadeIn");
+    }, 900); // 1秒后显示image2
+  }, 2500); // 2秒后开始取消显示image1
 
-      var bannerContent = banner.getElementsByClassName("banner__content")[0];
-      bannerContent.style.opacity = 0;
-      setTimeout(function() {
-        bannerContent.style.opacity = 1;
-      }, 2000); // 2秒后渐入显示
-    }, 1000); // 1秒后切换图片
-  }, 3000); // 2秒后开始切换图片
+
+
+
+
+
+
+
+
+
 
 </script>
 
