@@ -4,6 +4,7 @@
 setTimeout(function() {
   var banner = document.getElementById("Banner-{{ section.id }}");
   var media = banner.getElementsByClassName("banner__media")[0];
+  var content = banner.getElementsByClassName("banner__content")[0];
   media.classList.add("banner__media--fadeOut");
 
   setTimeout(function() {
@@ -133,7 +134,7 @@ setTimeout(function() {
   </div>
 
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div class="banner__content-inner">
+    <div>
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
