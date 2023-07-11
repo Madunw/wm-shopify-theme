@@ -1,5 +1,6 @@
 <script>
   
+  
 setTimeout(function() {
   var banner = document.getElementById("Banner-{{ section.id }}");
   var media = banner.getElementsByClassName("banner__media")[0];
@@ -40,6 +41,7 @@ setTimeout(function() {
 }, 3000); // 开始切换图片的延迟时间
 
 
+
 </script>
 
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
@@ -68,15 +70,24 @@ setTimeout(function() {
 {%- endif -%}
 
 {%- style -%}
-    #Banner-{{ section.id }}::after {
-      opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+      #Banner-{{ section.id }}::after {
+        opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+      }
+      .banner__media--fadeOut {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
     }
-    .banner__media--fadeOut {
+
+    .banner__media--fadeIn {
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+    }
+    .banner__content--fadeOut {
     opacity: 0;
     transition: opacity 1s ease-in-out;
   }
 
-  .banner__media--fadeIn {
+  .banner__content--fadeIn {
     opacity: 1;
     transition: opacity 1s ease-in-out;
   }
