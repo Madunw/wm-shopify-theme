@@ -134,14 +134,14 @@
     }}
   </div>
 
-  <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+  <div class="banner__content media banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <div>
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
-              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute; opacity: 0;"
+              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute;"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -149,7 +149,6 @@
           {%- when 'text' -%}
             <div
               class="banner__text rte {{ block.settings.text_style }}"
-              style="opacity: 0;"
               {{ block.shopify_attributes }}
             >
               <p>{{ block.settings.text }}</p>
@@ -157,7 +156,6 @@
           {%- when 'buttons' -%}
             <div
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
-              style="opacity: 0;"
               {{ block.shopify_attributes }}
             >
               {%- if block.settings.button_label_1 != blank -%}
