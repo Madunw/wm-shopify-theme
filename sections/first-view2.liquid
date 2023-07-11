@@ -1,3 +1,29 @@
+<script>
+  
+  setTimeout(function() {
+    var banner = document.getElementById("Banner-{{ section.id }}");
+    var media = banner.getElementsByClassName("banner__media")[0];
+
+    // 渐出效果
+    media.classList.add("banner__media--fade-out");
+
+    setTimeout(function() {
+      // 替换为image_2
+      media.innerHTML = `
+        {%- liquid
+          assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
+        -%}
+        {{ section.settings.image_2 | image_url: width: 3840 | image_tag: loading: 'lazy', width: section.settings.image_2.width, height: image_height_2 }}
+      `;
+
+      // 渐入效果
+      media.classList.add("banner__media--fade-in");
+    }, 1000); // 1秒后切换图片
+
+  }, 2000); // 2秒后开始切换图片
+
+</script>
+
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
