@@ -1,12 +1,13 @@
 <script>
   
-  
 setTimeout(function() {
   var banner = document.getElementById("Banner-{{ section.id }}");
   var media = banner.getElementsByClassName("banner__media")[0];
-  media.classList.add("banner__media--fadeOut");
   var content = banner.getElementsByClassName("banner__content")[0];
-  content.classList.add("banner__content--fadeOut");
+  content.classList.add("banner__media--fadeOut");
+  media.classList.add("banner__media--fadeOut");
+  
+  
   setTimeout(function() {
     media.innerHTML = `
       {%- liquid
@@ -41,7 +42,6 @@ setTimeout(function() {
 }, 3000); // 开始切换图片的延迟时间
 
 
-
 </script>
 
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
@@ -70,24 +70,15 @@ setTimeout(function() {
 {%- endif -%}
 
 {%- style -%}
-      #Banner-{{ section.id }}::after {
-        opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
-      }
-      .banner__media--fadeOut {
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
+    #Banner-{{ section.id }}::after {
+      opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
     }
-
-    .banner__media--fadeIn {
-      opacity: 1;
-      transition: opacity 1s ease-in-out;
-    }
-    .banner__content--fadeOut {
+    .banner__media--fadeOut {
     opacity: 0;
     transition: opacity 1s ease-in-out;
   }
 
-  .banner__content--fadeIn {
+  .banner__media--fadeIn {
     opacity: 1;
     transition: opacity 1s ease-in-out;
   }
