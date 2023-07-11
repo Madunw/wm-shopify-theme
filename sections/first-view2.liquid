@@ -1,55 +1,40 @@
 <script>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
- setTimeout(function() {
-    var banner = document.getElementById("Banner-{{ section.id }}");
-    var media = banner.getElementsByClassName("banner__media")[0];
-    media.classList.add("banner__media--fadeOut");
+setTimeout(function() {
+  var banner = document.getElementById("Banner-{{ section.id }}");
+  var media = banner.getElementsByClassName("banner__media")[0];
+  media.classList.add("banner__media--fadeOut");
 
+  setTimeout(function() {
+    media.innerHTML = `
+      {%- liquid
+        assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
+        if section.settings.image != blank
+          assign image_class_2 = 'banner__media-image-half'
+        endif
+        if section.settings.image != blank and section.settings.stack_images_on_mobile
+          assign sizes = stacked_sizes
+        elsif section.settings.image_2 != blank
+          assign sizes = half_width
+        else
+          assign sizes = full_width
+        endif
+      -%}
+      {{ section.settings.image_2 | image_url: width: 3840 | image_tag: loading: 'lazy', width: section.settings.image_2.width, height: image_height_2, class: image_class_2, sizes: sizes, widths: widths }}
+    `;
+
+    media.classList.remove("banner__media--fadeOut");
+    media.classList.add("banner__media--fadeIn");
+
+    // Add fade-in effect to banner content after 2 seconds
     setTimeout(function() {
-      media.innerHTML = `
-        {%- liquid
-          assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
-          if section.settings.image != blank
-            assign image_class_2 = 'banner__media-image-half'
-          endif
-          if section.settings.image != blank and section.settings.stack_images_on_mobile
-            assign sizes = stacked_sizes
-          elsif section.settings.image_2 != blank
-            assign sizes = half_width
-          else
-            assign sizes = full_width
-          endif
-        -%}
-        {{ section.settings.image_2 | image_url: width: 3840 | image_tag: loading: 'lazy', width: section.settings.image_2.width, height: image_height_2, class: image_class_2, sizes: sizes, widths: widths }}
-      `;
+      var bannerContent = banner.getElementsByClassName("banner__content")[0];
+      bannerContent.classList.add("banner__content--fadeIn");
+    }, 2000); // 2秒后渐出出现
 
-      media.classList.remove("banner__media--fadeOut");
-      media.classList.add("banner__media--fadeIn");
-    }, 900); // 1秒后显示image2
-  }, 2500); // 2秒后开始取消显示image1
+  }, 1000); // 1秒后切换图片
 
-   setTimeout(function() {
-    var content = banner.getElementsByClassName("banner__content")[0];
-    content.classList.add("banner__media--fadeIn");
-  }, 2500); // 2秒后开始取消显示image1
-
-
-
-
-
-
-
-
-
+}, 3000); // 2秒后开始切换图片
 
 </script>
 
