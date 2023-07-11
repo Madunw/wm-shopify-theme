@@ -4,6 +4,7 @@
   
   
   
+  
  setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
     var media = banner.getElementsByClassName("banner__media")[0];
@@ -32,6 +33,7 @@
     }, 900); // 1秒后显示image2
 
   }, 2500); // 2秒后开始取消显示image1
+
 
 
 
@@ -130,8 +132,8 @@
     }}
   </div>
 
-  <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div class="banner__content--fadeOut">
+  <div class="banner__content--fadeOut">
+    <div>
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
