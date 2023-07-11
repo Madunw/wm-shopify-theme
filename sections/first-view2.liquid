@@ -1,5 +1,6 @@
 <script>
   
+  
   setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
     var media = banner.getElementsByClassName("banner__media")[0];
@@ -28,6 +29,7 @@
     }, 1000); // 1秒后切换图片
 
   }, 30000); // 2秒后开始切换图片
+
 
 
 
@@ -115,18 +117,17 @@
         assign sizes = full_width
       endif
     -%}
-    <div class="banner__media-image {{ image_class }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {{
-        section.settings.image
-        | image_url: width: 3840
-        | image_tag:
-          loading: 'lazy',
-          width: section.settings.image.width,
-          height: image_height,
-          sizes: sizes,
-          widths: widths
-      }}
-    </div>
+
+    {{
+      section.settings.image
+      | image_url: width: 3840
+      | image_tag:
+        loading: 'lazy',
+        width: section.settings.image.width,
+        height: image_height,
+        sizes: sizes,
+        widths: widths
+    }}
   </div>
 
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
