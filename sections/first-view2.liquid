@@ -1,12 +1,11 @@
 <script>
   
-  
 setTimeout(function() {
   var banner = document.getElementById("Banner-{{ section.id }}");
   var media = banner.getElementsByClassName("banner__media")[0];
-  var content = banner.getElementsByClassName("banner__content")[0];
   media.classList.add("banner__media--fadeOut");
-
+  var content = banner.getElementsByClassName("banner__content")[0];
+  content.classList.add("banner__content--fadeOut");
   setTimeout(function() {
     media.innerHTML = `
       {%- liquid
@@ -36,9 +35,9 @@ setTimeout(function() {
   setTimeout(function() {
     content.classList.remove("banner__content--fadeOut");
     content.classList.add("banner__content--fadeIn");
-  }, 1000); // 1秒后内容渐入
+  }, 1000); // 图片渐变的延迟时间
 
-}, 3000); // 2秒后开始切换图片和内容的渐入渐出
+}, 3000); // 开始切换图片的延迟时间
 
 
 </script>
