@@ -328,7 +328,7 @@ slider-component.slider-component-full-width {
 
 {% # hide slider-buttons %}
 .slider-buttons {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
