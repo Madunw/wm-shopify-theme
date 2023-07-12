@@ -18,8 +18,8 @@
           "settings": {
             "heading": "人と作品をつなげる",
             "heading_font_size": 24,
-            "heading_top": 78,
-            "heading_right": 0,
+            "heading_top": 80,
+            "heading_right": -1,
             "heading_rotate_degrees": "0deg"
           }
         },
