@@ -400,7 +400,17 @@ slider-component.slider-component-full-width {
 
 .slideshow__controls__inside .slider-button--prev {
   position: absolute;
-  left:10px; width:5rem;
+  left:10px;
+  width:5rem;
+  opacity:50%;
+  height:100%;
+  padding:auto 2rem"
+}
+
+.slideshow__controls__inside .slider-button--next {
+  position: absolute;
+  right:10px;
+  width:5rem;
   opacity:50%;
   height:100%;
   padding:auto 2rem"
