@@ -3,32 +3,10 @@
     "186621e0-d737-49cf-adbf-09636a91fe84": {
       "type": "first-view2",
       "blocks": {
-        "3189ab75-a77a-4ad8-9ee4-a96dcf8addd8": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1",
-            "heading_top": 11,
-            "heading_left": 24
-          }
-        },
-        "021da3e0-bf46-46dc-a4ff-a10dddca64b3": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "54c4103c-b0d6-41d8-b720-625eebd578b4": {
+        "4a650201-9d83-4642-ad20-d6314b63a9f5": {
           "type": "heading",
           "settings": {
-            "heading": "ttyye",
+            "heading": "<strong>FRMAE SHIROYAMA<\/strong>",
             "heading_size": "h1",
             "heading_top": 10,
             "heading_left": 10
@@ -36,9 +14,7 @@
         }
       },
       "block_order": [
-        "3189ab75-a77a-4ad8-9ee4-a96dcf8addd8",
-        "021da3e0-bf46-46dc-a4ff-a10dddca64b3",
-        "54c4103c-b0d6-41d8-b720-625eebd578b4"
+        "4a650201-9d83-4642-ad20-d6314b63a9f5"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9619.jpg",
