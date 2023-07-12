@@ -398,22 +398,20 @@ slider-component.slider-component-full-width {
   height: 100%;
 }
 
-.slideshow__controls__inside .slider-button--prev {
+.slideshow__controls__inside slider-button {
   position: absolute;
-  left:10px;
   width:5rem;
   opacity:50%;
   height:100%;
   padding:auto 2rem;
 }
 
+.slideshow__controls__inside .slider-button--prev {
+  left:10px;
+}
+
 .slideshow__controls__inside .slider-button--next {
-  position: absolute;
   right:10px;
-  width:5rem;
-  opacity:50%;
-  height:100%;
-  padding:auto 2rem;
 }
 
 .slideshow__controls__inside .slideshow__autoplay {
