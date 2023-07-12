@@ -112,7 +112,7 @@
 @media screen and (min-width: 750px) {
   .footer-block {
     display: block;
-    margin 0 auto;
+    margin: 0 auto;
   }
 }
 
