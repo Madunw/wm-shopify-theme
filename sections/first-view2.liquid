@@ -14,10 +14,11 @@
   
   
   
+  
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
     bannerContent.style.display = "block";
-  }, 400); // 4秒后显示div
+  }, 4000); // 4秒后显示div
   
  setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
@@ -44,8 +45,9 @@
 
       media.classList.remove("banner__media--fadeOut");
       media.classList.add("banner__media--fadeIn");
-    }, 90); // 1秒后显示image2
-  }, 250); // 2秒后开始取消显示image1
+    }, 900); // 1秒后显示image2
+  }, 2500); // 2秒后开始取消显示image1
+
 
 
 
