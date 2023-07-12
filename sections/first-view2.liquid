@@ -12,10 +12,11 @@
   
   
   
+  
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__heading");
     bannerContent.style.display = "block";
-    console.log("asdas");
+    console.log({{ block.settings.heading_delay_time }});
   }, 4000}); // 4秒后显示div
   
  setTimeout(function() {
@@ -44,6 +45,7 @@
       media.classList.add("banner__media--fadeIn");
     }, 900); // 1秒后显示image2
   }, 2500); // 2秒后开始取消显示image1
+
 
 
 
