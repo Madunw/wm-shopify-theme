@@ -9,7 +9,8 @@
             "heading": "<strong>FRAME SHIROYAMA<\/strong>",
             "heading_size": "h0",
             "heading_top": 76,
-            "heading_left": 10
+            "heading_left": 10,
+            "heading_rotate_degrees": "90deg"
           }
         },
         "d82ff97c-94a3-4924-a442-d4c211a5e691": {
@@ -18,7 +19,8 @@
             "heading": "Image banner",
             "heading_size": "h1",
             "heading_top": 10,
-            "heading_left": 4
+            "heading_left": 4,
+            "heading_rotate_degrees": "0deg"
           }
         }
       },
