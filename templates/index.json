@@ -32,24 +32,12 @@
             "heading_right": 4,
             "heading_rotate_degrees": "0deg"
           }
-        },
-        "dc5781cb-19b8-443b-85c5-8bca426b33c7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "4a650201-9d83-4642-ad20-d6314b63a9f5",
         "d82ff97c-94a3-4924-a442-d4c211a5e691",
-        "ba26a417-a70b-40e9-9a85-c1b9ab4d715e",
-        "dc5781cb-19b8-443b-85c5-8bca426b33c7"
+        "ba26a417-a70b-40e9-9a85-c1b9ab4d715e"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9593.jpg",
@@ -104,7 +92,6 @@
         "slide_height": "fullscreen",
         "auto_rotate": true,
         "change_slides_speed": 3,
-        "logo": "shopify:\/\/shop_images\/logo.png",
         "logo_size": 10,
         "logo_top": 13,
         "logo_left": 10,
