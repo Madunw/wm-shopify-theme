@@ -6,36 +6,25 @@
         "4a650201-9d83-4642-ad20-d6314b63a9f5": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>tttet<\/strong>",
+            "heading": "<strong>FRAME SHIROYAMA<\/strong>",
             "heading_size": "h0",
             "heading_top": 10,
-            "heading_left": 10,
-            "Heading_delay_time": 5
+            "heading_left": 10
           }
         },
-        "76a0b0ee-3dca-4a82-8d3c-e0c07b7d19ff": {
-          "type": "text",
+        "d82ff97c-94a3-4924-a442-d4c211a5e691": {
+          "type": "heading",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "0296bc8e-cfea-479f-a01b-71a5be29d932": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_top": 10,
+            "heading_left": 10
           }
         }
       },
       "block_order": [
         "4a650201-9d83-4642-ad20-d6314b63a9f5",
-        "76a0b0ee-3dca-4a82-8d3c-e0c07b7d19ff",
-        "0296bc8e-cfea-479f-a01b-71a5be29d932"
+        "d82ff97c-94a3-4924-a442-d4c211a5e691"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9619.jpg",
