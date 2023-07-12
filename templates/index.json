@@ -17,7 +17,7 @@
           "type": "heading",
           "settings": {
             "heading": "人と作品をつなげる",
-            "heading_font_size": 26,
+            "heading_font_size": 24,
             "heading_top": 78,
             "heading_right": 0,
             "heading_rotate_degrees": "0deg"
@@ -27,8 +27,8 @@
           "type": "heading",
           "settings": {
             "heading": "そのお手伝いを額縁から",
-            "heading_font_size": 10,
-            "heading_top": 10,
+            "heading_font_size": 25,
+            "heading_top": 85,
             "heading_right": 0,
             "heading_rotate_degrees": "0deg"
           }
