@@ -1,6 +1,9 @@
 <script>
-  
-  
+  setTimeout(function() {
+    var bannerContent = document.querySelector(".banner__content");
+    bannerContent.style.display = "block";
+  }, 4000); // 4秒后显示div
+
  setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
     var media = banner.getElementsByClassName("banner__media")[0];
@@ -26,9 +29,8 @@
 
       media.classList.remove("banner__media--fadeOut");
       media.classList.add("banner__media--fadeIn");
-    }, 1000); // 1秒后切换图片
-
-  }, 3000); // 2秒后开始切换图片
+    }, 1000); // 1秒后显示image2
+  }, 2000); // 2秒后开始取消显示image1
 
 </script>
 
@@ -122,58 +124,59 @@
     }}
   </div>
 
-  <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div>
-      {%- for block in section.blocks -%}
-        {%- case block.type -%}
-          {%- when 'heading' -%}
-            <h2
-              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
-              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute;"
-              {{ block.shopify_attributes }}
-            >
-              {{ block.settings.heading }}
-            </h2>
-          {%- when 'text' -%}
-            <div
-              class="banner__text rte {{ block.settings.text_style }}"
-              {{ block.shopify_attributes }}
-            >
-              <p>{{ block.settings.text }}</p>
-            </div>
-          {%- when 'buttons' -%}
-            <div
-              class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
-              {{ block.shopify_attributes }}
-            >
-              {%- if block.settings.button_label_1 != blank -%}
-                <a
-                  {% if block.settings.button_link_1 == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link_1 }}"
-                  {% endif %}
-                  class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
-                >
-                  {{- block.settings.button_label_1 | escape -}}
-                </a>
-              {%- endif -%}
-              {%- if block.settings.button_label_2 != blank -%}
-                <a
-                  {% if block.settings.button_link_2 == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link_2 }}"
-                  {% endif %}
-                  class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
-                >
-                  {{- block.settings.button_label_2 | escape -}}
-                </a>
-              {%- endif -%}
-            </div>
-        {%- endcase -%}
-      {%- endfor -%}
-    </div>
+  <div
+    class="banner__content  banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    style="display: none;"
+  >
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'heading' -%}
+          <h1
+            class="banner__heading inline-richtext "
+            style="font-size:{{ block.settings.heading_font_size }}px; top: {{ block.settings.heading_top }}vh; right: {{ block.settings.heading_right }}vw; position:absolute; transform: rotate({{ block.settings.heading_rotate_degrees }});"
+            {{ block.shopify_attributes }}
+          >
+            {{ block.settings.heading }}
+          </h1>
+        {%- when 'text' -%}
+          <div
+            class="banner__text rte {{ block.settings.text_style }}"
+            {{ block.shopify_attributes }}
+          >
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {%- when 'buttons' -%}
+          <div
+            class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {%- if block.settings.button_label_1 != blank -%}
+              <a
+                {% if block.settings.button_link_1 == blank %}
+                  role="link" aria-disabled="true"
+                {% else %}
+                  href="{{ block.settings.button_link_1 }}"
+                {% endif %}
+                class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+              >
+                {{- block.settings.button_label_1 | escape -}}
+              </a>
+            {%- endif -%}
+            {%- if block.settings.button_label_2 != blank -%}
+              <a
+                {% if block.settings.button_link_2 == blank %}
+                  role="link" aria-disabled="true"
+                {% else %}
+                  href="{{ block.settings.button_link_2 }}"
+                {% endif %}
+                class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+              >
+                {{- block.settings.button_label_2 | escape -}}
+              </a>
+            {%- endif -%}
+          </div>
+      {%- endcase -%}
+    {%- endfor -%}
   </div>
 </div>
 
@@ -385,24 +388,13 @@
           "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
         },
         {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
+          "type": "range",
+          "id": "heading_font_size",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 10,
+          "label": "Heading Size (px)"
         },
         {
           "type": "range",
@@ -415,12 +407,36 @@
         },
         {
           "type": "range",
-          "id": "heading_left",
-          "label": "heading Left Position",
-          "min": 0,
-          "max": 100,
+          "id": "heading_right",
+          "label": "Heading Right Position",
+          "min": -30,
+          "max": 70,
           "step": 1,
-          "default": 10
+          "default": 0
+        },
+        {
+          "type": "select",
+          "id": "heading_rotate_degrees",
+          "options": [
+            {
+              "value": "0deg",
+              "label": "0"
+            },
+            {
+              "value": "90deg",
+              "label": "90"
+            },
+            {
+              "value": "180deg",
+              "label": "180"
+            },
+            {
+              "value": "270deg",
+              "label": "270"
+            }
+          ],
+          "default": "0deg",
+          "label": "heading_rotate_degrees"
         }
       ]
     },
