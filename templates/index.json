@@ -18,23 +18,11 @@
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
-        },
-        "41b24ed3-d920-4ff4-bc6a-cefe6eb54629": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "3189ab75-a77a-4ad8-9ee4-a96dcf8addd8",
-        "043f88c4-13b1-4b06-a48d-f9e8b06c927c",
-        "41b24ed3-d920-4ff4-bc6a-cefe6eb54629"
+        "043f88c4-13b1-4b06-a48d-f9e8b06c927c"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9619.jpg",
