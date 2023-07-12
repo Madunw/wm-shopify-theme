@@ -2199,12 +2199,11 @@
               "label": "Number of products per page"
             },
             "pagination_style": {
-              "label": "Controler style",
+              "label": "Pagination style",
               "options": {
                 "option_1": "Dots",
                 "option_2": "Counter",
-                "option_3": "Numbers",
-                "option_4": "Inside"
+                "option_3": "Numbers"
               }
             },
             "product_card": {
