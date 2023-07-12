@@ -5,6 +5,7 @@
       "blocks": {
         "3189ab75-a77a-4ad8-9ee4-a96dcf8addd8": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1",
@@ -12,17 +13,32 @@
             "heading_left": 24
           }
         },
-        "043f88c4-13b1-4b06-a48d-f9e8b06c927c": {
-          "type": "text",
+        "021da3e0-bf46-46dc-a4ff-a10dddca64b3": {
+          "type": "buttons",
+          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "54c4103c-b0d6-41d8-b720-625eebd578b4": {
+          "type": "heading",
+          "settings": {
+            "heading": "ttyye",
+            "heading_size": "h1",
+            "heading_top": 10,
+            "heading_left": 10
           }
         }
       },
       "block_order": [
         "3189ab75-a77a-4ad8-9ee4-a96dcf8addd8",
-        "043f88c4-13b1-4b06-a48d-f9e8b06c927c"
+        "021da3e0-bf46-46dc-a4ff-a10dddca64b3",
+        "54c4103c-b0d6-41d8-b720-625eebd578b4"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9619.jpg",
