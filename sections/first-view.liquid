@@ -63,7 +63,6 @@
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
     <div
       class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}"
-      style="position:absolute;"
     >
       <button
         type="button"
@@ -71,7 +70,6 @@
         name="previous"
         aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
         aria-controls="Slider-{{ section.id }}"
-        style="left:25px;"
       >
         {% render 'icon-caret' %}
       </button>
