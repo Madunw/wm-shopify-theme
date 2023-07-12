@@ -13,6 +13,7 @@
   
   
   
+  
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
     bannerContent.style.display = "block";
@@ -45,6 +46,7 @@
       media.classList.add("banner__media--fadeIn");
     }, 90); // 1秒后显示image2
   }, 250); // 2秒后开始取消显示image1
+
 
 
 
@@ -450,8 +452,8 @@
           "type": "range",
           "id": "heading_right",
           "label": "Heading Right Position",
-          "min": 0,
-          "max": 100,
+          "min": -30,
+          "max": 70,
           "step": 1,
           "default": 0
         },
