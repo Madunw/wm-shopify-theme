@@ -54,7 +54,7 @@
     right: 20px;
   }
 {%- endstyle -%}
-<first-view-component
+<slideshow-component
   class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}"
   role="region"
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
@@ -248,7 +248,7 @@
       {%- endif -%}
     </div>
   {%- endif -%}
-</first-view-component>
+</slideshow-component>
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
