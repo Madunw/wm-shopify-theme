@@ -398,7 +398,7 @@ slider-component.slider-component-full-width {
   height: 100%;
 }
 
-.slideshow__controls__inside slider-button {
+.slideshow__controls__inside .slider-button {
   position: absolute;
   width:5rem;
   opacity:50%;
