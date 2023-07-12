@@ -415,3 +415,7 @@ slider-component.slider-component-full-width {
   height:100%;
   padding:auto 2rem"
 }
+
+.slideshow__controls__inside .slideshow__autopla {
+  display:none"
+}
