@@ -107,7 +107,7 @@ slideshow-component .slideshow.banner {
 {% # hide slideshow__controls bar %}
 .slideshow__controls {
   border: 0.1rem solid rgba(var(--color-foreground), 0.08);
-  display: none
+  display: flex
 }
 
 .slideshow__controls--top {
