@@ -3,6 +3,8 @@
   
   
   
+  
+  
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
     bannerContent.style.display = "block";
@@ -35,6 +37,8 @@
       media.classList.add("banner__media--fadeIn");
     }, 900); // 1秒后显示image2
   }, 2500); // 2秒后开始取消显示image1
+
+
 
 
 
@@ -155,7 +159,7 @@
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
-              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute;"
+              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute; transform: rotate({{ block.settings.heading_rotate_degrees }});"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -447,6 +451,30 @@
           "max": 100,
           "step": 1,
           "default": 10
+        },
+        {
+          "type": "select",
+          "id": "heading_rotate_degrees",
+          "options": [
+            {
+              "value": "0deg",
+              "label": "0"
+            },
+            {
+              "value": "90deg",
+              "label": "90"
+            },
+            {
+              "value": "180deg",
+              "label": "180"
+            },
+            {
+              "value": "270deg",
+              "label": "270"
+            }
+          ],
+          "default": "0deg",
+          "label": "heading_rotate_degrees"
         }
       ]
     },
