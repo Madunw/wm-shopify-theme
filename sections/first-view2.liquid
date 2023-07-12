@@ -3,7 +3,10 @@
   
   
 
-
+  setTimeout(function() {
+    var bannerContent = document.querySelector(".banner__heading");
+    bannerContent.style.display = "block";
+  }, {{ block.settings.heading_delay_time }}); // 4秒后显示div
   
  setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
@@ -138,9 +141,8 @@
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
-              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute;"
+              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute; display: none;"
               {{ block.shopify_attributes }}
-              style="display: none;"
             >
               {{ block.settings.heading }}
             </h2>
