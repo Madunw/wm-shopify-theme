@@ -1,6 +1,7 @@
 <script>
   
   
+  
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
     bannerContent.style.display = "block";
@@ -33,6 +34,7 @@
       media.classList.add("banner__media--fadeIn");
     }, 900); // 1秒后显示image2
   }, 2500); // 2秒后开始取消显示image1
+
 
 </script>
 
@@ -137,6 +139,7 @@
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
               style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute;"
               {{ block.shopify_attributes }}
+              style="display: none;"
             >
               {{ block.settings.heading }}
             </h2>
@@ -144,6 +147,7 @@
             <div
               class="banner__text rte {{ block.settings.text_style }}"
               {{ block.shopify_attributes }}
+              style="display: none;"
             >
               <p>{{ block.settings.text }}</p>
             </div>
@@ -151,6 +155,7 @@
             <div
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
               {{ block.shopify_attributes }}
+              style="display: none;"
             >
               {%- if block.settings.button_label_1 != blank -%}
                 <a
