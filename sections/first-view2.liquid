@@ -10,6 +10,7 @@
   
   
   
+  console.log("asdas")
   
   
 
@@ -18,7 +19,6 @@
     var banner = document.getElementById("Banner-{{ section.id }}");
     var media = banner.getElementsByClassName("banner__media")[0];
     media.classList.add("banner__media--fadeOut");
-    console.log("asdas")
     setTimeout(function() {
       media.innerHTML = `
         {%- liquid
@@ -41,6 +41,7 @@
       media.classList.add("banner__media--fadeIn");
     }, 900); // 1秒后显示image2
   }, 2500); // 2秒后开始取消显示image1
+
 
 
 
