@@ -9,7 +9,7 @@
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__heading");
     bannerContent.style.display = "block";
-  }, 4000); // 4秒后显示div
+  }, {{ block.settings.heading_delay_time }}); // 4秒后显示div
   
  setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
