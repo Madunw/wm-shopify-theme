@@ -63,7 +63,6 @@
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
     <div
       class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}"
-      style="position:absolute;width: 100%;height: 100%;"
     >
       <button
         type="button"
@@ -71,7 +70,6 @@
         name="previous"
         aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
         aria-controls="Slider-{{ section.id }}"
-        style="position: absolute; right:10px; width:5rem; opacity:50%; height:100%; padding:auto 2rem"
       >
         {% render 'icon-caret' %}
       </button>
@@ -81,7 +79,6 @@
         name="next"
         aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
         aria-controls="Slider-{{ section.id }}"
-        style="position: absolute; right:0px; width:5rem; opacity:50%; height:100%; padding:auto 2rem"
       >
         {% render 'icon-caret' %}
       </button>
