@@ -1,5 +1,6 @@
 <script>
   
+  
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
     bannerContent.style.display = "block";
@@ -32,20 +33,6 @@
       media.classList.add("banner__media--fadeIn");
     }, 900); // 1秒后显示image2
   }, 2500); // 2秒后开始取消显示image1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </script>
 
@@ -141,7 +128,6 @@
 
   <div
     class="banner__content  banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-    style="display: none;"
   >
     <div>
       {%- for block in section.blocks -%}
@@ -427,7 +413,7 @@
         {
           "type": "range",
           "id": "heading_top",
-          "label": "heading Top Position",
+          "label": "Heading Top Position",
           "min": 0,
           "max": 100,
           "step": 1,
@@ -436,7 +422,16 @@
         {
           "type": "range",
           "id": "heading_left",
-          "label": "heading Left Position",
+          "label": "Heading Left Position",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 10
+        },
+        {
+          "type": "range",
+          "id": "Heading_delay_time",
+          "label": "Delay Time",
           "min": 0,
           "max": 100,
           "step": 1,
