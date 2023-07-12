@@ -7,9 +7,9 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>FRAME SHIROYAMA<\/strong>",
-            "heading_font_size": 77,
-            "heading_top": 76,
-            "heading_left": 66,
+            "heading_font_size": 26,
+            "heading_top": 23,
+            "heading_left": 21,
             "heading_rotate_degrees": "90deg"
           }
         },
