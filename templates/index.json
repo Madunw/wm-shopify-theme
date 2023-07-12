@@ -16,9 +16,19 @@
         "d82ff97c-94a3-4924-a442-d4c211a5e691": {
           "type": "heading",
           "settings": {
-            "heading": "人と作品をつなげる　そのお手伝いを額縁から",
+            "heading": "人と作品をつなげる",
             "heading_font_size": 26,
             "heading_top": 78,
+            "heading_right": 0,
+            "heading_rotate_degrees": "0deg"
+          }
+        },
+        "ba26a417-a70b-40e9-9a85-c1b9ab4d715e": {
+          "type": "heading",
+          "settings": {
+            "heading": "そのお手伝いを額縁から",
+            "heading_font_size": 10,
+            "heading_top": 10,
             "heading_right": 0,
             "heading_rotate_degrees": "0deg"
           }
@@ -26,7 +36,8 @@
       },
       "block_order": [
         "4a650201-9d83-4642-ad20-d6314b63a9f5",
-        "d82ff97c-94a3-4924-a442-d4c211a5e691"
+        "d82ff97c-94a3-4924-a442-d4c211a5e691",
+        "ba26a417-a70b-40e9-9a85-c1b9ab4d715e"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9619.jpg",
