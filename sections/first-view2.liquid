@@ -11,13 +11,17 @@
   
   
   
-
+  
+  setTimeout(function() {
+    var bannerContent = document.querySelector(".banner__heading");
+    bannerContent.style.display = "block";
+    console.log("asdas");
+  }, 4000}); // 4秒后显示div
   
  setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
     var media = banner.getElementsByClassName("banner__media")[0];
     media.classList.add("banner__media--fadeOut");
-    console.log("asdas")
     setTimeout(function() {
       media.innerHTML = `
         {%- liquid
