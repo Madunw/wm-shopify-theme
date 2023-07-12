@@ -1,33 +1,16 @@
 <script>
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-console.log("asdas");
-console.log({{ section.settings }});
-
-  
-
+  setTimeout(function() {
+    var bannerContent = document.querySelector(".banner__content");
+    bannerContent.style.display = "block";
+  }, 4000); // 4秒后显示div
   
  setTimeout(function() {
     var banner = document.getElementById("Banner-{{ section.id }}");
     var media = banner.getElementsByClassName("banner__media")[0];
     media.classList.add("banner__media--fadeOut");
+
     setTimeout(function() {
       media.innerHTML = `
         {%- liquid
@@ -50,14 +33,6 @@ console.log({{ section.settings }});
       media.classList.add("banner__media--fadeIn");
     }, 900); // 1秒后显示image2
   }, 2500); // 2秒后开始取消显示image1
-
-
-
-
-
-
-
-
 
 
 
@@ -168,6 +143,7 @@ console.log({{ section.settings }});
 
   <div
     class="banner__content  banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    style="display: none;"
   >
     <div>
       {%- for block in section.blocks -%}
@@ -175,7 +151,7 @@ console.log({{ section.settings }});
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
-              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute; display: none;"
+              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute;"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -184,7 +160,6 @@ console.log({{ section.settings }});
             <div
               class="banner__text rte {{ block.settings.text_style }}"
               {{ block.shopify_attributes }}
-              style="display: none;"
             >
               <p>{{ block.settings.text }}</p>
             </div>
@@ -192,7 +167,6 @@ console.log({{ section.settings }});
             <div
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
               {{ block.shopify_attributes }}
-              style="display: none;"
             >
               {%- if block.settings.button_label_1 != blank -%}
                 <a
@@ -455,7 +429,7 @@ console.log({{ section.settings }});
         {
           "type": "range",
           "id": "heading_top",
-          "label": "Heading Top Position",
+          "label": "heading Top Position",
           "min": 0,
           "max": 100,
           "step": 1,
@@ -464,20 +438,11 @@ console.log({{ section.settings }});
         {
           "type": "range",
           "id": "heading_left",
-          "label": "Heading Left Position",
+          "label": "heading Left Position",
           "min": 0,
           "max": 100,
           "step": 1,
           "default": 10
-        },
-        {
-          "type": "range",
-          "id": "Heading_delay_time",
-          "label": "Delay Time",
-          "min": 0,
-          "max": 10,
-          "step": 1,
-          "default": 3
         }
       ]
     },
