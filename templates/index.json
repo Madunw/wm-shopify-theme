@@ -9,12 +9,33 @@
             "heading": "<strong>FRMAE SHIROYAMA<\/strong>",
             "heading_size": "h1",
             "heading_top": 10,
-            "heading_left": 10
+            "heading_left": 10,
+            "Heading_delay_time": 10
+          }
+        },
+        "76a0b0ee-3dca-4a82-8d3c-e0c07b7d19ff": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "0296bc8e-cfea-479f-a01b-71a5be29d932": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "4a650201-9d83-4642-ad20-d6314b63a9f5"
+        "4a650201-9d83-4642-ad20-d6314b63a9f5",
+        "76a0b0ee-3dca-4a82-8d3c-e0c07b7d19ff",
+        "0296bc8e-cfea-479f-a01b-71a5be29d932"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9619.jpg",
