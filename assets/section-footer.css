@@ -446,7 +446,8 @@
 }
 
 .copyright {
-  padding: 3rem 5rem;
+  padding: 0 5rem;
+  margin: 3rem 0;
 }
 
 .copyright__content {
