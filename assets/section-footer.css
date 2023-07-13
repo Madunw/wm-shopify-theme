@@ -458,9 +458,8 @@
   text-decoration: none;
 }
 
-language-localization {
-      float: right;
-  color:red;
+.language-localization {
+  float: right;
 }
 
 .policies {
