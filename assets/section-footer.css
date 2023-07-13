@@ -447,11 +447,11 @@
 
 .copyright {
   padding: 0 5rem;
+  margin: 3rem 0;
 }
 
 .copyright__content {
   font-size: 1.5rem;
-  margin: 3rem 0;
 }
 
 .copyright__content a {
