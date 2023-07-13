@@ -458,6 +458,10 @@
   text-decoration: none;
 }
 
+language-localization {
+      float: right;
+}
+
 .policies {
   display: inline;
 }
