@@ -447,6 +447,8 @@
 
 .copyright__content {
   font-size: 1.5rem;
+  padding: 0 5rem;
+  margin: 3rem;
 }
 
 .copyright__content a {
