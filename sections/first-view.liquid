@@ -24,23 +24,6 @@
         display: block;
       }
     }
-
-    @media screen {
-      {% assign aspect_ratio = section.blocks.first.settings.image.aspect_ratio | divided_by: 100 %}
-      {% assign padding_bottom = 1 | divided_by: aspect_ratio | times: 100 %}
-
-      {%- if section.settings.layout == 'full_bleed' -%}
-        {% assign slide_width = 100 %}
-        {% assign slide_height = slide_width | divided_by: aspect_ratio %}
-        {% assign section_width = section.settings.slide_height | append: 'vw' %}
-        {% assign section_height = slide_height | append: 'vh' %}
-        {% if section_width < section_height -%}
-          .slideshow__controls {
-            display: none;
-          }
-        {%- endif -%}
-      {%- endif -%}
-    }
   {%- endstyle -%}
 {%- endif -%}
 
