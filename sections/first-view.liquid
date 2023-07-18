@@ -238,6 +238,29 @@
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    var sliderControls = document.getElementById('slider-controls');
+    var sectionWidth = document.querySelector('.section').offsetWidth;
+    var sectionHeight = document.querySelector('.section').offsetHeight;
+
+    if (sectionWidth < sectionHeight) {
+      sliderControls.style.display = 'none';
+    }
+  });
+
+  window.addEventListener('resize', function() {
+    var sliderControls = document.getElementById('slider-controls');
+    var sectionWidth = document.querySelector('.section').offsetWidth;
+    var sectionHeight = document.querySelector('.section').offsetHeight;
+
+    if (sectionWidth < sectionHeight) {
+      sliderControls.style.display = 'none';
+    } else {
+      sliderControls.style.display = 'block';
+    }
+  });
+</script>
 
 {% schema %}
 {
