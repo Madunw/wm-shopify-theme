@@ -34,9 +34,20 @@
   aria-label="{{ section.settings.accessibility_info | escape }}"
 >
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
+    {%- assign device_width = 100 -%}
+    {%- assign device_height = 100 -%}
+    {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
+      {%- assign image_aspect_ratio = section.blocks.first.settings.image.aspect_ratio -%}
+      {%- assign image_ratio = 1 | divided_by: image_aspect_ratio | times: 100 -%}
+      {%- if image_ratio < 100 -%}
+        {%- assign device_width = image_ratio -%}
+      {%- else -%}
+        {%- assign device_height = 100 | divided_by: image_ratio -%}
+      {%- endif -%}
+    {%- endif -%}
     <div
       class="slideshow__controls slideshow__controls__inside slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}"
-      style="position:absolute;width: 100%;height: 100%;"
+      style="position:absolute;width: {{ device_width }}%;height: {{ device_height }}%;{% if device_width < device_height %} display: none;{% endif %}"
     >
       <button
         type="button"
