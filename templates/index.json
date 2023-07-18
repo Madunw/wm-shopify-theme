@@ -67,7 +67,6 @@
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "text_alignment_mobile": "center"
-
           }
         },
         "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-1": {
@@ -121,6 +120,7 @@
     },
     "8a5c072c-dc4e-48ff-b478-5d6c9ed47dec": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--19501518717220__8a5c072c-dc4e-48ff-b478-5d6c9ed47dec-1689133826e9a67508-0": {
           "type": "slide",
