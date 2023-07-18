@@ -36,7 +36,7 @@
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
     <div
       class="slideshow__controls slideshow__controls__inside slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}"
-      style="position:absolute;width: 100%;height: 100%;{% if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank and section.blocks.first.settings.image.aspect_ratio < 1 %}display: none;{% endif %}"
+      style="position:absolute;width: 100%;height: 100%;{% if section.blocks.first.settings.image != blank and section.blocks.first.settings.image.aspect_ratio < 1 %}display: none;{% endif %}"
     >
       <button
         type="button"
