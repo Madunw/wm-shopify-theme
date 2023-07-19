@@ -40,10 +40,30 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "7d908a87-ccff-4ed4-b6de-f1d9435cb897": {
+      "type": "nav-bar-original",
+      "blocks": {
+        "sections--19501518487844__7d908a87-ccff-4ed4-b6de-f1d9435cb897-1689730770b645d613-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo.png",
+            "logo_size": 10,
+            "logo_top": 10,
+            "logo_left": 10
+          }
+        }
+      },
+      "block_order": [
+        "sections--19501518487844__7d908a87-ccff-4ed4-b6de-f1d9435cb897-1689730770b645d613-0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "7d908a87-ccff-4ed4-b6de-f1d9435cb897"
   ]
 }
