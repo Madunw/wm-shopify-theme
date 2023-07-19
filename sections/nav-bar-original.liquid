@@ -1,7 +1,58 @@
+{% if section.settings.logo %}
+  <a href="{{ routes.root_url }}">
+    <div
+      class="logo-wrapper"
+      style="top: {{ section.settings.logo_top }}vh; left: {{ section.settings.logo_left }}vw;"
+    >
+      <img
+        src="{{ section.settings.logo | img_url: 'master' }}"
+        alt="Logo"
+        class="logo"
+        style="width: {{ section.settings.logo_size }}vw;"
+      >
+    </div>
+  </a>
+{% endif %}
+
 {% schema %}
 {
   "name": "Nav-bar-original",
-  "settings": []
+  "settings": [{
+      "type": "header",
+      "content": "Logo"
+    },
+    {
+  "type": "image_picker",
+  "id": "logo",
+  "label": "Logo"
+},
+    {
+  "type": "range",
+  "id": "logo_size",
+  "label": "Logo Size",
+  "min": 1,
+  "max": 100,
+  "step": 1,
+  "default": 10
+},
+{
+  "type": "range",
+  "id": "logo_top",
+  "label": "Logo Top Position",
+  "min": 0,
+  "max": 100,
+  "step": 1,
+  "default": 10
+},
+{
+  "type": "range",
+  "id": "logo_left",
+  "label": "Logo Left Position",
+  "min": 0,
+  "max": 100,
+  "step": 1,
+  "default": 10
+}]
 }
 {% endschema %}
 
