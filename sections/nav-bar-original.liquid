@@ -1,4 +1,5 @@
 {% if section.settings.logo %}
+  {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
   <a href="{{ routes.root_url }}">
     <div
       class="logo-wrapper"
@@ -6,7 +7,8 @@
     >
       <img
         src="{{ section.settings.logo | img_url: 'master' }}"
-        alt="Logo"
+        alt:
+        logo_alt,
         class="logo"
         style="width: {{ section.settings.logo_size }}vw;"
       >
