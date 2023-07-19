@@ -1,44 +1,7 @@
 {
   "sections": {
-    "186621e0-d737-49cf-adbf-09636a91fe84": {
-      "type": "first-view2",
-      "blocks": {
-        "4a650201-9d83-4642-ad20-d6314b63a9f5": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>FRAME SHIROYAMA<\/strong>",
-            "heading_font_size": 80,
-            "heading_top": 37,
-            "heading_right": -25,
-            "heading_rotate_degrees": "90deg"
-          }
-        },
-        "d82ff97c-94a3-4924-a442-d4c211a5e691": {
-          "type": "heading",
-          "settings": {
-            "heading": "人と作品をつなげる",
-            "heading_font_size": 24,
-            "heading_top": 80,
-            "heading_right": 14,
-            "heading_rotate_degrees": "0deg"
-          }
-        },
-        "ba26a417-a70b-40e9-9a85-c1b9ab4d715e": {
-          "type": "heading",
-          "settings": {
-            "heading": "そのお手伝いを額縁から",
-            "heading_font_size": 25,
-            "heading_top": 85,
-            "heading_right": 4,
-            "heading_rotate_degrees": "0deg"
-          }
-        }
-      },
-      "block_order": [
-        "4a650201-9d83-4642-ad20-d6314b63a9f5",
-        "d82ff97c-94a3-4924-a442-d4c211a5e691",
-        "ba26a417-a70b-40e9-9a85-c1b9ab4d715e"
-      ],
+    "02261057-a7e1-4ee6-9d0e-04bbf9888eba": {
+      "type": "first-view2-original",
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9593.jpg",
         "image_2": "shopify:\/\/shop_images\/202212___21-2.jpg",
@@ -48,19 +11,19 @@
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
-    "1c78b3ec-a5fc-40f9-829c-de4eb3467acc": {
-      "type": "first-view",
+    "446e80d3-3826-48f6-9b31-373769037d07": {
+      "type": "first-view-original",
       "blocks": {
-        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-0": {
+        "template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DAI9568-Edit.png",
+            "image": "shopify:\/\/shop_images\/s-1920x1920_v-frms_webp_7bbc3182-2b58-4952-9987-a1257787abae.png",
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -69,7 +32,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-1": {
+        "template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-1": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/DAI9415.png",
@@ -83,8 +46,8 @@
         }
       },
       "block_order": [
-        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-0",
-        "template--19501518717220__1c78b3ec-a5fc-40f9-829c-de4eb3467acc-1688436846ac62e6f0-1"
+        "template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-0",
+        "template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/0f31a7e2981152155bfce3b094f21768.jpg",
@@ -93,7 +56,7 @@
         "auto_rotate": true,
         "change_slides_speed": 3,
         "logo_size": 10,
-        "logo_top": 13,
+        "logo_top": 10,
         "logo_left": 10,
         "image_behavior": "none",
         "show_text_below": true,
@@ -117,68 +80,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "8a5c072c-dc4e-48ff-b478-5d6c9ed47dec": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "template--19501518717220__8a5c072c-dc4e-48ff-b478-5d6c9ed47dec-1689133826e9a67508-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/small-business-interior.jpg",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--19501518717220__8a5c072c-dc4e-48ff-b478-5d6c9ed47dec-1689133826e9a67508-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--19501518717220__8a5c072c-dc4e-48ff-b478-5d6c9ed47dec-1689133826e9a67508-0",
-        "template--19501518717220__8a5c072c-dc4e-48ff-b478-5d6c9ed47dec-1689133826e9a67508-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "ambient",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
-    "186621e0-d737-49cf-adbf-09636a91fe84",
-    "1c78b3ec-a5fc-40f9-829c-de4eb3467acc",
-    "ab206d85-b3e0-48b3-86a6-09303d7df330",
-    "8a5c072c-dc4e-48ff-b478-5d6c9ed47dec"
+    "02261057-a7e1-4ee6-9d0e-04bbf9888eba",
+    "446e80d3-3826-48f6-9b31-373769037d07",
+    "ab206d85-b3e0-48b3-86a6-09303d7df330"
   ]
 }
