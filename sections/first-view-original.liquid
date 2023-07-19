@@ -94,7 +94,7 @@
   {% if section.settings.logo %}
     <a href="{{ routes.root_url }}">
       <div
-        class="logo-wrapper"
+        class="logo-wrapper-fw"
         style="top: {{ section.settings.logo_top }}vh; left: {{ section.settings.logo_left }}vw;"
       >
         <img
@@ -144,7 +144,7 @@
   >
     {%- for block in section.blocks -%}
       <style>
-              .logo-wrapper {
+              .logo-wrapper-fw {
           position: absolute;
           top: 20px;
           left: 20px;
