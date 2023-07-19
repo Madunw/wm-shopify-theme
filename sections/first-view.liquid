@@ -1,7 +1,7 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-{{ 'component-first-view.css' | asset_url | stylesheet_tag -}}
+{{ 'component-first-view.css' | asset_url | stylesheet_tag }}
 {%- # custom css %}
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
@@ -94,14 +94,16 @@
   {% if section.settings.logo %}
     <a href="{{ routes.root_url }}">
       <div
-        class="logo-wrapper"
+        class="logo-wrapper-fw"
         style="top: {{ section.settings.logo_top }}vh; left: {{ section.settings.logo_left }}vw;"
       >
         <img
           src="{{ section.settings.logo | img_url: 'master' }}"
-          alt="Logo"
+          alt="logo_alt,"
           class="logo"
-          style="width: {{ section.settings.logo_size }}vw;"
+          loading="lazy"
+          width="{{ section.settings.logo_size }}vw"
+          height="width"
         >
       </div>
     </a>
@@ -144,7 +146,7 @@
   >
     {%- for block in section.blocks -%}
       <style>
-              .logo-wrapper {
+              .logo-wrapper-fw {
           position: absolute;
           top: 20px;
           left: 20px;
@@ -262,11 +264,11 @@
 
 {% schema %}
 {
-  "name": "first-view",
+  "name": "first-view-original",
   "tag": "section",
   "class": "section",
   "disabled_on": {
-    "groups": ["footer"]
+    "groups": ["header","footer"]
   },
   "settings": [
     {
@@ -550,7 +552,7 @@
   ],
   "presets": [
     {
-      "name": "first-view",
+      "name": "first-view-original",
       "blocks": [
         {
           "type": "slide"
