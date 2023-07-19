@@ -26,6 +26,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
@@ -44,6 +45,7 @@
     "7d908a87-ccff-4ed4-b6de-f1d9435cb897": {
       "type": "nav-bar-original",
       "settings": {
+        "menu": "main-menu",
         "logo": "shopify:\/\/shop_images\/logo.png",
         "logo_size": 10,
         "logo_top": 10,
