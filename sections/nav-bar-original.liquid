@@ -1,19 +1,17 @@
 123
-{%- if section.blocks.logo.settings.logo %}
-  <a href="{{ routes.root_url }}">
-    <div
-      class="logo-wrapper"
-      style="top: {{ section.blocks.logo.settings.logo_top }}vh; left: {{ section.blocks.logo.settings.logo_left }}vw;"
+<a href="{{ routes.root_url }}">
+  <div
+    class="logo-wrapper"
+    style="top: {{ section.blocks.logo.settings.logo_top }}vh; left: {{ section.blocks.logo.settings.logo_left }}vw;"
+  >
+    <img
+      src="{{ section.blocks.logo.settings.logo | img_url: 'master' }}"
+      alt="Logo"
+      class="logo"
+      style="width: {{ section.blocks.logo.settings.logo_size }}vw;"
     >
-      <img
-        src="{{ section.blocks.logo.settings.logo | img_url: 'master' }}"
-        alt="Logo"
-        class="logo"
-        style="width: {{ section.blocks.logo.settings.logo_size }}vw;"
-      >
-    </div>
-  </a>
-{% endif %}
+  </div>
+</a>
 aassdda
 {% schema %}
 {
