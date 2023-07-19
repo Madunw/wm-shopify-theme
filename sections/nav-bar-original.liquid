@@ -1,20 +1,17 @@
 <nav class="nav-bar">
-  
   {% if section.settings.logo %}
   {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
   <a href="{{ routes.root_url }}">
     <div
       class="logo-wrapper"
-      style="top: {{ section.settings.logo_top }}vh; left: {{ section.settings.logo_left }}vw;"
     >
       <img
         src="{{ section.settings.logo | img_url: 'master' }}"
         alt:
         logo_alt,
-        class="logo"
-        ,
-        loading: "lazy",
-        style="width: {{ section.settings.logo_size }}vw;"
+        class="logo",
+        loading="lazy",
+        width: {{ section.settings.logo_size }}vw"
       >
     </div>
   </a>
