@@ -1,4 +1,6 @@
-{% if section.settings.logo %}
+<nav class="nav-bar">
+  
+  {% if section.settings.logo %}
   {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
   <a href="{{ routes.root_url }}">
     <div
@@ -17,7 +19,7 @@
     </div>
   </a>
 {% endif %}
-<nav class="header__inline-menu">
+
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>
@@ -104,6 +106,25 @@
     {%- endfor -%}
   </ul>
 </nav>
+
+{%- style -%}
+  .nav-bar {
+    position: fixed
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-header {
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .header {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
 
 {% schema %}
 {
