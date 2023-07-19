@@ -26,7 +26,7 @@
     </a>
   {% endif %}
 
-  <ul class="list-menu list-menu--inline" role="list">
+  <ul class="nav-list-menu" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
@@ -119,7 +119,9 @@
     left: {{ section.settings.left }}vw;
     top: {{ section.settings.top }}vh;
   }
-
+  .nav-list-menu {
+    list-style: none;
+  }
   @media screen and (min-width: 750px) {
     .section-header {
       margin-bottom: {{ section.settings.margin_bottom }}px;
