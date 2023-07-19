@@ -99,9 +99,11 @@
       >
         <img
           src="{{ section.settings.logo | img_url: 'master' }}"
-          alt="Logo"
+          alt="logo_alt,"
           class="logo"
-          style="width: {{ section.settings.logo_size }}vw;"
+          loading="lazy"
+          width="{{ section.settings.logo_size }}vw"
+          height="width"
         >
       </div>
     </a>
