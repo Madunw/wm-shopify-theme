@@ -86,7 +86,7 @@
           <a
             id="HeaderMenu-{{ link.handle }}"
             href="{{ link.url }}"
-            class="header__menu-item list-menu__item link link--text focus-inset"
+            class="header__menu-item nav-link"
             {% if link.current %}
               aria-current="page"
             {% endif %}
@@ -113,6 +113,13 @@
   }
   .nav-list-menu {
     list-style: none;
+    margin-top:{{ section.settings.nav_margin_top }}rem
+  }
+  .nav-list-menu li {
+    margin-bottom:{{ section.settings.font_space }}rem
+  }
+  .nav-link{
+    font-size: {{ section.settings.font_size }}rem
   }
 {%- endstyle -%}
 
@@ -163,6 +170,34 @@
   "max": 500,
   "step": 20,
   "default": 200
+}
+  ,{
+      "type": "header",
+      "content": "Navigatior"
+    },{
+  "type": "range",
+  "id": "nav_margin_top",
+  "label": "Navigation Margin Top",
+  "min": 0,
+  "max": 50,
+  "step": 1,
+  "default": 5
+},{
+  "type": "range",
+  "id": "font_size",
+  "label": "Font Size",
+  "min": 0.5,
+  "max": 5,
+  "step": 0.1,
+  "default": 2
+},{
+  "type": "range",
+  "id": "font_space",
+  "label": "Font Space",
+  "min": 0,
+  "max": 10,
+  "step": 0.1,
+  "default": 0
 }],
   "blocks": []
 }
