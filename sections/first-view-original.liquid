@@ -181,6 +181,8 @@
                 assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
               endif
             -%}
+
+            <div style="z-index: 999;">testtext</div>
             {{
               block.settings.image
               | image_url: width: 3840
@@ -189,7 +191,6 @@
           {%- else -%}
             {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
             {%- if placeholder_slide == 1 -%}
-              <div style="z-index: 999;">testtext</div>
               {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- else -%}
               {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
