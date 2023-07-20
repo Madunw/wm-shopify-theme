@@ -1,1 +1,160 @@
-{"sections":{"02261057-a7e1-4ee6-9d0e-04bbf9888eba":{"type":"first-view2-original","settings":{"image":"shopify:\/\/shop_images\/DAI9593.jpg","image_2":"shopify:\/\/shop_images\/202212___21-2.jpg","image_overlay_opacity":0,"image_height":"fullscreen","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"446e80d3-3826-48f6-9b31-373769037d07":{"type":"first-view-original","blocks":{"template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-0":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/s-1920x1920_v-frms_webp_7bbc3182-2b58-4952-9987-a1257787abae.png","box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}},"template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-1":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/DAI9415.png","box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-0","template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-1"],"settings":{"image":"shopify:\/\/shop_images\/0f31a7e2981152155bfce3b094f21768.jpg","layout":"full_bleed","slide_height":"fullscreen","auto_rotate":true,"change_slides_speed":3,"logo_size":10,"logo_top":10,"logo_left":10,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"ab206d85-b3e0-48b3-86a6-09303d7df330":{"type":"featured-blog","disabled":true,"settings":{"heading":"Blog posts","heading_size":"h2","blog":"ニュース","post_limit":2,"columns_desktop":1,"color_scheme":"background-1","show_image":true,"show_date":true,"show_author":true,"show_view_all":true,"padding_top":36,"padding_bottom":36}}},"order":["02261057-a7e1-4ee6-9d0e-04bbf9888eba","446e80d3-3826-48f6-9b31-373769037d07","ab206d85-b3e0-48b3-86a6-09303d7df330"]}
+{
+  "sections": {
+    "02261057-a7e1-4ee6-9d0e-04bbf9888eba": {
+      "type": "first-view2-original",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI9593.jpg",
+        "image_2": "shopify:\/\/shop_images\/202212___21-2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "fullscreen",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "446e80d3-3826-48f6-9b31-373769037d07": {
+      "type": "first-view-original",
+      "blocks": {
+        "template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-0": {
+          "type": "slide",
+          "settings": {
+            "box_horizontal_position": 30,
+            "box_vertical_position": 12,
+            "image": "shopify:\/\/shop_images\/s-1920x1920_v-frms_webp_7bbc3182-2b58-4952-9987-a1257787abae.png",
+            "heading": "アルミフレーム",
+            "heading_size": "h1",
+            "subheading": "作品を引き立てる額の印象を与えないシンプルなフレームです。",
+            "button_label": "詳細",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-1": {
+          "type": "slide",
+          "settings": {
+            "box_horizontal_position": 31,
+            "box_vertical_position": 10,
+            "image": "shopify:\/\/shop_images\/DAI9415.png",
+            "heading": "エアフレーム",
+            "heading_size": "h1",
+            "subheading": "耐久性のある樹脂フレームは軽量で気軽に飾れる。環境にも配慮した樹脂素材のフレームです。",
+            "button_label": "エアフレーム",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-0",
+        "template--19501518717220__446e80d3-3826-48f6-9b31-373769037d07-1689728287e8b12799-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/0f31a7e2981152155bfce3b094f21768.jpg",
+        "layout": "full_bleed",
+        "slide_height": "fullscreen",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "logo_size": 10,
+        "logo_top": 10,
+        "logo_left": 10,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "ab206d85-b3e0-48b3-86a6-09303d7df330": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h2",
+        "blog": "ニュース",
+        "post_limit": 2,
+        "columns_desktop": 1,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "efaec308-3e50-4e49-b7fd-c28ba056e955": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image asd",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "asd",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-1",
+        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    }
+  },
+  "order": [
+    "02261057-a7e1-4ee6-9d0e-04bbf9888eba",
+    "446e80d3-3826-48f6-9b31-373769037d07",
+    "ab206d85-b3e0-48b3-86a6-09303d7df330",
+    "efaec308-3e50-4e49-b7fd-c28ba056e955"
+  ]
+}
