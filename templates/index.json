@@ -81,7 +81,6 @@
     },
     "ab206d85-b3e0-48b3-86a6-09303d7df330": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h2",
@@ -96,65 +95,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "efaec308-3e50-4e49-b7fd-c28ba056e955": {
-      "type": "slideshow",
-      "blocks": {
-        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image asd",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "asd",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-2": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-1",
-        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-2"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
     "02261057-a7e1-4ee6-9d0e-04bbf9888eba",
     "446e80d3-3826-48f6-9b31-373769037d07",
-    "ab206d85-b3e0-48b3-86a6-09303d7df330",
-    "efaec308-3e50-4e49-b7fd-c28ba056e955"
+    "ab206d85-b3e0-48b3-86a6-09303d7df330"
   ]
 }
