@@ -288,7 +288,7 @@
 }
 
 .footer__content-bottom-wrapper--center {
-  justify-content: center;
+  justify-content: left;
 }
 
 .footer__copyright {
