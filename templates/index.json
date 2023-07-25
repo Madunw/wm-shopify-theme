@@ -17,6 +17,53 @@
         "show_text_below": true
       }
     },
+    "ca28b015-ff81-4a76-a12e-070011fc618d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "会社概要",
+            "heading_size": "h2"
+          }
+        },
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>芸術学校を卒業するまでにフレームの購入とレンタルする際の金銭的な負荷を痛感した株式会社白山の代表は、アーティストの自由な展示や一般のお客様の空間づくりの一助となるため歴史のある浅草に額縁専門店を起業しました。<br\/><br\/>本社は海外の工場から額縁を厳選し、手に取りやすい価格で品質の高い商品を提供しております。<br\/><\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-heading-1",
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-text-1",
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC00261.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "446e80d3-3826-48f6-9b31-373769037d07": {
       "type": "first-view-original",
       "blocks": {
@@ -247,62 +294,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "ca28b015-ff81-4a76-a12e-070011fc618d": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "会社概要",
-            "heading_size": "h2"
-          }
-        },
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>芸術学校を卒業するまでにフレームの購入とレンタルする際の金銭的な負荷を痛感した株式会社白山の代表は、アーティストの自由な展示や一般のお客様の空間づくりの一助となるため歴史のある浅草に額縁専門店を起業しました。<br\/><br\/>本社は海外の工場から額縁を厳選し、手に取りやすい価格で品質の高い商品を提供しております。<br\/><\/p>",
-            "text_style": "subtitle"
-          }
-        },
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-heading-1",
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-text-1",
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC00261.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "02261057-a7e1-4ee6-9d0e-04bbf9888eba",
+    "ca28b015-ff81-4a76-a12e-070011fc618d",
     "446e80d3-3826-48f6-9b31-373769037d07",
     "ab206d85-b3e0-48b3-86a6-09303d7df330",
     "c6855efe-4a55-4295-bff3-a754b48b7196",
     "91a294f9-68ea-462e-b427-db7db227a778",
-    "14246164-cbdb-4a91-a867-c405824a3740",
-    "ca28b015-ff81-4a76-a12e-070011fc618d"
+    "14246164-cbdb-4a91-a867-c405824a3740"
   ]
 }
