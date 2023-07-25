@@ -1,0 +1,119 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "88358235-f701-45c9-b3c9-79a2870faf9f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19697669374244__88358235-f701-45c9-b3c9-79a2870faf9f-16885471562565e003-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "もっと気軽に展示会を",
+            "heading_size": "h1",
+            "heading_top": 10,
+            "heading_left": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--19697669374244__88358235-f701-45c9-b3c9-79a2870faf9f-16885471562565e003-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI0021-Edit-min.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "25d4485f-ed00-4a2d-97b4-27e7e45b9722": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19697669374244__25d4485f-ed00-4a2d-97b4-27e7e45b9722-1688547227c16e1555-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "レンタルサービス",
+            "heading_size": "h1"
+          }
+        },
+        "template--19697669374244__25d4485f-ed00-4a2d-97b4-27e7e45b9722-1688547227c16e1555-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>FRAME SHIROYAMAではアルミフレームのレンタルサービスを行っております。<br\/>個展、グループ展などにぜひご利用ください。<\/h3>"
+          }
+        },
+        "41613e78-9135-4d84-a7e1-b4be0b4e0117": {
+          "type": "text",
+          "settings": {
+            "text": "<p>・レンタルーサービスはwm-13 のみを提供しております。・以上は全て税込価格です。<br\/>・貸出期間は9 泊10 日以内です。延長料金1 日毎に10％かかります。<br\/>・内容物はフレーム本体、アクリル板、裏板、 金具類（コーナー、スプリング、ハンガー）、かぶせ箱です。<br\/>・付いているアクリル板は新品ではないため、多少キズがあります。<br\/>・弊社はできる限り展示に影響ないアクリルを提供いたします。<br\/>・レンタル品の本体とかぶせ箱などの付属品に汚損、破損が生じた場合は後日実費を請求させていただきます。<br\/>・基本的には中古ですので気になる方は新品をご購入ください。<br\/>・往復送料はお客様のご負担となります。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19697669374244__25d4485f-ed00-4a2d-97b4-27e7e45b9722-1688547227c16e1555-0",
+        "template--19697669374244__25d4485f-ed00-4a2d-97b4-27e7e45b9722-1688547227c16e1555-1",
+        "41613e78-9135-4d84-a7e1-b4be0b4e0117"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "35c6da6e-76d4-4a39-9e2e-20729d8cd0e7": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19697669374244__35c6da6e-76d4-4a39-9e2e-20729d8cd0e7-1688547493ec11fbfd-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/arumi.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19697669374244__35c6da6e-76d4-4a39-9e2e-20729d8cd0e7-1688547493ec11fbfd-0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "88358235-f701-45c9-b3c9-79a2870faf9f",
+    "25d4485f-ed00-4a2d-97b4-27e7e45b9722",
+    "35c6da6e-76d4-4a39-9e2e-20729d8cd0e7"
+  ]
+}
