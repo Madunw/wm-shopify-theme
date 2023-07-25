@@ -67,7 +67,7 @@
   .footer__content-bottom-wrapper {
     flex-wrap: wrap;
     row-gap: 1.5rem;
-    justify-content: center;
+    justify-content: left;
     padding: 0px;
   }
 }
