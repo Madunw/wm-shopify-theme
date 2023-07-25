@@ -49,8 +49,8 @@
         "top": 10,
         "left": 5,
         "logo": "shopify:\/\/shop_images\/logo.png",
-        "logo_width": 180,
-        "nav_margin_top": 6,
+        "logo_width": 160,
+        "nav_margin_top": 3,
         "font_size": 2,
         "font_space": 1.7
       }
