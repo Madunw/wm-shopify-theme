@@ -3,6 +3,7 @@
   
   
   
+  
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
     bannerContent.style.display = "block";
@@ -35,6 +36,7 @@
       media.classList.add("banner__media--fadeIn");
     }, 1000); // 1秒后显示image2
   }, 2000); // 2秒后开始取消显示image1
+
 
 
 
@@ -141,7 +143,7 @@
         {%- when 'heading' -%}
           <h1
             class="banner__heading inline-richtext "
-            style="font-size:{{ block.settings.heading_font_size }}px; top: {{ block.settings.heading_top }}vh; right: {{ block.settings.heading_right }}vw; position:absolute; transform: rotate({{ block.settings.heading_rotate_degrees }});"
+            style="font-size:{{ block.settings.heading_font_size }}rem; top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_right }}vw; position: relative; transform: rotate({{ block.settings.heading_rotate_degrees }});"
             {{ block.shopify_attributes }}
           >
             {{ block.settings.heading }}
@@ -399,10 +401,10 @@
           "type": "range",
           "id": "heading_font_size",
           "min": 0,
-          "max": 100,
+          "max": 10,
           "step": 1,
-          "default": 10,
-          "label": "Heading Size (px)"
+          "default": 5,
+          "label": "Heading Size (rem)"
         },
         {
           "type": "range",
