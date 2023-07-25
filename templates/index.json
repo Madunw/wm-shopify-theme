@@ -164,12 +164,98 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "91a294f9-68ea-462e-b427-db7db227a778": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-heading-1",
+        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-text-1",
+        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "14246164-cbdb-4a91-a867-c405824a3740": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--19944233533732__14246164-cbdb-4a91-a867-c405824a3740-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "テスト　お知らせ　１ｓｔ",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "d881f3ae-25a2-4613-85ab-cb7a4aa69565": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "テスト　お知らせ　２ｎｄ",
+            "icon": "none",
+            "row_content": "<p>asdasdafahytekujetbarvec<\/p>",
+            "page": "商品"
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233533732__14246164-cbdb-4a91-a867-c405824a3740-collapsible_row-1",
+        "d881f3ae-25a2-4613-85ab-cb7a4aa69565"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "お知らせ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/DAI0021-Edit-min.jpg",
+        "image_ratio": "small",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "02261057-a7e1-4ee6-9d0e-04bbf9888eba",
     "446e80d3-3826-48f6-9b31-373769037d07",
     "ab206d85-b3e0-48b3-86a6-09303d7df330",
-    "c6855efe-4a55-4295-bff3-a754b48b7196"
+    "c6855efe-4a55-4295-bff3-a754b48b7196",
+    "91a294f9-68ea-462e-b427-db7db227a778",
+    "14246164-cbdb-4a91-a867-c405824a3740"
   ]
 }
