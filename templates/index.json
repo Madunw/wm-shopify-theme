@@ -17,6 +17,53 @@
         "show_text_below": true
       }
     },
+    "ca28b015-ff81-4a76-a12e-070011fc618d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "会社概要",
+            "heading_size": "h2"
+          }
+        },
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>芸術学校を卒業するまでにフレームの購入とレンタルする際の金銭的な負荷を痛感した株式会社白山の代表は、アーティストの自由な展示や一般のお客様の空間づくりの一助となるため歴史のある浅草に額縁専門店を起業しました。<br\/><br\/>本社は海外の工場から額縁を厳選し、手に取りやすい価格で品質の高い商品を提供しております。<\/p><p><br\/>商品は展示会などでよく用いられるアルミフレームの販売とレンタルがメインです。<br\/><\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-heading-1",
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-text-1",
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/275.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "446e80d3-3826-48f6-9b31-373769037d07": {
       "type": "first-view-original",
       "blocks": {
@@ -79,15 +126,56 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "553ab3bd-f162-426c-bf4d-59091f5a528d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "レンタルサービス",
+            "heading_size": "h1"
+          }
+        },
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FRAME SHIROYAMAではアルミフレームのレンタルサービスを行っております。<br\/>個展、グループ展などにぜひご利用ください。<\/p>"
+          }
+        },
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "more",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-heading-1",
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-text-1",
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 84,
+        "padding_bottom": 60
+      }
+    },
     "ab206d85-b3e0-48b3-86a6-09303d7df330": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
-        "heading": "Blog posts",
-        "heading_size": "h2",
+        "heading": "記事",
+        "heading_size": "h1",
         "blog": "ニュース",
         "post_limit": 2,
-        "columns_desktop": 1,
+        "columns_desktop": 2,
         "color_scheme": "background-1",
         "show_image": true,
         "show_date": true,
@@ -97,64 +185,54 @@
         "padding_bottom": 36
       }
     },
-    "efaec308-3e50-4e49-b7fd-c28ba056e955": {
-      "type": "slideshow",
+    "14246164-cbdb-4a91-a867-c405824a3740": {
+      "type": "collapsible-content",
       "blocks": {
-        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-1": {
-          "type": "slide",
+        "template--19944233533732__14246164-cbdb-4a91-a867-c405824a3740-collapsible_row-1": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "Image asd",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "asd",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "heading": "年末年始の営業　テスト　",
+            "icon": "none",
+            "row_content": "<p>7月11日(火)、社内行事のため<br\/>店舗業務、<br\/>お問合せ業務、発送業務を<br\/>お休みとさせていただきます。<br\/>お客様にはご不便をお掛け致しますが<br\/>ご協力をよろしくお願い致します。<br\/>7月12日(水)より通常営業となります。<\/p>",
+            "page": ""
           }
         },
-        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-2": {
-          "type": "slide",
+        "d881f3ae-25a2-4613-85ab-cb7a4aa69565": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "heading": "臨時休業　7月11日(火)　テスト",
+            "icon": "none",
+            "row_content": "<p>asdasdafahytekujetbarvec<\/p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-1",
-        "template--19944233533732__efaec308-3e50-4e49-b7fd-c28ba056e955-slide-2"
+        "template--19944233533732__14246164-cbdb-4a91-a867-c405824a3740-collapsible_row-1",
+        "d881f3ae-25a2-4613-85ab-cb7a4aa69565"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "caption": "",
+        "heading": "お知らせ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "small",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
     "02261057-a7e1-4ee6-9d0e-04bbf9888eba",
+    "ca28b015-ff81-4a76-a12e-070011fc618d",
     "446e80d3-3826-48f6-9b31-373769037d07",
+    "553ab3bd-f162-426c-bf4d-59091f5a528d",
     "ab206d85-b3e0-48b3-86a6-09303d7df330",
-    "efaec308-3e50-4e49-b7fd-c28ba056e955"
+    "14246164-cbdb-4a91-a867-c405824a3740"
   ]
 }

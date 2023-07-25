@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "6e929901-4b18-4a5b-9c97-f53930fa8b82": {
+      "type": "image-banner",
+      "blocks": {
+        "b415a8c9-ba2f-45ce-9284-b8ba1e2658b5": {
+          "type": "heading",
+          "settings": {
+            "heading": "会社概要",
+            "heading_size": "h1",
+            "heading_top": 10,
+            "heading_left": 10
+          }
+        }
+      },
+      "block_order": [
+        "b415a8c9-ba2f-45ce-9284-b8ba1e2658b5"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/white-3.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6e929901-4b18-4a5b-9c97-f53930fa8b82"
+  ]
+}

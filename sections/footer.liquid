@@ -27,6 +27,10 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+
+    .footer__copyright {
+      text-align: right;
+    }
   }
 {%- endstyle -%}
 
@@ -250,7 +254,9 @@
                         <h2 class="footer-block__heading rte">{{ settings.brand_headline }}</h2>
                       {%- endif -%}
                       {%- if settings.brand_description != blank -%}
-                        <div class="rte">{{ settings.brand_description }}</div>
+                        <div class="rte" style="font-size: 1.5rem;line-height: normal;">
+                          {{ settings.brand_description }}
+                        </div>
                       {%- endif -%}
                       {%- if block.settings.show_social and has_social_icons -%}
                         {%- render 'social-icons' -%}
