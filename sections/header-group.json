@@ -49,10 +49,10 @@
         "top": 10,
         "left": 5,
         "logo": "shopify:\/\/shop_images\/logo.png",
-        "logo_width": 140,
-        "nav_margin_top": 3,
-        "font_size": 2,
-        "font_space": 1.7
+        "logo_width": 100,
+        "nav_margin_top": 1,
+        "font_size": 1.5,
+        "font_space": 0.6
       }
     }
   },
