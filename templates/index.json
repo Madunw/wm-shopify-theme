@@ -86,7 +86,7 @@
         "heading_size": "h2",
         "blog": "ニュース",
         "post_limit": 2,
-        "columns_desktop": 1,
+        "columns_desktop": 2,
         "color_scheme": "background-1",
         "show_image": true,
         "show_date": true,
