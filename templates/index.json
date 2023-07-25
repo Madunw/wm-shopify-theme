@@ -225,7 +225,7 @@
             "heading": "テスト　お知らせ　２ｎｄ",
             "icon": "none",
             "row_content": "<p>asdasdafahytekujetbarvec<\/p>",
-            "page": "商品"
+            "page": ""
           }
         }
       },
@@ -242,7 +242,6 @@
         "color_scheme": "",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
-        "image": "shopify:\/\/shop_images\/DAI0021-Edit-min.jpg",
         "image_ratio": "small",
         "desktop_layout": "image_second",
         "padding_top": 36,
