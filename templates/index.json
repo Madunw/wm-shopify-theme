@@ -173,7 +173,7 @@
       "settings": {
         "heading": "記事",
         "heading_size": "h1",
-        "blog": "ニュース",
+        "blog": "事例",
         "post_limit": 2,
         "columns_desktop": 2,
         "color_scheme": "background-1",
