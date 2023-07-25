@@ -126,11 +126,53 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "553ab3bd-f162-426c-bf4d-59091f5a528d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "レンタルサービス",
+            "heading_size": "h1"
+          }
+        },
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FRAME SHIROYAMAではアルミフレームのレンタルサービスを行っております。<br\/>個展、グループ展などにぜひご利用ください。<\/p>"
+          }
+        },
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "more",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-heading-1",
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-text-1",
+        "template--19944233533732__553ab3bd-f162-426c-bf4d-59091f5a528d-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 84,
+        "padding_bottom": 60
+      }
+    },
     "ab206d85-b3e0-48b3-86a6-09303d7df330": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
-        "heading_size": "h2",
+        "heading": "記事",
+        "heading_size": "h1",
         "blog": "ニュース",
         "post_limit": 2,
         "columns_desktop": 2,
@@ -143,124 +185,13 @@
         "padding_bottom": 36
       }
     },
-    "c6855efe-4a55-4295-bff3-a754b48b7196": {
-      "type": "featured-product",
-      "blocks": {
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-title-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-price-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-variant_picker-1": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-quantity_selector-1": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-buy_buttons-1": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-share-1": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-text-1",
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-title-1",
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-price-1",
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-variant_picker-1",
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-quantity_selector-1",
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-buy_buttons-1",
-        "template--19944233533732__c6855efe-4a55-4295-bff3-a754b48b7196-share-1"
-      ],
-      "settings": {
-        "product": "",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "91a294f9-68ea-462e-b427-db7db227a778": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-heading-1",
-        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-text-1",
-        "template--19944233533732__91a294f9-68ea-462e-b427-db7db227a778-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "14246164-cbdb-4a91-a867-c405824a3740": {
       "type": "collapsible-content",
       "blocks": {
         "template--19944233533732__14246164-cbdb-4a91-a867-c405824a3740-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "テスト　お知らせ　１ｓｔ",
+            "heading": "年末年始の営業　テスト　",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -269,7 +200,7 @@
         "d881f3ae-25a2-4613-85ab-cb7a4aa69565": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "テスト　お知らせ　２ｎｄ",
+            "heading": "臨時休業　7月11日(火)　テスト",
             "icon": "none",
             "row_content": "<p>asdasdafahytekujetbarvec<\/p>",
             "page": ""
@@ -300,9 +231,8 @@
     "02261057-a7e1-4ee6-9d0e-04bbf9888eba",
     "ca28b015-ff81-4a76-a12e-070011fc618d",
     "446e80d3-3826-48f6-9b31-373769037d07",
+    "553ab3bd-f162-426c-bf4d-59091f5a528d",
     "ab206d85-b3e0-48b3-86a6-09303d7df330",
-    "c6855efe-4a55-4295-bff3-a754b48b7196",
-    "91a294f9-68ea-462e-b427-db7db227a778",
     "14246164-cbdb-4a91-a867-c405824a3740"
   ]
 }
