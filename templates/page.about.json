@@ -70,13 +70,13 @@
         "template--20034189066532__95cc00ca-de7b-4bb0-856d-ce79405d19d1-button-1"
       ],
       "settings": {
-        "image": "{{ shop.brand.logo }}",
+        "image": "shopify:\/\/shop_images\/logo.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
