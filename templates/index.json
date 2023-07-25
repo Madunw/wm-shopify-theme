@@ -2,6 +2,30 @@
   "sections": {
     "02261057-a7e1-4ee6-9d0e-04bbf9888eba": {
       "type": "first-view2-original",
+      "blocks": {
+        "c3a0e2c3-2113-4ba5-a75b-77bbc58fe55f": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "0c75db4b-5d4d-47a4-a3e9-a7ff0e8d904d": {
+          "type": "heading",
+          "settings": {
+            "heading": "FRAME SHIROYAMA",
+            "heading_font_size": 23,
+            "heading_top": 10,
+            "heading_right": 0,
+            "heading_rotate_degrees": "0deg"
+          }
+        }
+      },
+      "block_order": [
+        "c3a0e2c3-2113-4ba5-a75b-77bbc58fe55f",
+        "0c75db4b-5d4d-47a4-a3e9-a7ff0e8d904d"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9593.jpg",
         "image_2": "shopify:\/\/shop_images\/202212___21-2.jpg",
