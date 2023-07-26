@@ -2,6 +2,7 @@
   
   
   
+  
 
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
@@ -42,6 +43,7 @@
 
 
 
+
 </script>
 
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
@@ -75,12 +77,12 @@
     }
     .banner__media--fadeOut {
     opacity: 0;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 2s ease-in-out;
   }
 
   .banner__media--fadeIn {
     opacity: 1;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 2 ease-in-out;
   }
 {%- endstyle -%}
 
