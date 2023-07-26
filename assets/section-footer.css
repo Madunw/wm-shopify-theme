@@ -62,6 +62,7 @@
     padding-left: 0;
     padding-right: 0;
     row-gap: 1.5rem;
+    float: left;
   }
 
   .footer__content-bottom-wrapper {
