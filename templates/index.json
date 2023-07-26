@@ -19,11 +19,20 @@
             "heading_right": 46,
             "heading_rotate_degrees": "90deg"
           }
+        },
+        "f7ff4f1f-ab42-4b46-9670-63a8bcbbbc5d": {
+          "type": "vertical_heading",
+          "settings": {
+            "vertical_heading": "vertical_heading",
+            "vertical_heading_font_size": 5,
+            "vertical_heading_Positiont": 0
+          }
         }
       },
       "block_order": [
         "c3a0e2c3-2113-4ba5-a75b-77bbc58fe55f",
-        "0c75db4b-5d4d-47a4-a3e9-a7ff0e8d904d"
+        "0c75db4b-5d4d-47a4-a3e9-a7ff0e8d904d",
+        "f7ff4f1f-ab42-4b46-9670-63a8bcbbbc5d"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9593.jpg",
