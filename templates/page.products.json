@@ -17,7 +17,7 @@
             "heading": "白山だからできる",
             "heading_size": "h2",
             "heading_top": 44,
-            "heading_left": 11
+            "heading_left": 48
           }
         },
         "99946fe1-a2e0-4e84-bff2-dad184b45ba0": {
@@ -26,7 +26,7 @@
             "heading": "低価格で高品質な額縁",
             "heading_size": "h2",
             "heading_top": 48,
-            "heading_left": 10
+            "heading_left": 49
           }
         }
       },
@@ -75,9 +75,8 @@
         },
         "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "商品",
+            "button_label": "購 入",
             "button_link": ""
           }
         }

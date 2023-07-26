@@ -2,6 +2,40 @@
   "sections": {
     "02261057-a7e1-4ee6-9d0e-04bbf9888eba": {
       "type": "first-view2-original",
+      "blocks": {
+        "c3a0e2c3-2113-4ba5-a75b-77bbc58fe55f": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "0c75db4b-5d4d-47a4-a3e9-a7ff0e8d904d": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "FRAME SHIROYAMA",
+            "heading_font_size": 8,
+            "heading_top": 74,
+            "heading_right": 46,
+            "heading_rotate_degrees": "90deg"
+          }
+        },
+        "f7ff4f1f-ab42-4b46-9670-63a8bcbbbc5d": {
+          "type": "vertical_heading",
+          "settings": {
+            "vertical_heading": "FRAME SHIROYAMA",
+            "vertical_heading_font_size": 9,
+            "vertical_heading_position": -22
+          }
+        }
+      },
+      "block_order": [
+        "c3a0e2c3-2113-4ba5-a75b-77bbc58fe55f",
+        "0c75db4b-5d4d-47a4-a3e9-a7ff0e8d904d",
+        "f7ff4f1f-ab42-4b46-9670-63a8bcbbbc5d"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9593.jpg",
         "image_2": "shopify:\/\/shop_images\/202212___21-2.jpg",
@@ -60,8 +94,8 @@
         "color_scheme": "background-1",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 0
+        "padding_top": 100,
+        "padding_bottom": 68
       }
     },
     "446e80d3-3826-48f6-9b31-373769037d07": {
@@ -173,7 +207,7 @@
       "settings": {
         "heading": "記事",
         "heading_size": "h1",
-        "blog": "ニュース",
+        "blog": "事例",
         "post_limit": 2,
         "columns_desktop": 2,
         "color_scheme": "background-1",
