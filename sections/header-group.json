@@ -50,7 +50,7 @@
         "left": 5,
         "logo": "shopify:\/\/shop_images\/logo.png",
         "logo_width": 120,
-        "nav_margin_top": 5,
+        "nav_margin_top": 3,
         "font_size": 2,
         "font_space": 1
       }
