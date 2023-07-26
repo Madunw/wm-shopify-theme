@@ -5,6 +5,7 @@
       "blocks": {
         "c3a0e2c3-2113-4ba5-a75b-77bbc58fe55f": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
@@ -12,6 +13,7 @@
         },
         "0c75db4b-5d4d-47a4-a3e9-a7ff0e8d904d": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "FRAME SHIROYAMA",
             "heading_font_size": 8,
@@ -23,9 +25,9 @@
         "f7ff4f1f-ab42-4b46-9670-63a8bcbbbc5d": {
           "type": "vertical_heading",
           "settings": {
-            "vertical_heading": "vertical_heading",
-            "vertical_heading_font_size": 5,
-            "vertical_heading_Positiont": 0
+            "vertical_heading": "FRAME SHIROYAMA",
+            "vertical_heading_font_size": 8,
+            "vertical_heading_position": 21
           }
         }
       },
