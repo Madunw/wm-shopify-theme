@@ -9,6 +9,7 @@
   
   
   
+  
 
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
@@ -42,6 +43,7 @@
       media.classList.add("banner__media--fadeIn");
     }, 1300); // 1秒后显示image2
   }, 1800); // 2秒后开始取消显示image1
+
 
 
 
@@ -150,7 +152,7 @@
 
   <div
     class="banner__content  banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-    style="display: none; position: absolute;"
+    style="display: none;"
   >
     {%- for block in section.blocks -%}
       {%- case block.type -%}
