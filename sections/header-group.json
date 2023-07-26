@@ -46,7 +46,7 @@
       "type": "nav-bar-original",
       "settings": {
         "menu": "main-menu",
-        "top": 8,
+        "top": 16,
         "left": 3,
         "logo": "shopify:\/\/shop_images\/logo.png",
         "logo_width": 120,
