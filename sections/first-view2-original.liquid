@@ -10,6 +10,7 @@
   
   
   
+  
 
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
@@ -43,6 +44,7 @@
       media.classList.add("banner__media--fadeIn");
     }, 1300); // 1秒后显示image2
   }, 1800); // 2秒后开始取消显示image1
+
 
 
 
@@ -167,7 +169,7 @@
         {%- when 'vertical_heading' -%}
           <h1
             class="banner__heading inline-richtext "
-            style="font-size:{{ block.settings.vertical_heading_font_size }}rem;left: {{ block.settings.vertical_heading_right }}vw; position: relative; transform: rotate(90deg);"
+            style="font-size:{{ block.settings.vertical_heading_font_size }}rem;top: 40%; right: {{ block.settings.vertical_heading_right }}vw; position: absolute; transform: rotate(90deg);"
             {{ block.shopify_attributes }}
           >
             {{ block.settings.vertical_heading }}
