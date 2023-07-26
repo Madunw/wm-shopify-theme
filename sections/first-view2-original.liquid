@@ -3,6 +3,8 @@
   
   
   
+  
+  
 
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
@@ -36,6 +38,8 @@
       media.classList.add("banner__media--fadeIn");
     }, 1300); // 1秒后显示image2
   }, 1800); // 2秒后开始取消显示image1
+
+
 
 
 
@@ -149,6 +153,14 @@
             {{ block.shopify_attributes }}
           >
             {{ block.settings.heading }}
+          </h1>
+        {%- when 'vertical_heading' -%}
+          <h1
+            class="banner__heading inline-richtext "
+            style="font-size:{{ block.settings.vertical_heading_font_size }}rem;left: {{ block.settings.vertical_heading_right }}vw; position: relative;"
+            {{ block.shopify_attributes }}
+          >
+            {{ block.settings.vertical_heading }}
           </h1>
         {%- when 'text' -%}
           <div
@@ -449,6 +461,37 @@
           ],
           "default": "0deg",
           "label": "heading_rotate_degrees"
+        }
+      ]
+    },
+    {
+      "type": "vertical_heading",
+      "name": "vertical_heading",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "vertical_heading",
+          "default": "vertical_heading",
+          "label": "vertical_heading"
+        },
+        {
+          "type": "range",
+          "id": "vertical_heading_font_size",
+          "min": 0,
+          "max": 10,
+          "step": 1,
+          "default": 5,
+          "label": "Heading Size (rem)"
+        },
+        {
+          "type": "range",
+          "id": "vertical_heading_Positiont",
+          "label": "Vertical Heading Position",
+          "min": -30,
+          "max": 70,
+          "step": 1,
+          "default": 0
         }
       ]
     },
