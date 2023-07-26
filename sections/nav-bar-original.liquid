@@ -1,12 +1,11 @@
 <script>
-
   setTimeout(function() {
     var bannerContent = document.querySelector(".nav-bar");
     bannerContent.style.display = "block";
   }, 5000); // 4秒后显示div
 </script>
 
-<nav class="nav-bar">
+<nav class="nav-bar animate--slide-in">
   {% if section.settings.logo %}
     <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
       {%- if settings.logo != blank -%}
