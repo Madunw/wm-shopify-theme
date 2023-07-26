@@ -1,3 +1,44 @@
+<script>
+  
+  
+  
+  setTimeout(function() {
+    var bannerContent = document.querySelector(".banner__content");
+    bannerContent.style.display = "block";
+  }, 4000); // 4秒后显示div
+
+ setTimeout(function() {
+    var banner = document.getElementById("Banner-{{ section.id }}");
+    var media = banner.getElementsByClassName("banner__media")[0];
+    media.classList.add("banner__media--fadeOut");
+
+    setTimeout(function() {
+      media.innerHTML = `
+        {%- liquid
+          assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
+          if section.settings.image != blank
+            assign image_class_2 = 'banner__media-image-half'
+          endif
+          if section.settings.image != blank and section.settings.stack_images_on_mobile
+            assign sizes = stacked_sizes
+          elsif section.settings.image_2 != blank
+            assign sizes = half_width
+          else
+            assign sizes = full_width
+          endif
+        -%}
+        {{ section.settings.image_2 | image_url: width: 3840 | image_tag: loading: 'lazy', width: section.settings.image_2.width, height: image_height_2, class: image_class_2, sizes: sizes, widths: widths }}
+      `;
+
+      media.classList.remove("banner__media--fadeOut");
+      media.classList.add("banner__media--fadeIn");
+    }, 1300); // 1秒后显示image2
+  }, 1800); // 2秒后开始取消显示image1
+
+
+
+</script>
+
 <nav class="nav-bar">
   {% if section.settings.logo %}
     <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
@@ -26,7 +67,21 @@
     </a>
   {% endif %}
 
-  <ul class="nav-list-menu" role="list">
+  <ul class="nav-list-menu banner__media--fadeIn" role="list">
+    {%- style -%}
+        #Banner-{{ section.id }}::after {
+          opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+        }
+        .banner__media--fadeOut {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
+
+      .banner__media--fadeIn {
+        opacity: 1;
+        transition: opacity 1s ease-in-out;
+      }
+    {%- endstyle -%}
     {%- for link in section.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
@@ -111,6 +166,7 @@
     left: {{ section.settings.left }}vw;
     top: {{ section.settings.top }}vh;
     z-index: 999;
+    display: none;
   }
   .nav-list-menu {
     list-style: none;
