@@ -5,7 +5,6 @@
       "blocks": {
         "c3a0e2c3-2113-4ba5-a75b-77bbc58fe55f": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
