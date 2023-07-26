@@ -1,15 +1,11 @@
-<script>
-  // JavaScript to trigger the fade-in effect after a slight delay
-  setTimeout(function() {
-    var navMedia = document.querySelector(".nav__media--fadeIn");
-    navMedia.style.opacity = "
-
-  // JavaScript to trigger the fade-in effect after a slight delay
-  setTimeout(function() {
-    var navMedia = document.querySelector(".nav__media--fadeIn");
-    navMedia.style.opacity = "1"; // Set opacity to 1 to initiate the fade-in
-  }, 100); // Adjust the delay as needed (e.g., 100 milliseconds)
-</script>
+{% comment %}
+  <script>
+    setTimeout(function() {
+      var bannerContent = document.querySelector(".nav-bar");
+      bannerContent.style.display = "block";
+    }, 4000); // 4秒后显示div
+  </script>
+{% endcomment %}
 
 <nav class="nav-bar nav__media--fadeIn">
   {% if section.settings.logo %}
@@ -153,7 +149,7 @@
   }
   .nav__media--fadeIn {
     opacity: 0.5;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 15s ease-in-out;
   }
 {%- endstyle -%}
 
