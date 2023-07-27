@@ -27,6 +27,7 @@
     "header": {
       "type": "header",
       "settings": {
+        "only_mobile": true,
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "drawer",
