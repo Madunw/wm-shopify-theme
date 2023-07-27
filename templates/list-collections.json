@@ -3,7 +3,7 @@
     "43cf87d4-8d93-4da6-973d-ef211055a5e6": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DAI9582.jpg",
+        "image": "shopify:\/\/shop_images\/DAI9469.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -18,16 +18,18 @@
     },
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "columns_mobile": "2"
       }
     },
     "a9f0839c-6ddd-45a4-a709-5a4624b5a8d7": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-1": {
           "type": "featured_collection",
@@ -61,6 +63,7 @@
     },
     "f856a656-61ae-4f31-9104-7e4840de5d43": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-collection-1": {
           "type": "collection",
@@ -140,7 +143,7 @@
         "template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>軽量で丈夫な4種類の形状の樹脂素材のフレーム。<\/p>",
+            "text": "<p>軽量で丈夫な4種類の形状の樹脂素材のフレーム。<\/p><p><br\/>気に入った作品を引き立て、好きな場所に置くことができる。木材のような質感でナチュラルとしてお店やお部屋にぴったり。<\/p>",
             "text_style": "body"
           }
         },
