@@ -91,16 +91,6 @@
   }
 </style>
 
- {%- if section.settings.only_mobile == true -%}
-  {%- style -%}
-     @media screen and (min-width: 750px) {
-      .header-wrapper {
-        display: none;
-      }
-    }
-  {%- endstyle -%}
-{%- endif -%}
-
 {%- style -%}
   .header {
     padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
@@ -521,13 +511,6 @@
   "class": "section-header",
   "max_blocks": 3,
   "settings": [
-     {
-      "type": "checkbox",
-      "id": "only_mobile",
-      "default": false,
-      "label": "only show on mobile"
-    },
-    
     {
       "type": "select",
       "id": "logo_position",
