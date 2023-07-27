@@ -198,7 +198,7 @@
       ],
       "settings": {
         "title": "素材別",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "",
@@ -213,7 +213,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "アルミフレーム",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
