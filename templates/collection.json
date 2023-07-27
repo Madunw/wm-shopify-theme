@@ -87,12 +87,98 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3a1f5b7e-1461-4388-b473-57611d4c08b1": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-image-1": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-image-1",
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-product-1",
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "294b4b02-589d-4d7d-a25e-cac889aa1586": {
+      "type": "multirow",
+      "blocks": {
+        "template--19944233664804__294b4b02-589d-4d7d-a25e-cac889aa1586-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0038-Edit_8bacc7f7-33f8-44bb-9454-9a05f7a21c7b.jpg",
+            "caption": "アルミフレーム",
+            "heading": "wm-01",
+            "text": "<p>¥5,060<\/p><p>丸みがある形状で落ち着いたデザイン。<br\/>作品の展示でよく使われている軽量で丈夫なフレーム。<br\/>展示の場所を選ばず、サイズも幅広く揃えております。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "template--19944233664804__294b4b02-589d-4d7d-a25e-cac889aa1586-row-3": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233664804__294b4b02-589d-4d7d-a25e-cac889aa1586-row-1",
+        "template--19944233664804__294b4b02-589d-4d7d-a25e-cac889aa1586-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "057d253c-6c8a-4650-aaa9-c2e4496290cd",
     "c6def484-3cf5-4c95-92b4-2a28ab164e83",
     "banner",
-    "product-grid"
+    "product-grid",
+    "3a1f5b7e-1461-4388-b473-57611d4c08b1",
+    "294b4b02-589d-4d7d-a25e-cac889aa1586"
   ]
 }
