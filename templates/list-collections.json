@@ -113,6 +113,12 @@
     "f856a656-61ae-4f31-9104-7e4840de5d43": {
       "type": "collage",
       "blocks": {
+        "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "アルミフレーム"
+          }
+        },
         "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-product-1": {
           "type": "product",
           "settings": {
@@ -120,16 +126,18 @@
             "second_image": true
           }
         },
-        "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-collection-1": {
-          "type": "collection",
+        "9a8243bf-688c-4ee7-9978-1ce3df7caed0": {
+          "type": "product",
           "settings": {
-            "collection": "アルミフレーム"
+            "product": "アルミフレーム-ｗｍ-03",
+            "second_image": false
           }
         }
       },
       "block_order": [
+        "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-collection-1",
         "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-product-1",
-        "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-collection-1"
+        "9a8243bf-688c-4ee7-9978-1ce3df7caed0"
       ],
       "settings": {
         "heading": "Multimedia collage",
