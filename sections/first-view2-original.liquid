@@ -15,6 +15,7 @@
   
   
   
+  
 
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
@@ -48,6 +49,7 @@
       media.classList.add("banner__media--fadeIn");
     }, 1300); // 1秒后显示image2
   }, 1800); // 2秒后开始取消显示image1
+
 
 
 
@@ -130,7 +132,7 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  class="only_desktop banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
   <div class="banner__media media">
     {%- liquid
@@ -223,6 +225,13 @@
     {%- endfor -%}
   </div>
 </div>
+{%- style -%}
+  @media screen and (max-width: 749px) {
+    .only_desktop {
+      display: none;
+    }
+  }
+{%- endstyle -%}
 
 {% schema %}
 {
