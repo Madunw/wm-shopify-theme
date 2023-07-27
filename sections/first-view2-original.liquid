@@ -17,6 +17,7 @@
   
   
   
+  
 
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
@@ -72,9 +73,19 @@
 
 
 
+
 </script>
 
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{%- if section.settings.only_desktop == true -%}
+  {%- style -%}
+     @media screen and (max-width: 749px) {
+      #Banner-{{ section.id }} {
+        display: none;
+      }
+    }
+  {%- endstyle -%}
+{%- endif -%}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
@@ -134,7 +145,7 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="only_desktop banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
   <div class="banner__media media">
     {%- liquid
@@ -227,11 +238,6 @@
     {%- endfor -%}
   </div>
 </div>
-{%- style -%}
-  .only_desktop {
-    display: none;
-  }
-{%- endstyle -%}
 
 {% schema %}
 {
@@ -242,6 +248,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+     {
+      "type": "checkbox",
+      "id": "only_desktop",
+      "default": false,
+      "label": "only show on desktop"
+    },
     {
       "type": "image_picker",
       "id": "image",
