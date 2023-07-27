@@ -8,14 +8,14 @@
 {%- if section.settings.only_desktop == true -%}
   {%- style -%}
        @media screen and (max-width: 749px) {
-      .nav-bar {
+      .only_desktop {
         display: none;
       }
     }
   {%- endstyle -%}
 {%- endif -%}
 
-<nav class="nav-bar">
+<nav class="nav-bar only_desktop">
   {% if section.settings.logo %}
     <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
       {%- if settings.logo != blank -%}
