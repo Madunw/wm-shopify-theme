@@ -2,6 +2,7 @@
   "sections": {
     "057d253c-6c8a-4650-aaa9-c2e4496290cd": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9469.jpg",
         "image_overlay_opacity": 0,
@@ -64,7 +65,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "background-1"
       }
@@ -170,7 +171,7 @@
         "01286d08-d1c6-4125-8d68-f7e487bd12d9"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
