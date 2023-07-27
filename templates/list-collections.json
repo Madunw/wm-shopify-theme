@@ -2,7 +2,6 @@
   "sections": {
     "43cf87d4-8d93-4da6-973d-ef211055a5e6": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9469.jpg",
         "image_overlay_opacity": 0,
