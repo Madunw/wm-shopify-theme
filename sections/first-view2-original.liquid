@@ -16,6 +16,7 @@
   
   
   
+  
 
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
@@ -49,6 +50,7 @@
       media.classList.add("banner__media--fadeIn");
     }, 1300); // 1秒后显示image2
   }, 1800); // 2秒后开始取消显示image1
+
 
 
 
@@ -226,10 +228,8 @@
   </div>
 </div>
 {%- style -%}
-  @media screen and (max-width: 749px) {
-    .only_desktop {
-      display: none;
-    }
+  .only_desktop {
+    display: none;
   }
 {%- endstyle -%}
 
