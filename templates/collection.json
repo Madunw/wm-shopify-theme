@@ -140,10 +140,34 @@
             "button_label": "購入",
             "button_link": ""
           }
+        },
+        "88a53bc9-03a5-4631-990e-d3f22541b252": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0034-Edit_a59ae224-f3a7-4e29-89d0-7f4c84bebf16.jpg",
+            "caption": "アルミフレーム",
+            "heading": "wm-03",
+            "text": "<p>¥5,060<\/p><p>丸みがある形状で落ち着いたデザイン。<br\/>作品の展示でよく使われている軽量で丈夫なフレーム。<br\/>展示の場所を選ばず、サイズも幅広く揃えております。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "01286d08-d1c6-4125-8d68-f7e487bd12d9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s-1920x1920_v-frms_webp_7bbc3182-2b58-4952-9987-a1257787abae.png",
+            "caption": "アルミフレーム",
+            "heading": "wm-16",
+            "text": "<p>¥5,060<\/p><p>丸みがある形状で落ち着いたデザイン。<br\/>作品の展示でよく使われている軽量で丈夫なフレーム。<br\/>展示の場所を選ばず、サイズも幅広く揃えております。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "template--19944233664804__294b4b02-589d-4d7d-a25e-cac889aa1586-row-1"
+        "template--19944233664804__294b4b02-589d-4d7d-a25e-cac889aa1586-row-1",
+        "88a53bc9-03a5-4631-990e-d3f22541b252",
+        "01286d08-d1c6-4125-8d68-f7e487bd12d9"
       ],
       "settings": {
         "image_height": "medium",
