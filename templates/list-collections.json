@@ -29,6 +29,7 @@
     },
     "0b85519a-82a5-4309-a036-1bb2828a8277": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-heading-1": {
           "type": "heading",
@@ -75,6 +76,7 @@
     },
     "cc934fa7-ecfa-4461-9eba-c9c343472fa7": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -103,6 +105,7 @@
     },
     "f0b53360-f868-4d04-8b9c-ca1afc76a61c": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "7a7b783d-a667-4038-8a1b-b1e09081682e": {
           "type": "heading",
@@ -149,6 +152,7 @@
     },
     "a6d7a513-9201-4782-8b03-520775b6bbee": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h0",
@@ -177,7 +181,6 @@
     },
     "bb027c61-00cf-493d-8e9c-94a868cb94f0": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "エアフレーム",
         "heading_size": "h1",
@@ -206,7 +209,6 @@
     },
     "73520de8-9cb2-4cc8-b204-487339554491": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "アルミフレーム",
         "heading_size": "h1",
