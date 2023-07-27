@@ -190,11 +190,18 @@
           "settings": {
             "collection": "エアフレーム-1"
           }
+        },
+        "8b0f8595-5b97-4ca7-b9bc-ded4a6e243d2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "額縁"
+          }
         }
       },
       "block_order": [
         "template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-1",
-        "template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-2"
+        "template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-2",
+        "8b0f8595-5b97-4ca7-b9bc-ded4a6e243d2"
       ],
       "settings": {
         "title": "素材別",
