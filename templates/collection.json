@@ -130,6 +130,7 @@
     },
     "294b4b02-589d-4d7d-a25e-cac889aa1586": {
       "type": "multirow",
+      "disabled": true,
       "blocks": {
         "template--19944233664804__294b4b02-589d-4d7d-a25e-cac889aa1586-row-1": {
           "type": "row",
@@ -188,6 +189,7 @@
     },
     "001f79da-29c0-4391-bc62-1b934068cdd9": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--19944233664804__001f79da-29c0-4391-bc62-1b934068cdd9-heading-1": {
           "type": "heading",
@@ -233,6 +235,7 @@
     },
     "41d2eafd-be7b-475b-9c4b-df667ebbfb22": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--19944233664804__41d2eafd-be7b-475b-9c4b-df667ebbfb22-slide-1": {
           "type": "slide",
