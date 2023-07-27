@@ -162,6 +162,52 @@
         "template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-button-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/DAI0021-Edit-min.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f0b53360-f868-4d04-8b9c-ca1afc76a61c": {
+      "type": "image-with-text",
+      "blocks": {
+        "7a7b783d-a667-4038-8a1b-b1e09081682e": {
+          "type": "heading",
+          "settings": {
+            "heading": "アルミフレーム",
+            "heading_size": "h1"
+          }
+        },
+        "2122ebb2-88e0-4a58-bc18-f4f9a40ab856": {
+          "type": "text",
+          "settings": {
+            "text": "<p>軽量で丈夫な4種類の形状の樹脂素材のフレーム。<\/p><p><br\/>気に入った作品を引き立て、好きな場所に置くことができる。木材のような質感でナチュラルとしてお店やお部屋にぴったり。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "7c842d1c-6e94-409d-b50f-e2946553de37": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7a7b783d-a667-4038-8a1b-b1e09081682e",
+        "2122ebb2-88e0-4a58-bc18-f4f9a40ab856",
+        "7c842d1c-6e94-409d-b50f-e2946553de37"
+      ],
+      "settings": {
         "image": "shopify:\/\/shop_images\/DAI0074-Edit.jpg",
         "height": "small",
         "desktop_image_width": "medium",
@@ -203,6 +249,34 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "73520de8-9cb2-4cc8-b204-487339554491": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アルミフレーム",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "アルミフレーム",
+        "products_to_show": 3,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -212,6 +286,8 @@
     "f856a656-61ae-4f31-9104-7e4840de5d43",
     "cc934fa7-ecfa-4461-9eba-c9c343472fa7",
     "0b85519a-82a5-4309-a036-1bb2828a8277",
-    "a6d7a513-9201-4782-8b03-520775b6bbee"
+    "f0b53360-f868-4d04-8b9c-ca1afc76a61c",
+    "a6d7a513-9201-4782-8b03-520775b6bbee",
+    "73520de8-9cb2-4cc8-b204-487339554491"
   ]
 }
