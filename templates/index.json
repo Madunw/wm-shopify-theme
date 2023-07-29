@@ -52,6 +52,53 @@
         "show_text_below": true
       }
     },
+    "ca28b015-ff81-4a76-a12e-070011fc618d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "会社概要",
+            "heading_size": "h2"
+          }
+        },
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>芸術学校を卒業するまでにフレームの購入とレンタルする際の金銭的な負荷を痛感した株式会社白山の代表は、アーティストの自由な展示や一般のお客様の空間づくりの一助となるため歴史のある浅草に額縁専門店を起業しました。<br\/><br\/>本社は海外の工場から額縁を厳選し、手に取りやすい価格で品質の高い商品を提供しております。<\/p><p><br\/>商品は展示会などでよく用いられるアルミフレームの販売とレンタルがメインです。<br\/><\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-heading-1",
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-text-1",
+        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/275.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 68
+      }
+    },
     "446e80d3-3826-48f6-9b31-373769037d07": {
       "type": "first-view-original",
       "blocks": {
@@ -112,53 +159,6 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "ca28b015-ff81-4a76-a12e-070011fc618d": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "会社概要",
-            "heading_size": "h2"
-          }
-        },
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>芸術学校を卒業するまでにフレームの購入とレンタルする際の金銭的な負荷を痛感した株式会社白山の代表は、アーティストの自由な展示や一般のお客様の空間づくりの一助となるため歴史のある浅草に額縁専門店を起業しました。<br\/><br\/>本社は海外の工場から額縁を厳選し、手に取りやすい価格で品質の高い商品を提供しております。<\/p><p><br\/>商品は展示会などでよく用いられるアルミフレームの販売とレンタルがメインです。<br\/><\/p>",
-            "text_style": "subtitle"
-          }
-        },
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-heading-1",
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-text-1",
-        "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/275.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 68
       }
     },
     "553ab3bd-f162-426c-bf4d-59091f5a528d": {
@@ -264,8 +264,8 @@
   },
   "order": [
     "02261057-a7e1-4ee6-9d0e-04bbf9888eba",
-    "446e80d3-3826-48f6-9b31-373769037d07",
     "ca28b015-ff81-4a76-a12e-070011fc618d",
+    "446e80d3-3826-48f6-9b31-373769037d07",
     "553ab3bd-f162-426c-bf4d-59091f5a528d",
     "ab206d85-b3e0-48b3-86a6-09303d7df330",
     "14246164-cbdb-4a91-a867-c405824a3740"
