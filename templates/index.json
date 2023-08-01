@@ -7,8 +7,8 @@
           "type": "vertical_heading",
           "settings": {
             "vertical_heading": "FRAME SHIROYAMA",
-            "vertical_heading_font_size": 6,
-            "vertical_heading_position": 0
+            "vertical_heading_font_size": 8,
+            "vertical_heading_position": 11
           }
         }
       },
