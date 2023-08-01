@@ -9,6 +9,11 @@
         padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
         content: '';
         display: block;
+      .banner__heading {
+        top: {{ block.settings.heading_top }}vh;
+        left: {{ block.settings.heading_left }}vw;
+        position:absolute;"
+      }
       }
     }
 
@@ -118,7 +123,6 @@
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
-              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute;"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
