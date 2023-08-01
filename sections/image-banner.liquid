@@ -2,6 +2,11 @@
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
+      .custom-contents-position {
+          position: absolute;
+          top: {{ section.settings.horizontal_offset }}vh;
+          left: {{ section.settings.vertical_offset }}vw;
+        }
       @media screen and (max-width: 749px) {
         #Banner-{{ section.id }}::before,
         #Banner-{{ section.id }} .banner__media::before,
@@ -19,11 +24,7 @@
           content: '';
           display: block;
         }
-        .custom-contents-position {
-          position: absolute;
-          top: {{ section.settings.horizontal_offset }}vh;
-          left: {{ section.settings.vertical_offset }}vw;
-        }
+
     }
   {%- endstyle -%}
 {%- endif -%}
