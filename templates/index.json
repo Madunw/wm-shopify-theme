@@ -1,49 +1,32 @@
 {
   "sections": {
-    "02261057-a7e1-4ee6-9d0e-04bbf9888eba": {
-      "type": "first-view2-original",
+    "1c92bb03-e731-440c-bec5-7527f999d935": {
+      "type": "first-view-original",
       "blocks": {
-        "c3a0e2c3-2113-4ba5-a75b-77bbc58fe55f": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "0c75db4b-5d4d-47a4-a3e9-a7ff0e8d904d": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "FRAME SHIROYAMA",
-            "heading_font_size": 8,
-            "heading_top": 74,
-            "heading_right": 46,
-            "heading_rotate_degrees": "90deg"
-          }
-        },
-        "f7ff4f1f-ab42-4b46-9670-63a8bcbbbc5d": {
+        "2e5afbe1-719b-4575-a9e1-24ed8eb9abf6": {
           "type": "vertical_heading",
           "settings": {
             "vertical_heading": "FRAME SHIROYAMA",
             "vertical_heading_font_size": 9,
-            "vertical_heading_position": -22
+            "vertical_heading_position": -23
           }
         }
       },
       "block_order": [
-        "c3a0e2c3-2113-4ba5-a75b-77bbc58fe55f",
-        "0c75db4b-5d4d-47a4-a3e9-a7ff0e8d904d",
-        "f7ff4f1f-ab42-4b46-9670-63a8bcbbbc5d"
+        "2e5afbe1-719b-4575-a9e1-24ed8eb9abf6"
       ],
       "settings": {
         "only_desktop": true,
+<<<<<<< HEAD
         "image": "shopify:\/\/shop_images\/DAI9593.jpg",
+=======
+        "image": "shopify:\/\/shop_images\/DAI9619.jpg",
+>>>>>>> 67e7424b417e97e15aff1a32a2b21940d3221f21
         "image_2": "shopify:\/\/shop_images\/202212___21-2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "fullscreen",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "none",
@@ -99,6 +82,7 @@
         "padding_bottom": 68
       }
     },
+<<<<<<< HEAD
     "446e80d3-3826-48f6-9b31-373769037d07": {
       "type": "first-view-original",
       "blocks": {
@@ -162,6 +146,8 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+=======
+>>>>>>> 67e7424b417e97e15aff1a32a2b21940d3221f21
     "553ab3bd-f162-426c-bf4d-59091f5a528d": {
       "type": "rich-text",
       "blocks": {
@@ -264,9 +250,8 @@
     }
   },
   "order": [
-    "02261057-a7e1-4ee6-9d0e-04bbf9888eba",
+    "1c92bb03-e731-440c-bec5-7527f999d935",
     "ca28b015-ff81-4a76-a12e-070011fc618d",
-    "446e80d3-3826-48f6-9b31-373769037d07",
     "553ab3bd-f162-426c-bf4d-59091f5a528d",
     "ab206d85-b3e0-48b3-86a6-09303d7df330",
     "14246164-cbdb-4a91-a867-c405824a3740"
