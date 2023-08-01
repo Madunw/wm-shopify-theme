@@ -4,7 +4,6 @@
     bannerContent.style.display = "block";
   }, 4000); // 4秒后显示div
 </script>
-
 {%- if section.settings.only_desktop == true -%}
   {%- style -%}
        @media screen and (max-width: 749px) {
@@ -14,7 +13,6 @@
     }
   {%- endstyle -%}
 {%- endif -%}
-
 <nav class="nav-bar">
   {% if section.settings.logo %}
     <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">

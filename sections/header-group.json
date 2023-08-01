@@ -48,7 +48,7 @@
         "menu": "main-menu",
         "only_desktop": true,
         "top": 10,
-        "left": 5,
+        "left": 3,
         "logo": "shopify:\/\/shop_images\/logo.png",
         "logo_width": 120,
         "nav_margin_top": 3,
