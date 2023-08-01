@@ -1,21 +1,4 @@
 <script>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
     bannerContent.style.display = "block";
@@ -48,29 +31,18 @@
       media.classList.add("banner__media--fadeIn");
     }, 1300); // 1秒后显示image2
   }, 1800); // 2秒后开始取消显示image1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>
 
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{%- if section.settings.only_desktop == true -%}
+  {%- style -%}
+     @media screen and (max-width: 749px) {
+      #Banner-{{ section.id }} {
+        display: none;
+      }
+    }
+  {%- endstyle -%}
+{%- endif -%}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
@@ -233,6 +205,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+     {
+      "type": "checkbox",
+      "id": "only_desktop",
+      "default": false,
+      "label": "only show on desktop"
+    },
     {
       "type": "image_picker",
       "id": "image",

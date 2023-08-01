@@ -26,13 +26,13 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "settings": {
+        "only_mobile": false,
         "logo_position": "middle-left",
         "menu": "main-menu",
-        "menu_type_desktop": "drawer",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "always",
+        "show_line_separator": false,
         "color_scheme": "background-1",
         "enable_country_selector": false,
         "enable_language_selector": true,
@@ -46,12 +46,13 @@
       "type": "nav-bar-original",
       "settings": {
         "menu": "main-menu",
+        "only_desktop": true,
         "top": 10,
         "left": 3,
         "logo": "shopify:\/\/shop_images\/logo.png",
         "logo_width": 120,
         "nav_margin_top": 3,
-        "font_size": 1.8,
+        "font_size": 1.7,
         "font_space": 1
       }
     }

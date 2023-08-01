@@ -4,7 +4,15 @@
     bannerContent.style.display = "block";
   }, 4000); // 4秒后显示div
 </script>
-
+{%- if section.settings.only_desktop == true -%}
+  {%- style -%}
+       @media screen and (max-width: 749px) {
+      .nav-bar {
+        display: none;
+      }
+    }
+  {%- endstyle -%}
+{%- endif -%}
 <nav class="nav-bar">
   {% if section.settings.logo %}
     <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
@@ -161,6 +169,12 @@
       "id": "menu",
       "default": "main-menu",
       "label": "t:sections.header.settings.menu.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "only_desktop",
+      "default": false,
+      "label": "only show on desktop"
     },
 {
   "type": "range",

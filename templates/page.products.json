@@ -15,18 +15,14 @@
           "type": "heading",
           "settings": {
             "heading": "白山だからできる",
-            "heading_size": "h2",
-            "heading_top": 44,
-            "heading_left": 48
+            "heading_size": "h2"
           }
         },
         "99946fe1-a2e0-4e84-bff2-dad184b45ba0": {
           "type": "heading",
           "settings": {
             "heading": "低価格で高品質な額縁",
-            "heading_size": "h2",
-            "heading_top": 48,
-            "heading_left": 49
+            "heading_size": "h2"
           }
         }
       },
@@ -41,6 +37,8 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
+        "horizontal_offset": 10,
+        "vertical_offset": 21,
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -312,49 +310,84 @@
         "padding_bottom": 52
       }
     },
-    "ce52a3ef-7794-4068-a382-ba96266d99de": {
-      "type": "image-with-text",
+    "102eae2d-b209-4e1e-bb06-3a4b9587e0e9": {
+      "type": "rich-text",
+      "disabled": true,
       "blocks": {
-        "a78f7114-06cf-4c73-a457-68592b1e7404": {
-          "type": "caption",
-          "settings": {
-            "caption": "インテリアなど",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "8ab4a0e4-3bdc-46e3-bd32-cccbaefbb9c2": {
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "エアフレーム",
             "heading_size": "h1"
           }
         },
-        "e080be77-fc60-4f6b-9016-657bedf94731": {
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>耐久性のある樹脂フレームは軽量で気軽に飾れる。<br\/>環境にも配慮した樹脂素材のフレームです。<br\/>木材のような温もりが特徴で、豊富なルックスを取り揃えています。<\/p>",
-            "text_style": "body"
+            "text": "<p>耐久性のある樹脂フレームは軽量で気軽に飾れる。<br\/>環境にも配慮した樹脂素材のフレームです。<br\/>木材のような温もりが特徴で、豊富なルックスを取り揃えています<\/p>"
           }
         },
-        "7b748047-0387-498e-8b6d-de79ab74b87f": {
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-button-1": {
           "type": "button",
           "disabled": true,
           "settings": {
-            "button_label": "商品",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-heading-1",
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-text-1",
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5676f736-a520-4b0b-99f0-91c74ae3b7e2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "エアフレーム",
+            "heading_size": "h1"
+          }
+        },
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>耐久性のある樹脂フレームは軽量で気軽に飾れる。<br\/>環境にも配慮した樹脂素材のフレームです。<br\/>木材のような温もりが特徴で、豊富なルックスを取り揃えています<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "a78f7114-06cf-4c73-a457-68592b1e7404",
-        "8ab4a0e4-3bdc-46e3-bd32-cccbaefbb9c2",
-        "e080be77-fc60-4f6b-9016-657bedf94731",
-        "7b748047-0387-498e-8b6d-de79ab74b87f"
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-heading-1",
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-text-1",
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3.jpg",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/2.jpg",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -367,33 +400,72 @@
         "padding_bottom": 36
       }
     },
-    "4e552f70-b3e6-42ae-90ac-a460db4b739f": {
-      "type": "collage",
+    "304f69e1-c3d2-41d1-ab15-9ed19bcb517c": {
+      "type": "multirow",
       "blocks": {
-        "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-0": {
-          "type": "image",
+        "template--20034087125284__304f69e1-c3d2-41d1-ab15-9ed19bcb517c-row-1": {
+          "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/275.jpg"
+            "image": "shopify:\/\/shop_images\/d581ba077b3c3435ef8e3a531a2aeeed.jpg",
+            "caption": "エアフレーム",
+            "heading": "275",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
           }
         },
-        "0c08c64c-fd46-4569-96fe-c24cab89950a": {
-          "type": "collection",
+        "228238aa-62b4-45b8-9dd1-18cefb3051a1": {
+          "type": "row",
           "settings": {
-            "collection": ""
+            "image": "shopify:\/\/shop_images\/DAI9415.jpg",
+            "caption": "エアフレーム",
+            "heading": "3443",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "17ffc0d5-c179-434e-b6e4-8c8e7d570313": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bb92eaad67e2a3bfff33a49ee68df2ce_15b693de-4758-4f65-9ee0-2823115c7a24.jpg",
+            "caption": "エアフレーム",
+            "heading": "3801",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "4ca0bef8-c08f-4200-b252-c03c621393a6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e00f41bba38bcb2e4b29dcf17b25c8b7.jpg",
+            "caption": "エアフレーム",
+            "heading": "6354",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--19694442086692__4e552f70-b3e6-42ae-90ac-a460db4b739f-1688539627fe736576-0",
-        "0c08c64c-fd46-4569-96fe-c24cab89950a"
+        "template--20034087125284__304f69e1-c3d2-41d1-ab15-9ed19bcb517c-row-1",
+        "228238aa-62b4-45b8-9dd1-18cefb3051a1",
+        "17ffc0d5-c179-434e-b6e4-8c8e7d570313",
+        "4ca0bef8-c08f-4200-b252-c03c621393a6"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "image_height": "medium",
+        "desktop_image_width": "medium",
         "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -407,7 +479,8 @@
     "941e3b88-5fe4-438e-ad02-fc88884b9940",
     "8f690555-61c8-4799-8a48-d43956ef93b8",
     "9da3698b-2204-4713-951d-2a5e32ee9b67",
-    "ce52a3ef-7794-4068-a382-ba96266d99de",
-    "4e552f70-b3e6-42ae-90ac-a460db4b739f"
+    "102eae2d-b209-4e1e-bb06-3a4b9587e0e9",
+    "5676f736-a520-4b0b-99f0-91c74ae3b7e2",
+    "304f69e1-c3d2-41d1-ab15-9ed19bcb517c"
   ]
 }

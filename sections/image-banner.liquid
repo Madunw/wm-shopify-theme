@@ -2,23 +2,28 @@
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
-    @media screen and (max-width: 749px) {
-      #Banner-{{ section.id }}::before,
-      #Banner-{{ section.id }} .banner__media::before,
-      #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
-        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
-        content: '';
-        display: block;
+      @media screen and (max-width: 749px) {
+        #Banner-{{ section.id }}::before,
+        #Banner-{{ section.id }} .banner__media::before,
+        #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
+          padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+          content: '';
+          display: block;
+        }
       }
-    }
 
-    @media screen and (min-width: 750px) {
-      #Banner-{{ section.id }}::before,
-      #Banner-{{ section.id }} .banner__media::before {
-        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
-        content: '';
-        display: block;
-      }
+      @media screen and (min-width: 750px) {
+        #Banner-{{ section.id }}::before,
+        #Banner-{{ section.id }} .banner__media::before {
+          padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+          content: '';
+          display: block;
+        }
+        .custom-contents-position {
+          position: relative;
+          top: {{ section.settings.horizontal_offset }}vh;
+          left: {{ section.settings.vertical_offset }}vw;
+        }
     }
   {%- endstyle -%}
 {%- endif -%}
@@ -27,6 +32,13 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+  @media screen and (min-width: 750px) {
+    .custom-contents-position {
+        position: relative;
+        top: {{ section.settings.horizontal_offset }}vh;
+        left: {{ section.settings.vertical_offset }}vw;
+      }
+    }
 {%- endstyle -%}
 
 {%- liquid
@@ -111,14 +123,13 @@
       }}
     </div>
   {%- endif -%}
-  <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div>
+  <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <div class="custom-contents-position">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
-              style="top: {{ block.settings.heading_top }}vh; left: {{ block.settings.heading_left }}vw; position:absolute;"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -290,6 +301,24 @@
       "default": "center",
       "label": "t:sections.image-banner.settings.desktop_content_alignment.label"
     },
+        {
+          "type": "range",
+          "id": "horizontal_offset",
+          "label": "contents horizontal offset (desktop only)",
+          "min": -50,
+          "max": 50,
+          "step": 1,
+          "default": 0
+        },
+    {
+          "type": "range",
+          "id": "vertical_offset",
+          "label": "contents vertical offset (desktop only)",
+           "min": -50,
+          "max": 50,
+          "step": 1,
+          "default": 0
+        },
     {
       "type": "color_scheme",
       "id": "color_scheme",
@@ -388,26 +417,6 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
-        },
-        {
-          "type": "range",
-          "id": "heading_top",
-          "label": "heading Top Position",
-
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "default": 10
-        },
-        {
-          "type": "range",
-          "id": "heading_left",
-          "label": "heading Left Position",
-
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "default": 10
         }
       ]
     },

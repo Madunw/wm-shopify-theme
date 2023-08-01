@@ -1,1 +1,322 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":16,"columns_desktop":4,"image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"enable_filtering":true,"filter_type":"horizontal","enable_sorting":true,"columns_mobile":"2","padding_top":36,"padding_bottom":36}}},"order":["banner","product-grid"]}
+{
+  "sections": {
+    "057d253c-6c8a-4650-aaa9-c2e4496290cd": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI9469.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "c6def484-3cf5-4c95-92b4-2a28ab164e83": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--19944233664804__c6def484-3cf5-4c95-92b4-2a28ab164e83-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--19944233664804__c6def484-3cf5-4c95-92b4-2a28ab164e83-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19944233664804__c6def484-3cf5-4c95-92b4-2a28ab164e83-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233664804__c6def484-3cf5-4c95-92b4-2a28ab164e83-heading-1",
+        "template--19944233664804__c6def484-3cf5-4c95-92b4-2a28ab164e83-text-1",
+        "template--19944233664804__c6def484-3cf5-4c95-92b4-2a28ab164e83-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 5,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3a1f5b7e-1461-4388-b473-57611d4c08b1": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-image-1": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-image-1",
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-product-1",
+        "template--19944233664804__3a1f5b7e-1461-4388-b473-57611d4c08b1-collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "294b4b02-589d-4d7d-a25e-cac889aa1586": {
+      "type": "multirow",
+      "disabled": true,
+      "blocks": {
+        "template--19944233664804__294b4b02-589d-4d7d-a25e-cac889aa1586-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0038-Edit_8bacc7f7-33f8-44bb-9454-9a05f7a21c7b.jpg",
+            "caption": "アルミフレーム",
+            "heading": "wm-01",
+            "text": "<p>¥5,060<\/p><p>丸みがある形状で落ち着いたデザイン。<br\/>作品の展示でよく使われている軽量で丈夫なフレーム。<br\/>展示の場所を選ばず、サイズも幅広く揃えております。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "88a53bc9-03a5-4631-990e-d3f22541b252": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0034-Edit_a59ae224-f3a7-4e29-89d0-7f4c84bebf16.jpg",
+            "caption": "アルミフレーム",
+            "heading": "wm-03",
+            "text": "<p>¥5,060<\/p><p>丸みがある形状で落ち着いたデザイン。<br\/>作品の展示でよく使われている軽量で丈夫なフレーム。<br\/>展示の場所を選ばず、サイズも幅広く揃えております。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "01286d08-d1c6-4125-8d68-f7e487bd12d9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s-1920x1920_v-frms_webp_7bbc3182-2b58-4952-9987-a1257787abae.png",
+            "caption": "アルミフレーム",
+            "heading": "wm-16",
+            "text": "<p>¥5,060<\/p><p>丸みがある形状で落ち着いたデザイン。<br\/>作品の展示でよく使われている軽量で丈夫なフレーム。<br\/>展示の場所を選ばず、サイズも幅広く揃えております。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233664804__294b4b02-589d-4d7d-a25e-cac889aa1586-row-1",
+        "88a53bc9-03a5-4631-990e-d3f22541b252",
+        "01286d08-d1c6-4125-8d68-f7e487bd12d9"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "001f79da-29c0-4391-bc62-1b934068cdd9": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--19944233664804__001f79da-29c0-4391-bc62-1b934068cdd9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--19944233664804__001f79da-29c0-4391-bc62-1b934068cdd9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19944233664804__001f79da-29c0-4391-bc62-1b934068cdd9-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233664804__001f79da-29c0-4391-bc62-1b934068cdd9-heading-1",
+        "template--19944233664804__001f79da-29c0-4391-bc62-1b934068cdd9-text-1",
+        "template--19944233664804__001f79da-29c0-4391-bc62-1b934068cdd9-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI0059-Edit.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "41d2eafd-be7b-475b-9c4b-df667ebbfb22": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--19944233664804__41d2eafd-be7b-475b-9c4b-df667ebbfb22-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0051-Edit_0edcc987-aa0e-4b28-b5d8-47fd74286de3.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--19944233664804__41d2eafd-be7b-475b-9c4b-df667ebbfb22-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0048-Edit.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "7b0080cb-3628-424b-bad7-b1f5e19cd24b": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233664804__41d2eafd-be7b-475b-9c4b-df667ebbfb22-slide-1",
+        "template--19944233664804__41d2eafd-be7b-475b-9c4b-df667ebbfb22-slide-2",
+        "7b0080cb-3628-424b-bad7-b1f5e19cd24b"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    }
+  },
+  "order": [
+    "057d253c-6c8a-4650-aaa9-c2e4496290cd",
+    "c6def484-3cf5-4c95-92b4-2a28ab164e83",
+    "banner",
+    "product-grid",
+    "3a1f5b7e-1461-4388-b473-57611d4c08b1",
+    "294b4b02-589d-4d7d-a25e-cac889aa1586",
+    "001f79da-29c0-4391-bc62-1b934068cdd9",
+    "41d2eafd-be7b-475b-9c4b-df667ebbfb22"
+  ]
+}
