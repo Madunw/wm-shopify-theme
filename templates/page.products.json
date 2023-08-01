@@ -15,18 +15,14 @@
           "type": "heading",
           "settings": {
             "heading": "白山だからできる",
-            "heading_size": "h2",
-            "heading_top": 44,
-            "heading_left": 48
+            "heading_size": "h2"
           }
         },
         "99946fe1-a2e0-4e84-bff2-dad184b45ba0": {
           "type": "heading",
           "settings": {
             "heading": "低価格で高品質な額縁",
-            "heading_size": "h2",
-            "heading_top": 48,
-            "heading_left": 49
+            "heading_size": "h2"
           }
         }
       },
@@ -41,6 +37,8 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
+        "horizontal_offset": 52,
+        "vertical_offset": 67,
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
