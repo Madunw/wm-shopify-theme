@@ -2,6 +2,19 @@
   "sections": {
     "1c92bb03-e731-440c-bec5-7527f999d935": {
       "type": "first-view-original",
+      "blocks": {
+        "2e5afbe1-719b-4575-a9e1-24ed8eb9abf6": {
+          "type": "vertical_heading",
+          "settings": {
+            "vertical_heading": "FRAME SHIROYAMA",
+            "vertical_heading_font_size": 6,
+            "vertical_heading_position": 0
+          }
+        }
+      },
+      "block_order": [
+        "2e5afbe1-719b-4575-a9e1-24ed8eb9abf6"
+      ],
       "settings": {
         "only_desktop": true,
         "image": "shopify:\/\/shop_images\/DAI9619.jpg",
