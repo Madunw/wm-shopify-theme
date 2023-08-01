@@ -26,6 +26,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "only_mobile": false,
         "logo_position": "middle-left",
