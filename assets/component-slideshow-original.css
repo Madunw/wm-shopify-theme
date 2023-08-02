@@ -53,6 +53,16 @@ slideshow-component .slideshow.banner {
   }
 }
 
+@media screen and (max-width: 749px) {
+  .slideshow__box-mobile--top {
+    top: -25rem;
+  }
+  .slideshow__box-mobile--middle {
+  }
+  .slideshow__box-mobile--bottom {
+    top: 23rem;
+  }
+}
 .slideshow__text.banner__box {
   display: flex;
   flex-direction: column;
