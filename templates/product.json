@@ -4,7 +4,7 @@
       "type": "shopping-icons",
       "settings": {
         "enable_country_selector": false,
-        "enable_language_selector": false
+        "enable_language_selector": true
       }
     },
     "main": {
