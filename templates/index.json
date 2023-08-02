@@ -17,11 +17,7 @@
       ],
       "settings": {
         "only_desktop": true,
-<<<<<<< HEAD
-        "image": "shopify:\/\/shop_images\/DAI9593.jpg",
-=======
         "image": "shopify:\/\/shop_images\/DAI9619.jpg",
->>>>>>> 67e7424b417e97e15aff1a32a2b21940d3221f21
         "image_2": "shopify:\/\/shop_images\/202212___21-2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "fullscreen",
@@ -106,7 +102,7 @@
           "type": "text",
           "settings": {
             "text": "<p>芸術学校を卒業するまでにフレームの購入とレンタルする際の金銭的な負荷を痛感した株式会社白山の代表は、アーティストの自由な展示や一般のお客様の空間づくりの一助となるため歴史のある浅草に額縁専門店を起業しました。<br\/><br\/>本社は海外の工場から額縁を厳選し、手に取りやすい価格で品質の高い商品を提供しております。<br\/><\/p>",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "template--19944233533732__ca28b015-ff81-4a76-a12e-070011fc618d-button-1": {
@@ -133,12 +129,9 @@
         "content_layout": "overlap",
         "color_scheme": "background-1",
         "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 80,
-        "padding_bottom": 20
-      }
-    },
-<<<<<<< HEAD
+        "padding_bottom": 0
     "446e80d3-3826-48f6-9b31-373769037d07": {
       "type": "first-view-original",
       "blocks": {
@@ -202,8 +195,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-=======
->>>>>>> 67e7424b417e97e15aff1a32a2b21940d3221f21
     "553ab3bd-f162-426c-bf4d-59091f5a528d": {
       "type": "rich-text",
       "blocks": {
