@@ -361,7 +361,7 @@
         "5dea5f00-1f5a-4778-a1f1-491acdf80a97"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
