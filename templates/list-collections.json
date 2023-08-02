@@ -1,5 +1,11 @@
 {
   "sections": {
+    "2b491805-e1e1-432c-aa68-4c2f348b8432": {
+      "type": "shopping-icons",
+      "settings": {
+        "enable_language_selector": true
+      }
+    },
     "43cf87d4-8d93-4da6-973d-ef211055a5e6": {
       "type": "image-banner",
       "disabled": true,
@@ -10,6 +16,8 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
+        "horizontal_offset": 0,
+        "vertical_offset": 0,
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -68,7 +76,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 0
@@ -109,7 +117,7 @@
           "type": "heading",
           "settings": {
             "heading": "エアフレーム",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "2122ebb2-88e0-4a58-bc18-f4f9a40ab856": {
@@ -142,7 +150,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 0
@@ -178,6 +186,7 @@
     },
     "a9f0839c-6ddd-45a4-a709-5a4624b5a8d7": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-1": {
           "type": "featured_collection",
@@ -218,6 +227,7 @@
     },
     "73520de8-9cb2-4cc8-b204-487339554491": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "アルミフレーム",
         "heading_size": "h2",
@@ -246,6 +256,7 @@
     },
     "bb027c61-00cf-493d-8e9c-94a868cb94f0": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "エアフレーム",
         "heading_size": "h2",
@@ -315,6 +326,7 @@
     }
   },
   "order": [
+    "2b491805-e1e1-432c-aa68-4c2f348b8432",
     "43cf87d4-8d93-4da6-973d-ef211055a5e6",
     "main",
     "0b85519a-82a5-4309-a036-1bb2828a8277",

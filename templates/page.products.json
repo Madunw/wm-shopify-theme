@@ -48,6 +48,7 @@
     },
     "9ee42726-621a-44bc-8fa2-92d2b1414a00": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "d0ecc045-f4fc-4df8-88d0-1761448c0618": {
           "type": "caption",
@@ -102,6 +103,7 @@
     },
     "37a4bbbb-3f8d-43bc-8c81-8d616f12f504": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--19694442086692__37a4bbbb-3f8d-43bc-8c81-8d616f12f504-16885389179aa81b50-0": {
           "type": "column",
@@ -158,6 +160,7 @@
     },
     "941e3b88-5fe4-438e-ad02-fc88884b9940": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "8da1c470-3303-4cb6-9ae2-593ed3bbf9cf": {
           "type": "column",
@@ -214,6 +217,7 @@
     },
     "8f690555-61c8-4799-8a48-d43956ef93b8": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "64a80fd9-6c36-4190-8b17-c0f694ec0d4e": {
           "type": "column",
@@ -265,6 +269,110 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "fcf75bf6-27bb-40d4-96da-5c4c9a6bda53": {
+      "type": "image-with-text",
+      "blocks": {
+        "537eb3a8-46b2-468f-8596-c8e0fc59901d": {
+          "type": "heading",
+          "settings": {
+            "heading": "アルミフレーム",
+            "heading_size": "h1"
+          }
+        },
+        "e927e19e-b808-4b22-9b17-01ec447ce611": {
+          "type": "text",
+          "settings": {
+            "text": "<p>作品を引き立てる額の印象を与えないシンプルなフレームです。<br\/>空間に合わせてwm-01、wm-13、wm-16の三種類から選ぶことが可能です。<br\/>白山だからできる低価格と高品質なフレームをお届けします。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1cbd4007-11f4-454c-b543-0ec5736dd0cd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "537eb3a8-46b2-468f-8596-c8e0fc59901d",
+        "e927e19e-b808-4b22-9b17-01ec447ce611",
+        "1cbd4007-11f4-454c-b543-0ec5736dd0cd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI0021-Edit.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "020a7f08-1720-4947-872c-35a7b3c67619": {
+      "type": "multirow",
+      "blocks": {
+        "bdf09ed0-0b82-4487-85b1-6245735466e2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0034-Edit_a59ae224-f3a7-4e29-89d0-7f4c84bebf16.jpg",
+            "caption": "エアフレーム",
+            "heading": "ｗｍ-16",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "b0e8ecda-381e-4b40-b637-5e40cea5e2b0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0038-Edit.jpg",
+            "caption": "エアフレーム",
+            "heading": "wm-01",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "5dea5f00-1f5a-4778-a1f1-491acdf80a97": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0051-Edit_0edcc987-aa0e-4b28-b5d8-47fd74286de3.jpg",
+            "caption": "エアフレーム",
+            "heading": "wm-13",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "bdf09ed0-0b82-4487-85b1-6245735466e2",
+        "b0e8ecda-381e-4b40-b637-5e40cea5e2b0",
+        "5dea5f00-1f5a-4778-a1f1-491acdf80a97"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
         "padding_bottom": 36
       }
     },
@@ -389,7 +497,7 @@
         "image": "shopify:\/\/shop_images\/2.jpg",
         "height": "small",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -397,7 +505,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "304f69e1-c3d2-41d1-ab15-9ed19bcb517c": {
@@ -455,18 +563,18 @@
         "4ca0bef8-c08f-4200-b252-c03c621393a6"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "image_layout": "alternate-right",
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 16,
         "padding_bottom": 36
       }
     }
@@ -478,6 +586,8 @@
     "37a4bbbb-3f8d-43bc-8c81-8d616f12f504",
     "941e3b88-5fe4-438e-ad02-fc88884b9940",
     "8f690555-61c8-4799-8a48-d43956ef93b8",
+    "fcf75bf6-27bb-40d4-96da-5c4c9a6bda53",
+    "020a7f08-1720-4947-872c-35a7b3c67619",
     "9da3698b-2204-4713-951d-2a5e32ee9b67",
     "102eae2d-b209-4e1e-bb06-3a4b9587e0e9",
     "5676f736-a520-4b0b-99f0-91c74ae3b7e2",
