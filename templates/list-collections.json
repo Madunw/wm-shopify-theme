@@ -64,7 +64,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/white-2.jpg",
         "height": "small",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
