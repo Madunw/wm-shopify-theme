@@ -1,8 +1,13 @@
 {
   "sections": {
+    "2b491805-e1e1-432c-aa68-4c2f348b8432": {
+      "type": "shopping-icons",
+      "settings": {
+        "enable_language_selector": true
+      }
+    },
     "43cf87d4-8d93-4da6-973d-ef211055a5e6": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9469.jpg",
         "image_overlay_opacity": 0,
@@ -320,6 +325,7 @@
     }
   },
   "order": [
+    "2b491805-e1e1-432c-aa68-4c2f348b8432",
     "43cf87d4-8d93-4da6-973d-ef211055a5e6",
     "main",
     "0b85519a-82a5-4309-a036-1bb2828a8277",
