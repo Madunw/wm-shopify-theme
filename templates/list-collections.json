@@ -8,6 +8,7 @@
     },
     "43cf87d4-8d93-4da6-973d-ef211055a5e6": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DAI9469.jpg",
         "image_overlay_opacity": 0,
@@ -42,7 +43,7 @@
           "type": "heading",
           "settings": {
             "heading": "アルミフレーム",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-text-1": {
@@ -116,7 +117,7 @@
           "type": "heading",
           "settings": {
             "heading": "エアフレーム",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "2122ebb2-88e0-4a58-bc18-f4f9a40ab856": {
