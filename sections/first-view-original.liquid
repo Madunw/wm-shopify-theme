@@ -1,4 +1,5 @@
-<script>
+{% javascript %}
+  
   
   setTimeout(function() {
     var bannerContent = document.querySelector(".banner__content");
@@ -33,7 +34,8 @@
     }, 1300); // 1秒后显示image2
   }, 1800); // 2秒后开始取消显示image1
 
-</script>
+
+{% endjavascript %}
 
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {%- if section.settings.only_desktop == true -%}
