@@ -29,6 +29,22 @@ slideshow-component .slideshow.banner {
   .slideshow--placeholder.banner--adapt_image:not(.banner--mobile-bottom) {
     height: 28rem;
   }
+
+   .slidwshow-background--small { 
+    height: 28rem;
+  }
+
+  .slidwshow-background--medium {
+    height: 34rem;
+  }
+
+  .slidwshow-background--large {
+    height: 39rem;
+  }
+
+  .slidwshow-background--fullscreen {
+    height: 100vh;
+  }
 }
 
 @media screen and (min-width: 750px) {
