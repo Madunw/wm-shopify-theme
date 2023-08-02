@@ -197,7 +197,6 @@
         </div>
         <div
           class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}"
-          style="left: {{ block.settings.box_horizontal_position }}vw; top: {{ block.settings.box_vertical_position }}vh;"
         >
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
             {%- if block.settings.heading != blank -%}
@@ -451,27 +450,6 @@
       "name": "t:sections.slideshow.blocks.slide.name",
       "limit": 5,
       "settings": [
-  {
-          "type": "range",
-          "id": "box_horizontal_position",
-          "min": -50,
-          "max": 50,
-          "step": 1,
-          "unit": "%",
-          "label": "Horizontal Move",
-          "default": 0
-        },
-
-        {
-          "type": "range",
-          "id": "box_vertical_position",
-          "min": -50,
-          "max": 50,
-          "step": 1,
-          "unit": "%",
-          "label": "Vertical Position",
-          "default": 0
-        },
         {
           "type": "image_picker",
           "id": "image",
