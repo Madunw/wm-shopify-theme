@@ -1,5 +1,12 @@
 {
   "sections": {
+    "d522c265-8f8c-4b24-9eab-1ca4f5d5bb6c": {
+      "type": "shopping-icons",
+      "settings": {
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -92,18 +99,11 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "d522c265-8f8c-4b24-9eab-1ca4f5d5bb6c": {
-      "type": "shopping-icons",
-      "settings": {
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
     }
   },
   "order": [
+    "d522c265-8f8c-4b24-9eab-1ca4f5d5bb6c",
     "main",
-    "related-products",
-    "d522c265-8f8c-4b24-9eab-1ca4f5d5bb6c"
+    "related-products"
   ]
 }
