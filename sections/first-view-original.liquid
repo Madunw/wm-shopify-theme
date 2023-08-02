@@ -1,4 +1,4 @@
-{% javascript %}
+<script>
   
   
   setTimeout(function() {
@@ -35,7 +35,7 @@
   }, 1800); // 2秒后开始取消显示image1
 
 
-{% endjavascript %}
+</script>
 
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {%- if section.settings.only_desktop == true -%}
