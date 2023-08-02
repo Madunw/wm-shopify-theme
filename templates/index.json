@@ -78,7 +78,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/0f31a7e2981152155bfce3b094f21768.jpg",
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "fullscreen",
         "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "none",
