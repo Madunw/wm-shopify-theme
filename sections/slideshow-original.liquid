@@ -91,7 +91,7 @@
     </div>
   {%- endif -%}
 
-  <div class="slideshowbackground--{{ section.settings.slide_height }}">
+  <div class="slideshow-background--{{ section.settings.slide_height }}">
     {%- liquid
       assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
       if section.settings.image_2 != blank

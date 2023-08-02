@@ -30,19 +30,19 @@ slideshow-component .slideshow.banner {
     height: 28rem;
   }
 
-   .slidwshow-background--small { 
+   .slidewshow-background--small { 
     height: 28rem;
   }
 
-  .slidwshow-background--medium {
+  .slideshow-background--medium {
     height: 34rem;
   }
 
-  .slidwshow-background--large {
+  .slideshow-background--large {
     height: 39rem;
   }
 
-  .slidwshow-background--fullscreen {
+  .slideshow-background--fullscreen {
     height: 100vh;
   }
 }
