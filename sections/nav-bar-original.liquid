@@ -2,7 +2,7 @@
   setTimeout(function() {
     var bannerContent = document.querySelector(".fade-in");
     bannerContent.style.display = "block";
-  }, {{ section.settings.text_delay }} * 1000);
+  }, {{ section.settings.transition_delay }} * 1000);
 </script>
 {%- if section.settings.only_desktop == true -%}
   {%- style -%}
@@ -178,8 +178,8 @@
     },
     {
       "type": "range",
-      "id": "text_delay",
-      "label": "Text show delay",
+      "id": "transition_delay",
+      "label": "Transition delay",
       "min": 0,
       "max": 8,
       "step": 1,
