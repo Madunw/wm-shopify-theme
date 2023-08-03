@@ -53,8 +53,8 @@
         "logo": "shopify:\/\/shop_images\/logo.png",
         "logo_width": 120,
         "nav_margin_top": 3,
-        "font_size": 1.7,
-        "font_space": 1
+        "font_size": 1.5,
+        "font_space": 0.8
       }
     }
   },
