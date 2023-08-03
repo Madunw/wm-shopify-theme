@@ -875,7 +875,7 @@ summary::-webkit-details-marker {
 }
 
 .subtitle--medium {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   letter-spacing: 0.08rem;
 }
 
@@ -1211,8 +1211,8 @@ button.shopify-payment-button__button--unbranded,
 .shopify-challenge__button,
 .customer button,
 button.shopify-payment-button__button--unbranded {
-  min-width: calc(12rem + var(--buttons-border-width) * 2);
-  min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+  min-width: calc(10rem + var(--buttons-border-width) * 2);
+  min-height: calc(3.5rem + var(--buttons-border-width) * 2);
 }
 
 .shopify-payment-button__button--branded {
