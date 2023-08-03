@@ -13,7 +13,7 @@
     }
   {%- endstyle -%}
 {%- endif -%}
-<nav class="nav-bar">
+<nav class="nav-bar fade-in">
   {% if section.settings.logo %}
     <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
       {%- if settings.logo != blank -%}
@@ -41,7 +41,7 @@
     </a>
   {% endif %}
 
-  <ul class="nav-list-menu fade-in" role="list">
+  <ul class="nav-list-menu" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
