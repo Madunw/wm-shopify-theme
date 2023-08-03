@@ -55,12 +55,13 @@ slideshow-component .slideshow.banner {
 
 @media screen and (max-width: 749px) {
   .slideshow__box-mobile--top {
-    top: -25rem;
+    align-self: baseline;
   }
   .slideshow__box-mobile--middle {
+    align-self: center;
   }
   .slideshow__box-mobile--bottom {
-    top: 27rem;
+    align-self: last baseline;
   }
 }
 .slideshow__text.banner__box {
