@@ -1,1 +1,204 @@
-{"sections":{"main":{"type":"main-article","blocks":{"featured_image":{"type":"featured_image","settings":{"image_height":"adapt"}},"title":{"type":"title","settings":{"blog_show_date":true,"blog_show_author":false}},"share":{"type":"share","settings":{"share_label":"Share"}},"content":{"type":"content","settings":{}}},"block_order":["featured_image","title","share","content"],"settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "medium"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {
+      }
+    },
+    "c6c0ae98-09a6-4ce1-b9ca-c53690a17cac": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19944233173284__c6c0ae98-09a6-4ce1-b9ca-c53690a17cac-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "本展にご利用頂いたフレーム",
+            "heading_size": "h2"
+          }
+        },
+        "template--19944233173284__c6c0ae98-09a6-4ce1-b9ca-c53690a17cac-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>wm-13 アルミフレーム 10×12 シルバー<\/li><li>wm-13 アルミフレーム 12×15 シルバー<\/li><li>wm-13 アルミフレーム 18×22 シルバー<\/li><\/ul>"
+          }
+        },
+        "template--19944233173284__c6c0ae98-09a6-4ce1-b9ca-c53690a17cac-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233173284__c6c0ae98-09a6-4ce1-b9ca-c53690a17cac-heading-1",
+        "template--19944233173284__c6c0ae98-09a6-4ce1-b9ca-c53690a17cac-text-1",
+        "template--19944233173284__c6c0ae98-09a6-4ce1-b9ca-c53690a17cac-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e4fa4b38-abce-4bbd-94ea-d0ae16a741bd": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-text-1",
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-title-1",
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-price-1",
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-variant_picker-1",
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-quantity_selector-1",
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-buy_buttons-1",
+        "template--19944233173284__e4fa4b38-abce-4bbd-94ea-d0ae16a741bd-share-1"
+      ],
+      "settings": {
+        "product": "アルミフレーム-ｗｍ-03",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8334a896-8397-49e7-8860-9f3cad4f6734": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19944233173284__8334a896-8397-49e7-8860-9f3cad4f6734-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "wm-13",
+            "heading_size": "h1"
+          }
+        },
+        "template--19944233173284__8334a896-8397-49e7-8860-9f3cad4f6734-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>レンタルサービスを行っております。<br\/>個展、グループ展などにぜひご利用ください。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19944233173284__8334a896-8397-49e7-8860-9f3cad4f6734-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "レンタル",
+            "button_link": "shopify:\/\/pages\/レンタルサービス"
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233173284__8334a896-8397-49e7-8860-9f3cad4f6734-heading-1",
+        "template--19944233173284__8334a896-8397-49e7-8860-9f3cad4f6734-text-1",
+        "template--19944233173284__8334a896-8397-49e7-8860-9f3cad4f6734-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI_2.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c6c0ae98-09a6-4ce1-b9ca-c53690a17cac",
+    "e4fa4b38-abce-4bbd-94ea-d0ae16a741bd",
+    "8334a896-8397-49e7-8860-9f3cad4f6734"
+  ]
+}
