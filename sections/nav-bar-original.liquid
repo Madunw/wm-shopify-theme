@@ -123,8 +123,8 @@
 {%- style -%}
   .nav-bar {
     position: fixed;
-    left: {{ section.settings.left }}vw;
-    top: {{ section.settings.top }}vh;
+    left: {{ section.settings.horizontal_offset }}vw;
+    top: {{ section.settings.vertical_offset }}vh;
     z-index: 999;
   }
   .nav-list-menu {
@@ -187,8 +187,8 @@
     },
     {
       "type": "range",
-      "id": "top",
-      "label": "Top Position",
+      "id": "vertical_offset",
+      "label": "Vertical_offset",
       "min": 0,
       "max": 80,
       "step": 1,
@@ -196,8 +196,8 @@
     },
     {
       "type": "range",
-      "id": "left",
-      "label": "Left Position",
+      "id": "horizontal_offset",
+      "label": "Horizontal offset",
       "min": 0,
       "max": 80,
       "step": 1,
@@ -217,11 +217,16 @@
       "max": 500,
       "step": 20,
       "default": 200
-    }
-      ,{
-          "type": "header",
-          "content": "Navigatior"
-        },{
+    },
+    {
+      "type": "header",
+      "content": "Navigatior"
+    },
+    {
+      "type": "header",
+      "content": "Position"
+    },
+    {
       "type": "range",
       "id": "nav_margin_top",
       "label": "Navigation Margin Top",
@@ -229,7 +234,8 @@
       "max": 50,
       "step": 1,
       "default": 5
-    },{
+    },
+    {
       "type": "range",
       "id": "font_size",
       "label": "Font Size",
