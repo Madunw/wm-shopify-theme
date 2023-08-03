@@ -1,0 +1,257 @@
+<script>
+  setTimeout(function() {
+    var bannerContent = document.querySelector(".fade-in");
+    bannerContent.style.display = "block";
+  }, {{ section.settings.transition_delay }} * 1000);
+</script>
+{%- if section.settings.only_desktop == true -%}
+  {%- style -%}
+       @media screen and (max-width: 749px) {
+      .nav-bar {
+        display: none;
+      }
+    }
+  {%- endstyle -%}
+{%- endif -%}
+<nav class="nav-bar">
+  {% if section.settings.logo %}
+    <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+      {%- if settings.logo != blank -%}
+        <div class="header__heading-logo-wrapper">
+          {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
+          {%- assign logo_height = section.settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
+          {% capture sizes %}(min-width: 750px) {{ section.settings.logo_width }}px, 50vw{% endcapture %}
+          {% capture widths %}{{ section.settings.logo_width }}, {{ section.settings.logo_width | times: 1.5 | round }}, {{ section.settings.logo_width | times: 2 }}{% endcapture %}
+          {{
+            settings.logo
+            | image_url: width: 600
+            | image_tag:
+              class: 'header__heading-logo',
+              widths: widths,
+              height: logo_height,
+              width: section.settings.logo_width,
+              alt: logo_alt,
+              sizes: sizes,
+              preload: true
+          }}
+        </div>
+      {%- else -%}
+        <span class="h2">{{ shop.name }}</span>
+      {%- endif -%}
+    </a>
+  {% endif %}
+
+  <ul class="nav-list-menu fade-in" role="list">
+    {%- for link in section.settings.menu.links -%}
+      <li>
+        {%- if link.links != blank -%}
+          <header-menu>
+            <details id="Details-HeaderMenu-{{ forloop.index }}">
+              <summary
+                id="HeaderMenu-{{ link.handle }}"
+              >
+                {% render 'icon-caret' %}
+              </summary>
+              <div
+                id="MegaMenu-Content-{{ forloop.index }}"
+                class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                tabindex="-1"
+              >
+                <ul
+                  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  role="list"
+                >
+                  {%- for childlink in link.links -%}
+                    <li>
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        {{ childlink.title | escape }}
+                      </a>
+                      {%- if childlink.links != blank -%}
+                        <ul class="list-unstyled" role="list">
+                          {%- for grandchildlink in childlink.links -%}
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                href="{{ grandchildlink.url }}"
+                                class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                {% if grandchildlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </div>
+            </details>
+          </header-menu>
+        {%- else -%}
+          <a
+            id="HeaderMenu-{{ link.handle }}"
+            href="{{ link.url }}"
+            class="header__menu-item nav-link"
+            {% if link.current %}
+              aria-current="page"
+            {% endif %}
+          >
+            <span
+              {%- if link.current %}
+                class="header__active-menu-item"
+              {% endif %}
+            >
+              {{- link.title | escape -}}
+            </span>
+          </a>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>
+
+{%- style -%}
+  .nav-bar {
+    position: fixed;
+    left: {{ section.settings.horizontal_offset }}vw;
+    top: {{ section.settings.vertical_offset }}vh;
+    z-index: 999;
+  }
+  .nav-list-menu {
+    list-style: none;
+    margin-top:{{ section.settings.nav_margin_top }}rem;
+    padding-left: 1rem
+  }
+  .nav-list-menu li {
+    margin-bottom:{{ section.settings.font_space }}rem
+  }
+  .nav-link{
+    font-size: {{ section.settings.font_size }}rem
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in {
+    display: none;
+    animation: fadeIn 1.3s ease-out;
+  }
+{%- endstyle -%}
+
+{% schema %}
+{
+  "name": "nav-bar",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["footer"]
+  },
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "default": "main-menu",
+      "label": "t:sections.header.settings.menu.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "only_desktop",
+      "default": false,
+      "label": "only show on desktop"
+    },
+    {
+      "type": "range",
+      "id": "transition_delay",
+      "label": "Transition delay",
+      "min": 0,
+      "max": 8,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Position"
+    },
+    {
+      "type": "range",
+      "id": "vertical_offset",
+      "label": "Vertical_offset",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "horizontal_offset",
+      "label": "Horizontal offset",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "default": 0
+    },{
+          "type": "header",
+          "content": "Logo"
+        },{
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+    },{
+      "type": "range",
+      "id": "logo_width",
+      "label": "Logo Size",
+      "min": 100,
+      "max": 500,
+      "step": 20,
+      "default": 200
+    },
+    {
+      "type": "header",
+      "content": "Navigatior"
+    },
+    {
+      "type": "range",
+      "id": "nav_margin_top",
+      "label": "Navigation Margin Top",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font Size",
+      "min": 0.5,
+      "max": 5,
+      "step": 0.1,
+      "default": 2
+    },{
+      "type": "range",
+      "id": "font_space",
+      "label": "Font Space",
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "default": 0
+    }],
+  "blocks": []
+}
+{% endschema %}

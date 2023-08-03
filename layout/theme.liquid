@@ -232,7 +232,7 @@
 
       @media screen and (min-width: 750px) {
         body {
-          font-size: 1.6rem;
+          font-size: 1.4rem;
         }
       }
     {% endstyle %}
@@ -286,6 +286,7 @@
     </ul>
 
     <script>
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -313,6 +314,7 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       };
+
     </script>
 
     {%- if settings.predictive_search_enabled -%}

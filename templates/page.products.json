@@ -1,0 +1,596 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "c7496486-6ad0-45e7-940c-ee4dfe6eac86": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19694442086692__c7496486-6ad0-45e7-940c-ee4dfe6eac86-1688530657e9a59fe7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "白山だからできる",
+            "heading_size": "h2"
+          }
+        },
+        "99946fe1-a2e0-4e84-bff2-dad184b45ba0": {
+          "type": "heading",
+          "settings": {
+            "heading": "低価格で高品質な額縁",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--19694442086692__c7496486-6ad0-45e7-940c-ee4dfe6eac86-1688530657e9a59fe7-0",
+        "99946fe1-a2e0-4e84-bff2-dad184b45ba0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC00261.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "horizontal_offset": 10,
+        "vertical_offset": 21,
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "9ee42726-621a-44bc-8fa2-92d2b1414a00": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "d0ecc045-f4fc-4df8-88d0-1761448c0618": {
+          "type": "caption",
+          "settings": {
+            "caption": "展覧会、作品展など",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "アルミフレーム",
+            "heading_size": "h1"
+          }
+        },
+        "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>作品を引き立てる額の印象を与えないシンプルなフレームです。<br\/>空間に合わせてwm-01、wm-13、wm-16の三種類から選ぶことが可能です。<br\/>白山だからできる低価格と高品質なフレームをお届けします。<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "購 入",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d0ecc045-f4fc-4df8-88d0-1761448c0618",
+        "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-0",
+        "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-1",
+        "template--19694442086692__9ee42726-621a-44bc-8fa2-92d2b1414a00-16885303753962bade-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "37a4bbbb-3f8d-43bc-8c81-8d616f12f504": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "template--19694442086692__37a4bbbb-3f8d-43bc-8c81-8d616f12f504-16885389179aa81b50-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/white-2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19694442086692__37a4bbbb-3f8d-43bc-8c81-8d616f12f504-16885389179aa81b50-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/white-3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19694442086692__37a4bbbb-3f8d-43bc-8c81-8d616f12f504-16885389179aa81b50-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/275.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19694442086692__37a4bbbb-3f8d-43bc-8c81-8d616f12f504-16885389179aa81b50-0",
+        "template--19694442086692__37a4bbbb-3f8d-43bc-8c81-8d616f12f504-16885389179aa81b50-1",
+        "template--19694442086692__37a4bbbb-3f8d-43bc-8c81-8d616f12f504-16885389179aa81b50-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "941e3b88-5fe4-438e-ad02-fc88884b9940": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "8da1c470-3303-4cb6-9ae2-593ed3bbf9cf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI9559-Edit.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b9bec190-cbc8-468d-bcd6-5bc1beba71cc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0034-Edit.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bea661bc-73c3-463a-94ae-011eb47b5fdd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0051-Edit.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8da1c470-3303-4cb6-9ae2-593ed3bbf9cf",
+        "b9bec190-cbc8-468d-bcd6-5bc1beba71cc",
+        "bea661bc-73c3-463a-94ae-011eb47b5fdd"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8f690555-61c8-4799-8a48-d43956ef93b8": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "64a80fd9-6c36-4190-8b17-c0f694ec0d4e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wm-13__page-0001.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9c32201f-2801-4575-a5df-9e4ebfc36a90": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wm-01_1_page-0001.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c75aeb7c-df07-47bb-848f-40709ea3e6b2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wm-16_1_page-0001.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "64a80fd9-6c36-4190-8b17-c0f694ec0d4e",
+        "9c32201f-2801-4575-a5df-9e4ebfc36a90",
+        "c75aeb7c-df07-47bb-848f-40709ea3e6b2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "fcf75bf6-27bb-40d4-96da-5c4c9a6bda53": {
+      "type": "image-with-text",
+      "blocks": {
+        "537eb3a8-46b2-468f-8596-c8e0fc59901d": {
+          "type": "heading",
+          "settings": {
+            "heading": "アルミフレーム",
+            "heading_size": "h1"
+          }
+        },
+        "e927e19e-b808-4b22-9b17-01ec447ce611": {
+          "type": "text",
+          "settings": {
+            "text": "<p>作品を引き立てる額の印象を与えないシンプルなフレームです。<br\/>空間に合わせてwm-01、wm-13、wm-16の三種類から選ぶことが可能です。<br\/>白山だからできる低価格と高品質なフレームをお届けします。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1cbd4007-11f4-454c-b543-0ec5736dd0cd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "537eb3a8-46b2-468f-8596-c8e0fc59901d",
+        "e927e19e-b808-4b22-9b17-01ec447ce611",
+        "1cbd4007-11f4-454c-b543-0ec5736dd0cd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI0021-Edit.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "020a7f08-1720-4947-872c-35a7b3c67619": {
+      "type": "multirow",
+      "blocks": {
+        "bdf09ed0-0b82-4487-85b1-6245735466e2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0034-Edit_a59ae224-f3a7-4e29-89d0-7f4c84bebf16.jpg",
+            "caption": "エアフレーム",
+            "heading": "ｗｍ-16",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "b0e8ecda-381e-4b40-b637-5e40cea5e2b0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0038-Edit.jpg",
+            "caption": "エアフレーム",
+            "heading": "wm-01",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "5dea5f00-1f5a-4778-a1f1-491acdf80a97": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI0051-Edit_0edcc987-aa0e-4b28-b5d8-47fd74286de3.jpg",
+            "caption": "エアフレーム",
+            "heading": "wm-13",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "bdf09ed0-0b82-4487-85b1-6245735466e2",
+        "b0e8ecda-381e-4b40-b637-5e40cea5e2b0",
+        "5dea5f00-1f5a-4778-a1f1-491acdf80a97"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "9da3698b-2204-4713-951d-2a5e32ee9b67": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19694442086692__9da3698b-2204-4713-951d-2a5e32ee9b67-1688539288db3fcda2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "レンタルサービス",
+            "heading_size": "h1"
+          }
+        },
+        "template--19694442086692__9da3698b-2204-4713-951d-2a5e32ee9b67-1688539288db3fcda2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>FRAME SHIROYAMAではアルミフレームのレンタルサービスを行っております。<br\/>個展、グループ展などにぜひご利用ください。<\/h3><p><strong>・レンタルーサービスはwm-13 のみを提供しております<\/strong><\/p>"
+          }
+        },
+        "template--19694442086692__9da3698b-2204-4713-951d-2a5e32ee9b67-1688539288db3fcda2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳細はこちら",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19694442086692__9da3698b-2204-4713-951d-2a5e32ee9b67-1688539288db3fcda2-0",
+        "template--19694442086692__9da3698b-2204-4713-951d-2a5e32ee9b67-1688539288db3fcda2-1",
+        "template--19694442086692__9da3698b-2204-4713-951d-2a5e32ee9b67-1688539288db3fcda2-2"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "102eae2d-b209-4e1e-bb06-3a4b9587e0e9": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "エアフレーム",
+            "heading_size": "h1"
+          }
+        },
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>耐久性のある樹脂フレームは軽量で気軽に飾れる。<br\/>環境にも配慮した樹脂素材のフレームです。<br\/>木材のような温もりが特徴で、豊富なルックスを取り揃えています<\/p>"
+          }
+        },
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-heading-1",
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-text-1",
+        "template--20034087125284__102eae2d-b209-4e1e-bb06-3a4b9587e0e9-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5676f736-a520-4b0b-99f0-91c74ae3b7e2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "エアフレーム",
+            "heading_size": "h1"
+          }
+        },
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>耐久性のある樹脂フレームは軽量で気軽に飾れる。<br\/>環境にも配慮した樹脂素材のフレームです。<br\/>木材のような温もりが特徴で、豊富なルックスを取り揃えています<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-heading-1",
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-text-1",
+        "template--20034087125284__5676f736-a520-4b0b-99f0-91c74ae3b7e2-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "304f69e1-c3d2-41d1-ab15-9ed19bcb517c": {
+      "type": "multirow",
+      "blocks": {
+        "template--20034087125284__304f69e1-c3d2-41d1-ab15-9ed19bcb517c-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d581ba077b3c3435ef8e3a531a2aeeed.jpg",
+            "caption": "エアフレーム",
+            "heading": "275",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "228238aa-62b4-45b8-9dd1-18cefb3051a1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAI9415.jpg",
+            "caption": "エアフレーム",
+            "heading": "3443",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "17ffc0d5-c179-434e-b6e4-8c8e7d570313": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bb92eaad67e2a3bfff33a49ee68df2ce_15b693de-4758-4f65-9ee0-2823115c7a24.jpg",
+            "caption": "エアフレーム",
+            "heading": "3801",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        },
+        "4ca0bef8-c08f-4200-b252-c03c621393a6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e00f41bba38bcb2e4b29dcf17b25c8b7.jpg",
+            "caption": "エアフレーム",
+            "heading": "6354",
+            "text": "<p><strong>¥761    <\/strong>税込<\/p><p>樹脂素材の軽量で割れにくいフレーム。<br\/>お気軽に作品交換が可能。<br\/>ちょっとしたお店やお部屋のインテリアに合わせやすいシンプルな形状。<\/p>",
+            "button_label": "購入",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20034087125284__304f69e1-c3d2-41d1-ab15-9ed19bcb517c-row-1",
+        "228238aa-62b4-45b8-9dd1-18cefb3051a1",
+        "17ffc0d5-c179-434e-b6e4-8c8e7d570313",
+        "4ca0bef8-c08f-4200-b252-c03c621393a6"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c7496486-6ad0-45e7-940c-ee4dfe6eac86",
+    "9ee42726-621a-44bc-8fa2-92d2b1414a00",
+    "37a4bbbb-3f8d-43bc-8c81-8d616f12f504",
+    "941e3b88-5fe4-438e-ad02-fc88884b9940",
+    "8f690555-61c8-4799-8a48-d43956ef93b8",
+    "fcf75bf6-27bb-40d4-96da-5c4c9a6bda53",
+    "020a7f08-1720-4947-872c-35a7b3c67619",
+    "9da3698b-2204-4713-951d-2a5e32ee9b67",
+    "102eae2d-b209-4e1e-bb06-3a4b9587e0e9",
+    "5676f736-a520-4b0b-99f0-91c74ae3b7e2",
+    "304f69e1-c3d2-41d1-ab15-9ed19bcb517c"
+  ]
+}

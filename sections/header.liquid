@@ -36,13 +36,20 @@
     margin-left: -1.2rem;
   }
 
+  {%- if section.settings.only_mobile == true -%}
+       @media screen and (min-width: 749px) {
+        .header-wrapper {
+          display: none;
+        }
+      }
+  {%- endif -%}
 
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
     .scrolled-past-header .header__heading-logo-wrapper {
       width: 75%;
     }
   {%- endif -%}
-
+  
   {%- if section.settings.menu_type_desktop != "drawer" -%}
     @media screen and (min-width: 990px) {
       header-drawer {
@@ -511,6 +518,12 @@
   "class": "section-header",
   "max_blocks": 3,
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "only_mobile",
+      "default": false,
+      "label": "only show on mobile"
+    },
     {
       "type": "select",
       "id": "logo_position",
