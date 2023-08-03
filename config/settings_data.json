@@ -118,6 +118,12 @@
     "show_vendor": true,
     "show_cart_note": true,
     "cart_drawer_collection": "アルミフレーム",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+    "checkout_logo_position": "left",
+    "checkout_input_background_color_mode": "white",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#1762b0",
+    "checkout_button_color": "#3671bb",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
