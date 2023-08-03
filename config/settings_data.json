@@ -14,7 +14,7 @@
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "3d-lift",
     "buttons_border_thickness": 1,
-    "buttons_border_opacity": 80,
+    "buttons_border_opacity": 85,
     "buttons_radius": 0,
     "buttons_shadow_opacity": 15,
     "buttons_shadow_horizontal_offset": 0,
