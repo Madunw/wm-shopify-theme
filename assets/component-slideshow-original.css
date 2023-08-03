@@ -55,7 +55,7 @@ slideshow-component .slideshow.banner {
 
 @media screen and (max-width: 749px) {
   .slideshow__box-mobile--top {
-    align-self: baseline;
+    align-self: flex-start;
   }
   .slideshow__box-mobile--middle {
     align-self: center;
