@@ -47,9 +47,9 @@
       "settings": {
         "menu": "main-menu",
         "only_desktop": true,
-        "text_delay": 0,
-        "top": 10,
-        "left": 3,
+        "transition_delay": 0,
+        "vertical_offset": 10,
+        "horizontal_offset": 3,
         "logo": "shopify:\/\/shop_images\/logo.png",
         "logo_width": 120,
         "nav_margin_top": 3,
