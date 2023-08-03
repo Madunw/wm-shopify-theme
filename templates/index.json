@@ -7,8 +7,8 @@
           "type": "vertical_heading",
           "settings": {
             "vertical_heading": "FRAME SHIROYAMA",
-            "vertical_heading_font_size": 9,
-            "vertical_heading_position": -23
+            "vertical_heading_font_size": 6,
+            "vertical_heading_position": -30
           }
         }
       },
@@ -39,10 +39,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/DAI9568-Edit.png",
             "heading": "アルミフレーム",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "作品を引き立てる額の印象を与えないシンプルなフレーム",
             "button_label": "more",
-            "link": "",
+            "link": "shopify:\/\/pages\/商品",
             "button_style_secondary": true,
             "box_align": "middle-right",
             "show_text_box": true,
@@ -57,16 +57,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/DAI9415.png",
             "heading": "エアフレーム",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "耐久性のある樹脂フレームは軽量で気軽に飾れる。",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "more",
+            "link": "shopify:\/\/pages\/商品",
+            "button_style_secondary": true,
             "box_align": "middle-right",
             "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -172,7 +172,7 @@
           "type": "button",
           "settings": {
             "button_label": "more",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/レンタルサービス",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",

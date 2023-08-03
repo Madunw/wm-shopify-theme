@@ -47,13 +47,14 @@
       "settings": {
         "menu": "main-menu",
         "only_desktop": true,
-        "top": 10,
-        "left": 3,
+        "transition_delay": 0,
+        "vertical_offset": 10,
+        "horizontal_offset": 3,
         "logo": "shopify:\/\/shop_images\/logo.png",
-        "logo_width": 120,
-        "nav_margin_top": 3,
-        "font_size": 1.7,
-        "font_space": 1
+        "logo_width": 100,
+        "nav_margin_top": 1,
+        "font_size": 1.3,
+        "font_space": 0.5
       }
     }
   },
