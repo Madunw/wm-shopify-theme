@@ -61,7 +61,7 @@ slideshow-component .slideshow.banner {
     align-self: center;
   }
   .slideshow__box-mobile--bottom {
-    align-self: last baseline;
+    align-self: flex-end;
   }
 }
 .slideshow__text.banner__box {
