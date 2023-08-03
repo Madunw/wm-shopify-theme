@@ -6,7 +6,7 @@
         "featured_image": {
           "type": "featured_image",
           "settings": {
-            "image_height": "medium"
+            "image_height": "adapt"
           }
         },
         "title": {
@@ -155,7 +155,7 @@
         "template--19944233173284__8334a896-8397-49e7-8860-9f3cad4f6734-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "wm-13",
+            "heading": "レンタル",
             "heading_size": "h1"
           }
         },
@@ -169,7 +169,7 @@
         "template--19944233173284__8334a896-8397-49e7-8860-9f3cad4f6734-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "レンタル",
+            "button_label": "more",
             "button_link": "shopify:\/\/pages\/レンタルサービス"
           }
         }
@@ -183,7 +183,7 @@
         "image": "shopify:\/\/shop_images\/DAI_2.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
