@@ -51,9 +51,9 @@
         "vertical_offset": 10,
         "horizontal_offset": 3,
         "logo": "shopify:\/\/shop_images\/logo.png",
-        "logo_width": 120,
-        "nav_margin_top": 3,
-        "font_size": 1.5,
+        "logo_width": 100,
+        "nav_margin_top": 2,
+        "font_size": 1.2,
         "font_space": 0.8
       }
     }
