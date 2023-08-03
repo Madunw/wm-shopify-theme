@@ -2,7 +2,7 @@
   setTimeout(function() {
     var bannerContent = document.querySelector(".fade-in");
     bannerContent.style.display = "block";
-  }, 4000); // 4秒后显示div
+  }, {{ section.settings.text_delay }} * 1000);
 </script>
 {%- if section.settings.only_desktop == true -%}
   {%- style -%}
@@ -176,67 +176,76 @@
       "default": false,
       "label": "only show on desktop"
     },
-{
-  "type": "range",
-  "id": "top",
-  "label": "Top Position",
-  "min": 0,
-  "max": 80,
-  "step": 1,
-  "default": 0
-},
-{
-  "type": "range",
-  "id": "left",
-  "label": "Left Position",
-  "min": 0,
-  "max": 80,
-  "step": 1,
-  "default": 0
-},{
-      "type": "header",
-      "content": "Logo"
+    {
+      "type": "range",
+      "id": "text_delay",
+      "label": "Text show delay",
+      "min": 0,
+      "max": 8,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "top",
+      "label": "Top Position",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "left",
+      "label": "Left Position",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "default": 0
     },{
-  "type": "image_picker",
-  "id": "logo",
-  "label": "Logo"
-},{
-  "type": "range",
-  "id": "logo_width",
-  "label": "Logo Size",
-  "min": 100,
-  "max": 500,
-  "step": 20,
-  "default": 200
-}
-  ,{
-      "type": "header",
-      "content": "Navigatior"
+          "type": "header",
+          "content": "Logo"
+        },{
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
     },{
-  "type": "range",
-  "id": "nav_margin_top",
-  "label": "Navigation Margin Top",
-  "min": 0,
-  "max": 50,
-  "step": 1,
-  "default": 5
-},{
-  "type": "range",
-  "id": "font_size",
-  "label": "Font Size",
-  "min": 0.5,
-  "max": 5,
-  "step": 0.1,
-  "default": 2
-},{
-  "type": "range",
-  "id": "font_space",
-  "label": "Font Space",
-  "min": 0,
-  "max": 10,
-  "step": 0.1,
-  "default": 0
-}],
+      "type": "range",
+      "id": "logo_width",
+      "label": "Logo Size",
+      "min": 100,
+      "max": 500,
+      "step": 20,
+      "default": 200
+    }
+      ,{
+          "type": "header",
+          "content": "Navigatior"
+        },{
+      "type": "range",
+      "id": "nav_margin_top",
+      "label": "Navigation Margin Top",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 5
+    },{
+      "type": "range",
+      "id": "font_size",
+      "label": "Font Size",
+      "min": 0.5,
+      "max": 5,
+      "step": 0.1,
+      "default": 2
+    },{
+      "type": "range",
+      "id": "font_space",
+      "label": "Font Space",
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "default": 0
+    }],
   "blocks": []
 }
 {% endschema %}
