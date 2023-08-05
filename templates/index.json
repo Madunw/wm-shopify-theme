@@ -69,29 +69,11 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "eae533a5-9ddc-49b7-ba36-c623789012c7": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "template--19944233533732__ce0d6468-755c-4775-a3c8-8548aae92d2e-slide-1",
-        "template--19944233533732__ce0d6468-755c-4775-a3c8-8548aae92d2e-slide-2",
-        "eae533a5-9ddc-49b7-ba36-c623789012c7"
+        "template--19944233533732__ce0d6468-755c-4775-a3c8-8548aae92d2e-slide-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/0f31a7e2981152155bfce3b094f21768.jpg",
