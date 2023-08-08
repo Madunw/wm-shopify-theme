@@ -27,16 +27,15 @@
     "header": {
       "type": "header",
       "settings": {
-        "only_mobile": true,
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "reduce-logo-size",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "color_scheme": "background-1",
         "enable_country_selector": false,
         "enable_language_selector": true,
-        "mobile_logo_position": "left",
+        "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 12,
         "padding_bottom": 12
