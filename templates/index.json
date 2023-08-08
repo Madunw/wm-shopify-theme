@@ -2,18 +2,6 @@
   "sections": {
     "92845dbc-5413-4979-b278-8a92c3aa5531": {
       "type": "image-banner",
-      "blocks": {
-        "57e3ac8e-bbc8-4086-8bab-f48bc6643bba": {
-          "type": "heading",
-          "settings": {
-            "heading": "test",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "57e3ac8e-bbc8-4086-8bab-f48bc6643bba"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/d581ba077b3c3435ef8e3a531a2aeeed.jpg",
         "image_overlay_opacity": 0,
