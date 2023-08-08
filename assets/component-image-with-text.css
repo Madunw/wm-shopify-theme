@@ -81,7 +81,7 @@
   height: 100%;
   justify-content: center;
   align-self: center;
-  padding: 1rem calc(1rem / var(--font-body-scale)) 1rem;
+  padding: 4rem calc(4rem / var(--font-body-scale)) 5rem;
   position: relative;
   z-index: 1;
 }
@@ -326,7 +326,7 @@
 
 @media screen and (min-width: 990px) {
   .image-with-text__content {
-    padding: 1rem 1rem 1rem;
+    padding: 6rem 7rem 7rem;
   }
 }
 
