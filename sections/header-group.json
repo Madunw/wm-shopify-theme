@@ -26,7 +26,9 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
+        "only_desktop": false,
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
@@ -43,6 +45,7 @@
     },
     "7d908a87-ccff-4ed4-b6de-f1d9435cb897": {
       "type": "nav-bar-original",
+      "disabled": true,
       "settings": {
         "menu": "main-menu",
         "only_desktop": true,
