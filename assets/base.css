@@ -2248,7 +2248,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   position: absolute;
   width: 100%;
   background-color: rgb(var(--color-background));
-  z-index: 999;
+  z-index: 1;
 }
 
 .header-wrapper--border-bottom {
