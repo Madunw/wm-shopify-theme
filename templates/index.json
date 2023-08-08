@@ -234,6 +234,24 @@
         "padding_top": 36,
         "padding_bottom": 100
       }
+    },
+    "7a2eb258-9891-4be3-8f4b-af0b91bdec0b": {
+      "type": "header-no-icons",
+      "settings": {
+        "only_desktop": false,
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -242,6 +260,7 @@
     "ca28b015-ff81-4a76-a12e-070011fc618d",
     "553ab3bd-f162-426c-bf4d-59091f5a528d",
     "ab206d85-b3e0-48b3-86a6-09303d7df330",
-    "14246164-cbdb-4a91-a867-c405824a3740"
+    "14246164-cbdb-4a91-a867-c405824a3740",
+    "7a2eb258-9891-4be3-8f4b-af0b91bdec0b"
   ]
 }
