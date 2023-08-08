@@ -37,7 +37,7 @@
   }
 
   {%- if section.settings.only_mobile == true -%}
-       @media screen and (min-width: 749px) {
+       @media screen and (max-width: 749px) {
         .header-wrapper {
           display: none;
         }
@@ -312,7 +312,7 @@
       </div>
       {% render 'header-search', input_id: 'Search-In-Modal' %}
 
-      
+
       <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
         {% render 'icon-account' %}
         <span class="visually-hidden">
