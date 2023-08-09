@@ -36,6 +36,13 @@
     margin-left: -1.2rem;
   }
 
+  {%- if section.settings.only_mobile == true -%}
+       @media screen and (min-width: 749px) {
+        .header-wrapper {
+          display: none;
+        }
+      }
+  {%- endif -%}
 
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
     .scrolled-past-header .header__heading-logo-wrapper {
@@ -247,7 +254,7 @@
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="link focus-inset">
-          <span style="white-space:nowrap;">
+          <span style="">
             ショッピング
           </span>
         </a>
@@ -428,9 +435,9 @@
   "settings": [
     {
       "type": "checkbox",
-      "id": "only_desktop",
+      "id": "only_mobile",
       "default": false,
-      "label": "only show on desktop"
+      "label": "only show on mobile"
     },
     {
       "type": "select",
