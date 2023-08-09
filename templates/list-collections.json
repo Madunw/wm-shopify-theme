@@ -1,1 +1,341 @@
-{"sections":{"2b491805-e1e1-432c-aa68-4c2f348b8432":{"type":"shopping-icons","settings":{"enable_language_selector":true}},"43cf87d4-8d93-4da6-973d-ef211055a5e6":{"type":"image-banner","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/DAI9469.jpg","image_overlay_opacity":0,"image_height":"small","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","horizontal_offset":0,"vertical_offset":0,"color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"main":{"type":"main-list-collections","disabled":true,"settings":{"title":"Collections","sort":"alphabetical","image_ratio":"square","columns_desktop":2,"columns_mobile":"2"}},"0b85519a-82a5-4309-a036-1bb2828a8277":{"type":"image-with-text","blocks":{"template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-heading-1":{"type":"heading","settings":{"heading":"アルミフレーム","heading_size":"h1"}},"template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-text-1":{"type":"text","settings":{"text":"<p>軽量で丈夫な4種類の形状の樹脂素材のフレーム。<\/p><p><br\/>気に入った作品を引き立て、好きな場所に置くことができる。木材のような質感でナチュラルとしてお店やお部屋にぴったり。<\/p>","text_style":"body"}},"template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-button-1":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":""}}},"block_order":["template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-heading-1","template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-text-1","template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-button-1"],"settings":{"image":"shopify:\/\/shop_images\/white-2.jpg","height":"small","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"ambient","mobile_content_alignment":"left","padding_top":88,"padding_bottom":0}},"cc934fa7-ecfa-4461-9eba-c9c343472fa7":{"type":"featured-collection","settings":{"title":"","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"アルミフレーム","products_to_show":3,"columns_desktop":5,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":8,"padding_bottom":0}},"f0b53360-f868-4d04-8b9c-ca1afc76a61c":{"type":"image-with-text","blocks":{"7a7b783d-a667-4038-8a1b-b1e09081682e":{"type":"heading","settings":{"heading":"エアフレーム","heading_size":"h1"}},"2122ebb2-88e0-4a58-bc18-f4f9a40ab856":{"type":"text","settings":{"text":"<p>軽量で丈夫な4種類の形状の樹脂素材のフレーム。<br\/>気に入った作品を引き立て、好きな場所に置くことができる。木材のような質感でナチュラルとしてお店やお部屋にぴったり。<\/p>","text_style":"body"}},"7c842d1c-6e94-409d-b50f-e2946553de37":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":""}}},"block_order":["7a7b783d-a667-4038-8a1b-b1e09081682e","2122ebb2-88e0-4a58-bc18-f4f9a40ab856","7c842d1c-6e94-409d-b50f-e2946553de37"],"settings":{"image":"shopify:\/\/shop_images\/DAI0074-Edit.jpg","height":"small","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"ambient","mobile_content_alignment":"left","padding_top":36,"padding_bottom":0}},"a6d7a513-9201-4782-8b03-520775b6bbee":{"type":"featured-collection","settings":{"title":"","heading_size":"h0","description":"","show_description":false,"description_style":"uppercase","collection":"エアフレーム-1","products_to_show":4,"columns_desktop":5,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":0,"padding_bottom":36}},"a9f0839c-6ddd-45a4-a709-5a4624b5a8d7":{"type":"collection-list","disabled":true,"blocks":{"template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-1":{"type":"featured_collection","settings":{"collection":"アルミフレーム"}},"template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-2":{"type":"featured_collection","settings":{"collection":"エアフレーム-1"}},"8b0f8595-5b97-4ca7-b9bc-ded4a6e243d2":{"type":"featured_collection","settings":{"collection":"額縁"}}},"block_order":["template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-1","template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-2","8b0f8595-5b97-4ca7-b9bc-ded4a6e243d2"],"settings":{"title":"素材別","heading_size":"h2","image_ratio":"square","columns_desktop":5,"color_scheme":"","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":12,"padding_bottom":8}},"73520de8-9cb2-4cc8-b204-487339554491":{"type":"featured-collection","disabled":true,"settings":{"title":"アルミフレーム","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"アルミフレーム","products_to_show":3,"columns_desktop":5,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":0,"padding_bottom":12}},"bb027c61-00cf-493d-8e9c-94a868cb94f0":{"type":"featured-collection","disabled":true,"settings":{"title":"エアフレーム","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"エアフレーム-1","products_to_show":4,"columns_desktop":5,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":0,"padding_bottom":36}},"f856a656-61ae-4f31-9104-7e4840de5d43":{"type":"collage","disabled":true,"blocks":{"template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-collection-1":{"type":"collection","settings":{"collection":"アルミフレーム"}},"template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-product-1":{"type":"product","settings":{"product":"アルミフレーム-wm-01","second_image":true}},"9a8243bf-688c-4ee7-9978-1ce3df7caed0":{"type":"product","settings":{"product":"アルミフレーム-ｗｍ-03","second_image":false}}},"block_order":["template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-collection-1","template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-product-1","9a8243bf-688c-4ee7-9978-1ce3df7caed0"],"settings":{"heading":"Multimedia collage","heading_size":"h1","desktop_layout":"left","mobile_layout":"column","card_styles":"product-card-wrapper","color_scheme":"","padding_top":36,"padding_bottom":36}}},"order":["2b491805-e1e1-432c-aa68-4c2f348b8432","43cf87d4-8d93-4da6-973d-ef211055a5e6","main","0b85519a-82a5-4309-a036-1bb2828a8277","cc934fa7-ecfa-4461-9eba-c9c343472fa7","f0b53360-f868-4d04-8b9c-ca1afc76a61c","a6d7a513-9201-4782-8b03-520775b6bbee","a9f0839c-6ddd-45a4-a709-5a4624b5a8d7","73520de8-9cb2-4cc8-b204-487339554491","bb027c61-00cf-493d-8e9c-94a868cb94f0","f856a656-61ae-4f31-9104-7e4840de5d43"]}
+{
+  "sections": {
+    "2b491805-e1e1-432c-aa68-4c2f348b8432": {
+      "type": "shopping-icons",
+      "settings": {
+        "enable_language_selector": true
+      }
+    },
+    "43cf87d4-8d93-4da6-973d-ef211055a5e6": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI9469.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "horizontal_offset": 0,
+        "vertical_offset": 0,
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "columns_mobile": "2"
+      }
+    },
+    "0b85519a-82a5-4309-a036-1bb2828a8277": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "アルミフレーム",
+            "heading_size": "h1"
+          }
+        },
+        "template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>軽量で丈夫な4種類の形状の樹脂素材のフレーム。<\/p><p><br\/>気に入った作品を引き立て、好きな場所に置くことができる。木材のような質感でナチュラルとしてお店やお部屋にぴったり。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-heading-1",
+        "template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-text-1",
+        "template--19944233074980__0b85519a-82a5-4309-a036-1bb2828a8277-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/white-2.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 88,
+        "padding_bottom": 0
+      }
+    },
+    "cc934fa7-ecfa-4461-9eba-c9c343472fa7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "アルミフレーム",
+        "products_to_show": 3,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "f0b53360-f868-4d04-8b9c-ca1afc76a61c": {
+      "type": "image-with-text",
+      "blocks": {
+        "7a7b783d-a667-4038-8a1b-b1e09081682e": {
+          "type": "heading",
+          "settings": {
+            "heading": "エアフレーム",
+            "heading_size": "h1"
+          }
+        },
+        "2122ebb2-88e0-4a58-bc18-f4f9a40ab856": {
+          "type": "text",
+          "settings": {
+            "text": "<p>軽量で丈夫な4種類の形状の樹脂素材のフレーム。<br\/>気に入った作品を引き立て、好きな場所に置くことができる。木材のような質感でナチュラルとしてお店やお部屋にぴったり。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "7c842d1c-6e94-409d-b50f-e2946553de37": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7a7b783d-a667-4038-8a1b-b1e09081682e",
+        "2122ebb2-88e0-4a58-bc18-f4f9a40ab856",
+        "7c842d1c-6e94-409d-b50f-e2946553de37"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAI0074-Edit.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "a6d7a513-9201-4782-8b03-520775b6bbee": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "エアフレーム-1",
+        "products_to_show": 4,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "a9f0839c-6ddd-45a4-a709-5a4624b5a8d7": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "アルミフレーム"
+          }
+        },
+        "template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "エアフレーム-1"
+          }
+        },
+        "8b0f8595-5b97-4ca7-b9bc-ded4a6e243d2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "額縁"
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-1",
+        "template--19944233074980__a9f0839c-6ddd-45a4-a709-5a4624b5a8d7-featured_collection-2",
+        "8b0f8595-5b97-4ca7-b9bc-ded4a6e243d2"
+      ],
+      "settings": {
+        "title": "素材別",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
+    "73520de8-9cb2-4cc8-b204-487339554491": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アルミフレーム",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "アルミフレーム",
+        "products_to_show": 3,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "bb027c61-00cf-493d-8e9c-94a868cb94f0": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "エアフレーム",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "エアフレーム-1",
+        "products_to_show": 4,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "f856a656-61ae-4f31-9104-7e4840de5d43": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "アルミフレーム"
+          }
+        },
+        "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "アルミフレーム-wm-01",
+            "second_image": true
+          }
+        },
+        "9a8243bf-688c-4ee7-9978-1ce3df7caed0": {
+          "type": "product",
+          "settings": {
+            "product": "アルミフレーム-ｗｍ-03",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-collection-1",
+        "template--19944233074980__f856a656-61ae-4f31-9104-7e4840de5d43-product-1",
+        "9a8243bf-688c-4ee7-9978-1ce3df7caed0"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "2b491805-e1e1-432c-aa68-4c2f348b8432",
+    "43cf87d4-8d93-4da6-973d-ef211055a5e6",
+    "main",
+    "0b85519a-82a5-4309-a036-1bb2828a8277",
+    "cc934fa7-ecfa-4461-9eba-c9c343472fa7",
+    "f0b53360-f868-4d04-8b9c-ca1afc76a61c",
+    "a6d7a513-9201-4782-8b03-520775b6bbee",
+    "a9f0839c-6ddd-45a4-a709-5a4624b5a8d7",
+    "73520de8-9cb2-4cc8-b204-487339554491",
+    "bb027c61-00cf-493d-8e9c-94a868cb94f0",
+    "f856a656-61ae-4f31-9104-7e4840de5d43"
+  ]
+}
