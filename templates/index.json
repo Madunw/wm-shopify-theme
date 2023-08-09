@@ -2,6 +2,7 @@
   "sections": {
     "7a2eb258-9891-4be3-8f4b-af0b91bdec0b": {
       "type": "header-no-icons",
+      "disabled": true,
       "settings": {
         "only_desktop": false,
         "logo_position": "top-left",
