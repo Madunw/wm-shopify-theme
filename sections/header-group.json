@@ -45,7 +45,6 @@
     },
     "7d908a87-ccff-4ed4-b6de-f1d9435cb897": {
       "type": "nav-bar-original",
-      "disabled": true,
       "settings": {
         "menu": "main-menu",
         "only_desktop": true,
