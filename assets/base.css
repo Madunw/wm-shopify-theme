@@ -115,6 +115,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
 @media screen and (min-width: 750px) {
   .page-width {
     padding: 0 5rem;
+    max-width: 76vw;
   }
 
   .header.page-width {
@@ -128,6 +129,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
 
   .page-width-desktop {
     padding: 0;
+    max-width: 76vw;
   }
 
   .page-width-tablet {
@@ -147,7 +149,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
   }
 
   .page-width-desktop {
-    max-width: var(--page-width);
+    max-width: 76vw;;
     padding: 0 5rem;
   }
 }
@@ -300,13 +302,13 @@ h5,
 
 h1,
 .h1 {
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-size: calc(var(--font-heading-scale) * 2rem);
 }
 
 @media only screen and (min-width: 750px) {
   h1,
   .h1 {
-    font-size: calc(var(--font-heading-scale) * 4rem);
+    font-size: calc(var(--font-heading-scale) * 3rem);
   }
 }
 
@@ -1209,8 +1211,8 @@ button.shopify-payment-button__button--unbranded,
 .shopify-challenge__button,
 .customer button,
 button.shopify-payment-button__button--unbranded {
-  min-width: calc(12rem + var(--buttons-border-width) * 2);
-  min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+  min-width: calc(10rem + var(--buttons-border-width) * 2);
+  min-height: calc(3.5rem + var(--buttons-border-width) * 2);
 }
 
 .shopify-payment-button__button--branded {
@@ -1239,6 +1241,7 @@ button.shopify-payment-button__button--unbranded {
   -webkit-appearance: none;
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
+  opacity: 0.7;
 }
 
 .button:before,
@@ -2243,7 +2246,9 @@ product-info .loading-overlay:not(.hidden) ~ *,
 .header-wrapper {
   display: block;
   position: relative;
+  width: 100%;
   background-color: rgb(var(--color-background));
+  z-index: 999;
 }
 
 .header-wrapper--border-bottom {

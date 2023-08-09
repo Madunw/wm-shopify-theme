@@ -1,6 +1,21 @@
+<script>
+  setTimeout(function() {
+    var bannerContent = document.querySelector(".fade-in");
+    bannerContent.style.display = "block";
+  }, {{ section.settings.transition_delay }} * 1000);
+</script>
+{%- if section.settings.only_desktop == true -%}
+  {%- style -%}
+       @media screen and (max-width: 749px) {
+      .nav-bar {
+        display: none;
+      }
+    }
+  {%- endstyle -%}
+{%- endif -%}
 <nav class="nav-bar">
   {% if section.settings.logo %}
-    <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+    <a href="{{ routes.root }}" class="header__heading-link link link--text focus-inset">
       {%- if settings.logo != blank -%}
         <div class="header__heading-logo-wrapper">
           {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
@@ -26,7 +41,7 @@
     </a>
   {% endif %}
 
-  <ul class="nav-list-menu" role="list">
+  <ul class="nav-list-menu{% if section.settings.fade_in %} fade-in{% endif %}" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
@@ -108,18 +123,36 @@
 {%- style -%}
   .nav-bar {
     position: fixed;
-    left: {{ section.settings.left }}vw;
-    top: {{ section.settings.top }}vh;
+    left: {{ section.settings.horizontal_offset }}vw;
+    top: {{ section.settings.vertical_offset }}vh;
+    z-index: 999;
   }
   .nav-list-menu {
     list-style: none;
-    margin-top:{{ section.settings.nav_margin_top }}rem
+    margin-top:{{ section.settings.nav_margin_top }}rem;
+    padding-left: 1rem;
+    position: relative;
   }
   .nav-list-menu li {
     margin-bottom:{{ section.settings.font_space }}rem
   }
   .nav-link{
     font-size: {{ section.settings.font_size }}rem
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in {
+    display: none;
+    animation: fadeIn 1.3s ease-out;
   }
 {%- endstyle -%}
 
@@ -138,67 +171,94 @@
       "default": "main-menu",
       "label": "t:sections.header.settings.menu.label"
     },
-{
-  "type": "range",
-  "id": "top",
-  "label": "Top Position",
-  "min": 0,
-  "max": 80,
-  "step": 1,
-  "default": 0
-},
-{
-  "type": "range",
-  "id": "left",
-  "label": "Left Position",
-  "min": 0,
-  "max": 80,
-  "step": 1,
-  "default": 0
-},{
+    {
+      "type": "checkbox",
+      "id": "only_desktop",
+      "default": false,
+      "label": "only show on desktop"
+    },
+    {
+      "type": "checkbox",
+      "id": "fade_in",
+      "default": false,
+      "label": "fade in"
+    },
+    {
+      "type": "range",
+      "id": "transition_delay",
+      "label": "Transition delay",
+      "min": 0,
+      "max": 8,
+      "step": 1,
+      "default": 0
+    },
+    {
       "type": "header",
-      "content": "Logo"
+      "content": "Position"
+    },
+    {
+      "type": "range",
+      "id": "vertical_offset",
+      "label": "Vertical_offset",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "horizontal_offset",
+      "label": "Horizontal offset",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "default": 0
     },{
-  "type": "image_picker",
-  "id": "logo",
-  "label": "Logo"
-},{
-  "type": "range",
-  "id": "logo_width",
-  "label": "Logo Size",
-  "min": 100,
-  "max": 500,
-  "step": 20,
-  "default": 200
-}
-  ,{
+          "type": "header",
+          "content": "Logo"
+        },{
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+    },{
+      "type": "range",
+      "id": "logo_width",
+      "label": "Logo Size",
+      "min": 100,
+      "max": 500,
+      "step": 20,
+      "default": 200
+    },
+    {
       "type": "header",
       "content": "Navigatior"
+    },
+    {
+      "type": "range",
+      "id": "nav_margin_top",
+      "label": "Navigation Margin Top",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font Size",
+      "min": 0.5,
+      "max": 5,
+      "step": 0.1,
+      "default": 2
     },{
-  "type": "range",
-  "id": "nav_margin_top",
-  "label": "Navigation Margin Top",
-  "min": 0,
-  "max": 50,
-  "step": 1,
-  "default": 5
-},{
-  "type": "range",
-  "id": "font_size",
-  "label": "Font Size",
-  "min": 0.5,
-  "max": 5,
-  "step": 0.1,
-  "default": 2
-},{
-  "type": "range",
-  "id": "font_space",
-  "label": "Font Space",
-  "min": 0,
-  "max": 10,
-  "step": 0.1,
-  "default": 0
-}],
+      "type": "range",
+      "id": "font_space",
+      "label": "Font Space",
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "default": 0
+    }],
   "blocks": []
 }
 {% endschema %}
