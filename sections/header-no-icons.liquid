@@ -507,12 +507,9 @@
 
 {% schema %}
 {
-  "name": "headers-no-icons",
-  "tag": "section",
+  "name": "t:sections.header.name",
   "class": "section",
-  "disabled_on": {
-    "groups": ["header", "footer"]
-  },
+  "max_blocks": 3,
   "settings": [
     {
       "type": "checkbox",
@@ -689,9 +686,9 @@
       "default": 20
     }
   ],
- "presets": [
+  "blocks": [
     {
-      "name": "headers-no-icons"
+      "type": "@app"
     }
   ]
 }
