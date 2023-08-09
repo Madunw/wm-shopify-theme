@@ -1,6 +1,6 @@
 <script>
   setTimeout(function() {
-    var bannerContent = document.querySelector(".fade-in");
+    var bannerContent = document.querySelector(".fade_in");
     bannerContent.style.display = "block";
   }, {{ section.settings.transition_delay }} * 1000);
 </script>
@@ -13,7 +13,7 @@
     }
   {%- endstyle -%}
 {%- endif -%}
-<nav class="nav-bar">
+<nav class="nav-bar {%- if section.settings.fade_in == true -%}fade-in{%- endif -%}">
   {% if section.settings.logo %}
     <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
       {%- if settings.logo != blank -%}
@@ -41,7 +41,7 @@
     </a>
   {% endif %}
 
-  <ul class="nav-list-menu" role="list">
+  <ul class="nav-list-menu fade-in" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
@@ -175,6 +175,12 @@
       "id": "only_desktop",
       "default": false,
       "label": "only show on desktop"
+    },
+    {
+      "type": "checkbox",
+      "id": "fade_in",
+      "default": false,
+      "label": "fade in"
     },
     {
       "type": "range",
