@@ -2245,7 +2245,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 /* Main Header Layout */
 .header-wrapper {
   display: block;
-  position: absolute;
+  position: relative;
   width: 100%;
   background-color: rgb(var(--color-background));
   z-index: 999;
