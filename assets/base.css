@@ -129,7 +129,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
 
   .page-width-desktop {
     padding: 0;
-    max-width: 70vw;
+    max-width: 76vw;
   }
 
   .page-width-tablet {
@@ -149,7 +149,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
   }
 
   .page-width-desktop {
-    max-width: 70vw;;
+    max-width: 76vw;;
     padding: 0 5rem;
   }
 }
@@ -2245,9 +2245,10 @@ product-info .loading-overlay:not(.hidden) ~ *,
 /* Main Header Layout */
 .header-wrapper {
   display: block;
-  position: absolute;
+  position: relative;
   width: 100%;
   background-color: rgb(var(--color-background));
+  z-index: 999;
 }
 
 .header-wrapper--border-bottom {
