@@ -47,6 +47,7 @@
       "settings": {
         "menu": "main-menu",
         "only_desktop": true,
+        "fade_in": true,
         "transition_delay": 0,
         "vertical_offset": 10,
         "horizontal_offset": 3,
